@@ -1,0 +1,37 @@
+[
+ {
+  "file": "resources.assets",
+  "at": 582532,
+  "str": "resources.assets.resS",
+  "offset": 2,
+  "size": 13410
+ },
+ {
+  "file": "resources.assets",
+  "at": 585132,
+  "str": "resources.assets.resS",
+  "offset": 3,
+  "size": 3219506
+ },
+ {
+  "file": "resources.assets",
+  "at": 618188,
+  "str": "resources.assets.resS",
+  "offset": 2,
+  "size": 12642
+ },
+ {
+  "file": "resources.assets",
+  "at": 643700,
+  "str": "resources.assets.resS",
+  "offset": 1,
+  "size": 120
+ },
+ {
+  "file": "sharedassets1.assets",
+  "at": 11208,
+  "str": "sharedassets1.assets.resS",
+  "offset": 2,
+  "size": 12598
+ }
+]

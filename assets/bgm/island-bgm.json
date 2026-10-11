@@ -1,0 +1,51 @@
+{
+ "generated": "2026-09-26T13:00:55.978Z",
+ "note": "岛屿 → 原版命名曲绑定表。岛名为本项目按画面物体归纳（derived）；「官方地形名 == 曲名」本身是 official 证据。重跑 _tools/bind-island-bgm.mjs",
+ "level": "derived",
+ "map": {
+  "castle": {
+   "track": "assets/bgm/named/bgm_多比城堡1.mp3",
+   "why": "官方七大地形「多比城堡」；本岛场景注释全为「王城/城堡/内殿/图书馆/大厅」类室内"
+  },
+  "market": {
+   "track": "assets/bgm/named/bgm_多比大街.mp3",
+   "why": "官方七大地形「多比大街」；本岛为「集市/商店/工坊/厨房」类"
+  },
+  "forest": {
+   "track": "assets/bgm/named/bgm_索亚城.mp3",
+   "why": "官方七大地形「索亚森林」；本岛为森林场景"
+  },
+  "desert": {
+   "track": "assets/bgm/named/bgm_勇气峡谷.mp3",
+   "why": "官方七大地形「勇气峡谷」；本岛注释含「峡谷/岩壁」"
+  },
+  "wilds": {
+   "track": "assets/bgm/named/bgm_勇气峡谷.mp3",
+   "why": "named 清单把「勇气峡谷」标为 wild 用途，本岛 tag=野外"
+  },
+  "angel": {
+   "track": "assets/bgm/named/bgm_圣地.mp3",
+   "why": "named 清单把「圣地」标为 holy；本岛为云端神殿（天使/星纹/光系）"
+  },
+  "islet": {
+   "track": "assets/bgm/named/bgm_空灵.mp3",
+   "why": "named 清单把「空灵」标为 holy；云海孤丘·霜原空寂"
+  },
+  "coral": {
+   "track": "assets/bgm/named/bgm_悬疑密室.mp3",
+   "why": "named 清单把「悬疑密室」标为 dungeon；珊瑚秘境为探索型场景"
+  },
+  "volcano": {
+   "track": "assets/bgm/named/bgm_悬疑密室_v3.mp3",
+   "why": "熔岩火山岛为危险区域，用 dungeon 另一版本以免与珊瑚岛重复"
+  },
+  "factory": {
+   "track": "assets/bgm/named/bgm_热闹室内.mp3",
+   "why": "named 清单把「热闹室内」标为 town；地精工坊为室内作业区"
+  },
+  "rock": {
+   "track": "assets/bgm/named/bgm_速度.mp3",
+   "why": "浮空碎石台为跳跃/移动型关卡，用节奏较快的曲子"
+  }
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "幽灵": {
+  "file": "assets/monsters/byname/幽灵.jpg",
+  "w": 208,
+  "h": 417,
+  "kind": "jpeg",
+  "candidates": 3
+ },
+ "托米拉": {
+  "file": "assets/monsters/byname/托米拉.jpg",
+  "w": 417,
+  "h": 1111,
+  "kind": "jpeg",
+  "candidates": 9
+ },
+ "河伯形态动画-位图": {
+  "file": "assets/monsters/byname/河伯形态动画-位图.jpg",
+  "w": 650,
+  "h": 450,
+  "kind": "jpeg",
+  "candidates": 100
+ },
+ "莲蓬童子": {
+  "file": "assets/monsters/byname/莲蓬童子.jpg",
+  "w": 500,
+  "h": 448,
+  "kind": "jpeg",
+  "candidates": 4
+ },
+ "魔化多比": {
+  "file": "assets/monsters/byname/魔化多比.jpg",
+  "w": 640,
+  "h": 480,
+  "kind": "jpeg",
+  "candidates": 6
+ }
+}

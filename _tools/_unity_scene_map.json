@@ -1,0 +1,479 @@
+{
+ "sure": [],
+ "unsure": [
+  {
+   "unity": 63,
+   "near": 75,
+   "d": 16.57,
+   "file": "_unity_tex/sharedassets53/Scene63.png"
+  },
+  {
+   "unity": 49,
+   "near": 75,
+   "d": 18.95,
+   "file": "_unity_tex/sharedassets42/Scene49.png"
+  },
+  {
+   "unity": 42,
+   "near": 75,
+   "d": 21.83,
+   "file": "_unity_tex/sharedassets36/Scene42.png"
+  },
+  {
+   "unity": 69,
+   "near": 75,
+   "d": 23.57,
+   "file": "_unity_tex/sharedassets59/Scene69.png"
+  },
+  {
+   "unity": 79,
+   "near": 83,
+   "d": 24.11,
+   "file": "_unity_tex/sharedassets69/Scene79.png"
+  },
+  {
+   "unity": 46,
+   "near": 75,
+   "d": 26.39,
+   "file": "_unity_tex/sharedassets40/Scene46.png"
+  },
+  {
+   "unity": 45,
+   "near": 75,
+   "d": 27.36,
+   "file": "_unity_tex/sharedassets39/Scene45.png"
+  },
+  {
+   "unity": 66,
+   "near": 83,
+   "d": 27.39,
+   "file": "_unity_tex/sharedassets56/Scene66.png"
+  },
+  {
+   "unity": 54,
+   "near": 83,
+   "d": 28.36,
+   "file": "_unity_tex/sharedassets47/Scene54.png"
+  },
+  {
+   "unity": 53,
+   "near": 75,
+   "d": 28.5,
+   "file": "_unity_tex/sharedassets46/Scene53.png"
+  },
+  {
+   "unity": 55,
+   "near": 75,
+   "d": 28.58,
+   "file": "_unity_tex/sharedassets48/Scene55.png"
+  },
+  {
+   "unity": 74,
+   "near": 75,
+   "d": 28.9,
+   "file": "_unity_tex/sharedassets64/Scene74.png"
+  },
+  {
+   "unity": 41,
+   "near": 75,
+   "d": 29.72,
+   "file": "_unity_tex/sharedassets35/Scene41.png"
+  },
+  {
+   "unity": 10,
+   "near": 75,
+   "d": 29.73,
+   "file": "_unity_tex/sharedassets10/Scene10.png"
+  },
+  {
+   "unity": 57,
+   "near": 83,
+   "d": 30.26,
+   "file": "_unity_tex/sharedassets50/Scene57.png"
+  },
+  {
+   "unity": 39,
+   "near": 80,
+   "d": 30.93,
+   "file": "_unity_tex/sharedassets33/Scene39.png"
+  },
+  {
+   "unity": 12,
+   "near": 75,
+   "d": 31.02,
+   "file": "_unity_tex/sharedassets12/Scene12.png"
+  },
+  {
+   "unity": 72,
+   "near": 75,
+   "d": 31.26,
+   "file": "_unity_tex/sharedassets62/Scene72.png"
+  },
+  {
+   "unity": 67,
+   "near": 68,
+   "d": 31.63,
+   "file": "_unity_tex/sharedassets57/Scene67.png"
+  },
+  {
+   "unity": 56,
+   "near": 74,
+   "d": 32.1,
+   "file": "_unity_tex/sharedassets49/Scene56.png"
+  },
+  {
+   "unity": 22,
+   "near": 75,
+   "d": 33.91,
+   "file": "_unity_tex/sharedassets22/Scene22.png"
+  },
+  {
+   "unity": 44,
+   "near": 75,
+   "d": 34.38,
+   "file": "_unity_tex/sharedassets38/Scene44.png"
+  },
+  {
+   "unity": 75,
+   "near": 74,
+   "d": 34.59,
+   "file": "_unity_tex/sharedassets65/Scene75.png"
+  },
+  {
+   "unity": 19,
+   "near": 83,
+   "d": 35.4,
+   "file": "_unity_tex/sharedassets19/Scene19.png"
+  },
+  {
+   "unity": 58,
+   "near": 75,
+   "d": 35.47,
+   "file": "_unity_tex/sharedassets51/Scene58.png"
+  },
+  {
+   "unity": 16,
+   "near": 83,
+   "d": 35.84,
+   "file": "_unity_tex/sharedassets16/Scene16.png"
+  },
+  {
+   "unity": 48,
+   "near": 88,
+   "d": 36.27,
+   "file": "_unity_tex/sharedassets41/Scene48.png"
+  },
+  {
+   "unity": 32,
+   "near": 75,
+   "d": 36.54,
+   "file": "_unity_tex/sharedassets30/Scene32.png"
+  },
+  {
+   "unity": 11,
+   "near": 68,
+   "d": 36.65,
+   "file": "_unity_tex/sharedassets11/Scene11.png"
+  },
+  {
+   "unity": 76,
+   "near": 83,
+   "d": 37.21,
+   "file": "_unity_tex/sharedassets66/Scene76.png"
+  },
+  {
+   "unity": 70,
+   "near": 75,
+   "d": 37.37,
+   "file": "_unity_tex/sharedassets60/Scene70.png"
+  },
+  {
+   "unity": 23,
+   "near": 83,
+   "d": 37.52,
+   "file": "_unity_tex/sharedassets23/Scene23.png"
+  },
+  {
+   "unity": 73,
+   "near": 75,
+   "d": 37.9,
+   "file": "_unity_tex/sharedassets63/Scene73.png"
+  },
+  {
+   "unity": 81,
+   "near": 78,
+   "d": 38.08,
+   "file": "_unity_tex/sharedassets71/Scene81.png"
+  },
+  {
+   "unity": 13,
+   "near": 75,
+   "d": 38.78,
+   "file": "_unity_tex/sharedassets13/Scene13.png"
+  },
+  {
+   "unity": 38,
+   "near": 75,
+   "d": 39.11,
+   "file": "_unity_tex/sharedassets32/Scene38.png"
+  },
+  {
+   "unity": 1,
+   "near": 80,
+   "d": 39.29,
+   "file": "_unity_tex/resources/Scene1.png"
+  },
+  {
+   "unity": 20,
+   "near": 83,
+   "d": 39.66,
+   "file": "_unity_tex/sharedassets20/Scene20.png"
+  },
+  {
+   "unity": 65,
+   "near": 37,
+   "d": 39.88,
+   "file": "_unity_tex/sharedassets55/Scene65.png"
+  },
+  {
+   "unity": 18,
+   "near": 68,
+   "d": 40.03,
+   "file": "_unity_tex/sharedassets18/Scene18.png"
+  },
+  {
+   "unity": 43,
+   "near": 83,
+   "d": 40.19,
+   "file": "_unity_tex/sharedassets37/Scene43.png"
+  },
+  {
+   "unity": 52,
+   "near": 65,
+   "d": 40.22,
+   "file": "_unity_tex/sharedassets45/Scene52.png"
+  },
+  {
+   "unity": 9,
+   "near": 74,
+   "d": 40.52,
+   "file": "_unity_tex/sharedassets9/Scene9.png"
+  },
+  {
+   "unity": 6,
+   "near": 75,
+   "d": 40.83,
+   "file": "_unity_tex/sharedassets6/Scene6.png"
+  },
+  {
+   "unity": 85,
+   "near": 66,
+   "d": 40.87,
+   "file": "_unity_tex/sharedassets75/Scene85.png"
+  },
+  {
+   "unity": 15,
+   "near": 80,
+   "d": 41.07,
+   "file": "_unity_tex/sharedassets15/Scene15.png"
+  },
+  {
+   "unity": 59,
+   "near": 80,
+   "d": 41.64,
+   "file": "_unity_tex/sharedassets52/Scene59.png"
+  },
+  {
+   "unity": 88,
+   "near": 88,
+   "d": 41.64,
+   "file": "_unity_tex/sharedassets78/Scene88.png"
+  },
+  {
+   "unity": 26,
+   "near": 65,
+   "d": 41.69,
+   "file": "_unity_tex/sharedassets26/Scene26.png"
+  },
+  {
+   "unity": 78,
+   "near": 27,
+   "d": 41.69,
+   "file": "_unity_tex/sharedassets68/Scene78.png"
+  },
+  {
+   "unity": 14,
+   "near": 58,
+   "d": 41.74,
+   "file": "_unity_tex/sharedassets14/Scene14.png"
+  },
+  {
+   "unity": 40,
+   "near": 80,
+   "d": 42.36,
+   "file": "_unity_tex/sharedassets34/Scene40.png"
+  },
+  {
+   "unity": 28,
+   "near": 80,
+   "d": 42.54,
+   "file": "_unity_tex/sharedassets27/Scene28.png"
+  },
+  {
+   "unity": 82,
+   "near": 37,
+   "d": 43.07,
+   "file": "_unity_tex/sharedassets72/Scene82.png"
+  },
+  {
+   "unity": 87,
+   "near": 75,
+   "d": 43.27,
+   "file": "_unity_tex/sharedassets77/Scene87.png"
+  },
+  {
+   "unity": 7,
+   "near": 83,
+   "d": 43.29,
+   "file": "_unity_tex/sharedassets7/Scene7.png"
+  },
+  {
+   "unity": 17,
+   "near": 58,
+   "d": 43.3,
+   "file": "_unity_tex/sharedassets17/Scene17.png"
+  },
+  {
+   "unity": 68,
+   "near": 73,
+   "d": 43.94,
+   "file": "_unity_tex/sharedassets58/Scene68.png"
+  },
+  {
+   "unity": 71,
+   "near": 60,
+   "d": 44.13,
+   "file": "_unity_tex/sharedassets61/Scene71.png"
+  },
+  {
+   "unity": 86,
+   "near": 65,
+   "d": 44.2,
+   "file": "_unity_tex/sharedassets76/Scene86.png"
+  },
+  {
+   "unity": 80,
+   "near": 80,
+   "d": 44.28,
+   "file": "_unity_tex/sharedassets70/Scene80.png"
+  },
+  {
+   "unity": 33,
+   "near": 58,
+   "d": 44.37,
+   "file": "_unity_tex/sharedassets31/Scene33.png"
+  },
+  {
+   "unity": 2,
+   "near": 75,
+   "d": 44.63,
+   "file": "_unity_tex/sharedassets2/Scene2.png"
+  },
+  {
+   "unity": 64,
+   "near": 37,
+   "d": 45.54,
+   "file": "_unity_tex/sharedassets54/Scene64.png"
+  },
+  {
+   "unity": 3,
+   "near": 83,
+   "d": 45.81,
+   "file": "_unity_tex/sharedassets3/Scene3.png"
+  },
+  {
+   "unity": 83,
+   "near": 80,
+   "d": 46.13,
+   "file": "_unity_tex/sharedassets73/Scene83.png"
+  },
+  {
+   "unity": 8,
+   "near": 75,
+   "d": 46.51,
+   "file": "_unity_tex/sharedassets8/Scene8.png"
+  },
+  {
+   "unity": 25,
+   "near": 68,
+   "d": 46.53,
+   "file": "_unity_tex/sharedassets25/Scene25.png"
+  },
+  {
+   "unity": 84,
+   "near": 27,
+   "d": 46.57,
+   "file": "_unity_tex/sharedassets74/Scene84.png"
+  },
+  {
+   "unity": 5,
+   "near": 75,
+   "d": 46.59,
+   "file": "_unity_tex/sharedassets5/Scene5.png"
+  },
+  {
+   "unity": 24,
+   "near": 73,
+   "d": 47.52,
+   "file": "_unity_tex/sharedassets24/Scene24.png"
+  },
+  {
+   "unity": 50,
+   "near": 66,
+   "d": 47.64,
+   "file": "_unity_tex/sharedassets43/Scene50.png"
+  },
+  {
+   "unity": 30,
+   "near": 58,
+   "d": 48.89,
+   "file": "_unity_tex/sharedassets28/Scene30.png"
+  },
+  {
+   "unity": 4,
+   "near": 74,
+   "d": 49.52,
+   "file": "_unity_tex/sharedassets4/Scene4.png"
+  },
+  {
+   "unity": 89,
+   "near": 38,
+   "d": 49.99,
+   "file": "_unity_tex/sharedassets79/Scene89.png"
+  },
+  {
+   "unity": 51,
+   "near": 37,
+   "d": 50.97,
+   "file": "_unity_tex/sharedassets44/Scene51.png"
+  },
+  {
+   "unity": 31,
+   "near": 65,
+   "d": 51.27,
+   "file": "_unity_tex/sharedassets29/Scene31.png"
+  },
+  {
+   "unity": 21,
+   "near": 56,
+   "d": 51.46,
+   "file": "_unity_tex/sharedassets21/Scene21.png"
+  },
+  {
+   "unity": 77,
+   "near": 59,
+   "d": 55.7,
+   "file": "_unity_tex/sharedassets67/Scene77.png"
+  }
+ ]
+}

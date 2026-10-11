@@ -1,0 +1,496 @@
+{
+ "generated": "2026-09-29T15:25:35.219Z",
+ "forms": [
+  {
+   "name": "克罗",
+   "file": "assets/forms/art/克罗.png",
+   "icon": "assets/forms/art/克罗_icon.png",
+   "w": 311,
+   "h": 640,
+   "src": "多比形态素材/克罗多比.png",
+   "evidence": "同名官方立绘 4000×2333 RGBA",
+   "bg": "底色 0,0,0，抠掉 83.4%"
+  },
+  {
+   "name": "英雄多比",
+   "file": "assets/forms/art/英雄多比.png",
+   "icon": "assets/forms/art/英雄多比_icon.png",
+   "w": 305,
+   "h": 640,
+   "src": "多比形态素材/_cleaned/依斯特·英雄多比.png",
+   "evidence": "同名官方立绘 514×1095；原件纯黑脚底投影已用 deshadow 预处理去掉",
+   "bg": "底色 0,0,0，抠掉 45.3%"
+  },
+  {
+   "name": "超级克罗 多比",
+   "file": "assets/forms/art/超级克罗 多比.png",
+   "icon": "assets/forms/art/超级克罗 多比_icon.png",
+   "w": 565,
+   "h": 640,
+   "src": "动画视频/多比战斗动画/超级多比-战斗.swf（DefineBitsJPEG3 动作帧，站姿）",
+   "evidence": "第 55 轮：从官方 SWF 动作帧抽取（超级多比-战斗_101），带 alpha 合成",
+   "bg": "SWF 自带透明通道（DefineBitsJPEG3 的 alpha），未抠图"
+  },
+  {
+   "name": "龙多比",
+   "file": "assets/forms/art/龙多比.png",
+   "icon": "assets/forms/art/龙多比_icon.png",
+   "w": 184,
+   "h": 343,
+   "src": "多比形态素材/龙多比.png",
+   "evidence": "同名官方立绘（归档）",
+   "bg": "底色 255,255,255，抠掉 69.4%"
+  },
+  {
+   "name": "费尔·凌",
+   "file": "assets/forms/art/费尔凌.png",
+   "icon": "assets/forms/art/费尔凌_icon.png",
+   "w": 366,
+   "h": 640,
+   "src": "多比形态素材/费尔·凌多比.png",
+   "evidence": "同名官方立绘 1667×2333 RGBA",
+   "bg": "底色 0,0,0，抠掉 56%"
+  },
+  {
+   "name": "费尔·诺",
+   "file": "assets/forms/art/费尔诺.png",
+   "icon": "assets/forms/art/费尔诺_icon.png",
+   "w": 361,
+   "h": 640,
+   "src": "多比形态素材/费尔·诺多比.png",
+   "evidence": "同名官方立绘 495×875 RGBA",
+   "bg": "底色 0,0,0，抠掉 41.4%"
+  },
+  {
+   "name": "艾斯·林",
+   "file": "assets/forms/art/艾斯林.png",
+   "icon": "assets/forms/art/艾斯林_icon.png",
+   "w": 191,
+   "h": 341,
+   "src": "多比形态素材/圣诞多比.png",
+   "evidence": "官方描述「圣诞节限定版多比」；素材名 圣诞多比",
+   "bg": "底色 255,255,255，抠掉 72%"
+  },
+  {
+   "name": "沃特·空",
+   "file": "assets/forms/art/沃特空.png",
+   "icon": "assets/forms/art/沃特空_icon.png",
+   "w": 390,
+   "h": 640,
+   "src": "多比形态素材/沃特·空多比.png",
+   "evidence": "同名官方立绘 1667×2333 RGBA",
+   "bg": "底色 0,0,0，抠掉 53.8%"
+  },
+  {
+   "name": "瑞比特·兔",
+   "file": "assets/forms/art/瑞比特兔.png",
+   "icon": "assets/forms/art/瑞比特兔_icon.png",
+   "w": 397,
+   "h": 640,
+   "src": "多比形态素材/1920/瑞比特·兔多比.png",
+   "evidence": "同名官方立绘 1920×3092 RGBA（用户报错的这只）",
+   "bg": "底色 0,0,0，抠掉 49.3%"
+  },
+  {
+   "name": "艾隆·垒",
+   "file": "assets/forms/art/艾隆垒.png",
+   "icon": "assets/forms/art/艾隆垒_icon.png",
+   "w": 342,
+   "h": 640,
+   "src": "多比形态素材/钢铁多比.png",
+   "evidence": "官方描述「使用由土之力量衍生而成的钢之力量」；素材名 钢铁多比",
+   "bg": "底色 255,255,255，抠掉 60.1%"
+  },
+  {
+   "name": "厄斯·垒",
+   "file": "assets/forms/art/厄斯垒.png",
+   "icon": "assets/forms/art/厄斯垒_icon.png",
+   "w": 361,
+   "h": 535,
+   "src": "多比形态素材/艾斯·垒 多比/艾斯·垒 多比.jpg",
+   "evidence": "原表动作组「用未知图案代替」；归档里名字只差一字的土系金甲立绘 艾斯·垒 多比",
+   "bg": "底色 255,255,255，抠掉 63%"
+  },
+  {
+   "name": "凤凰多比",
+   "file": "assets/forms/art/凤凰多比.png",
+   "icon": "assets/forms/art/凤凰多比_icon.png",
+   "w": 173,
+   "h": 282,
+   "src": "多比形态素材/凤凰多比.png",
+   "evidence": "同名官方立绘（归档）",
+   "bg": "底色 255,255,255，抠掉 77.5%"
+  },
+  {
+   "name": "利刃多比",
+   "file": "assets/forms/art/利刃多比.png",
+   "icon": "assets/forms/art/利刃多比_icon.png",
+   "w": 411,
+   "h": 640,
+   "src": "多比形态素材/利刃多比.png",
+   "evidence": "同名官方立绘（归档）",
+   "bg": "底色 0,0,0，抠掉 41.2%"
+  },
+  {
+   "name": "人鱼多比",
+   "file": "assets/forms/art/人鱼多比.png",
+   "icon": "assets/forms/art/人鱼多比_icon.png",
+   "w": 262,
+   "h": 289,
+   "src": "多比形态素材/人鱼多比.PNG",
+   "evidence": "同名官方立绘（归档）",
+   "bg": "底色 255,255,255，抠掉 72.8%"
+  },
+  {
+   "name": "光多比",
+   "file": "assets/forms/art/光多比.png",
+   "icon": "assets/forms/art/光多比_icon.png",
+   "w": 380,
+   "h": 640,
+   "src": "多比形态素材/光多比暗多比/光多比/光多比1.png",
+   "evidence": "同名官方立绘（归档 光多比暗多比/光多比/）",
+   "bg": "底色 0,0,0，抠掉 32.6%"
+  },
+  {
+   "name": "暗多比",
+   "file": "assets/forms/art/暗多比.png",
+   "icon": "assets/forms/art/暗多比_icon.png",
+   "w": 483,
+   "h": 640,
+   "src": "多比形态素材/光多比暗多比/暗多比/暗多比1.png",
+   "evidence": "同名官方立绘（归档 光多比暗多比/暗多比/）",
+   "bg": "底色 0,0,0，抠掉 42.2%"
+  },
+  {
+   "name": "兔多比",
+   "file": "assets/forms/art/兔多比.png",
+   "icon": "assets/forms/art/兔多比_icon.png",
+   "w": 240,
+   "h": 295,
+   "src": "多比形态素材/兔多比.png",
+   "evidence": "同名官方立绘（归档）",
+   "bg": "底色 255,255,255，抠掉 78.4%"
+  },
+  {
+   "name": "旋风多比",
+   "file": "assets/forms/art/旋风多比.png",
+   "icon": "assets/forms/art/旋风多比_icon.png",
+   "w": 361,
+   "h": 640,
+   "src": "多比形态素材/旋风多比.png",
+   "evidence": "同名官方立绘（归档）；官方另有独立资料页（旋风巨岩多比资料.xlsx：昵称/长描述/专属技能）",
+   "bg": "底色 0,0,0，抠掉 82.3%"
+  },
+  {
+   "name": "曼陀罗多比",
+   "file": "assets/forms/art/曼陀罗多比.png",
+   "icon": "assets/forms/art/曼陀罗多比_icon.png",
+   "w": 211,
+   "h": 412,
+   "src": "多比形态素材/曼陀罗多比/曼陀罗.jpg",
+   "evidence": "同名官方立绘（归档 曼陀罗多比/，jpg）",
+   "bg": "底色 250,251,255，抠掉 65.5%"
+  },
+  {
+   "name": "毒多比",
+   "file": "assets/forms/art/毒多比.png",
+   "icon": "assets/forms/art/毒多比_icon.png",
+   "w": 192,
+   "h": 378,
+   "src": "多比形态素材/正义风火毒/毒多比.jpg",
+   "evidence": "同名官方立绘（归档 正义风火毒/，jpg）",
+   "bg": "底色 255,255,255，抠掉 58.9%"
+  },
+  {
+   "name": "正义多比",
+   "file": "assets/forms/art/正义多比.png",
+   "icon": "assets/forms/art/正义多比_icon.png",
+   "w": 171,
+   "h": 287,
+   "src": "多比形态素材/正义风火毒/正义多比.jpg",
+   "evidence": "同名官方立绘（归档 正义风火毒/，jpg）",
+   "bg": "底色 255,255,255，抠掉 69.5%"
+  },
+  {
+   "name": "悟空多比",
+   "file": "assets/forms/art/悟空多比.png",
+   "icon": "assets/forms/art/悟空多比_icon.png",
+   "w": 782,
+   "h": 640,
+   "src": "多比形态素材/行者孙吕布等/行者孙多比/悟空1.png",
+   "evidence": "官方名「行者孙」＝悟空；归档 行者孙多比/ 序列第 1 帧",
+   "bg": "底色 0,0,0，抠掉 62.7%"
+  },
+  {
+   "name": "吕布多比",
+   "file": "assets/forms/art/吕布多比.png",
+   "icon": "assets/forms/art/吕布多比_icon.png",
+   "w": 487,
+   "h": 640,
+   "src": "多比形态素材/行者孙吕布等/吕布&貂蝉/吕布多比.png",
+   "evidence": "同名官方立绘（归档 吕布&貂蝉/）",
+   "bg": "底色 0,0,0，抠掉 52.3%"
+  },
+  {
+   "name": "貂蝉多比",
+   "file": "assets/forms/art/貂蝉多比.png",
+   "icon": "assets/forms/art/貂蝉多比_icon.png",
+   "w": 472,
+   "h": 640,
+   "src": "多比形态素材/行者孙吕布等/吕布&貂蝉/貂蝉多比2.png",
+   "evidence": "同名官方立绘（归档 吕布&貂蝉/）",
+   "bg": "底色 0,0,0，抠掉 40.2%"
+  },
+  {
+   "name": "乔纳·华多比",
+   "file": "assets/forms/art/乔纳华多比.png",
+   "icon": "assets/forms/art/乔纳华多比_icon.png",
+   "w": 385,
+   "h": 640,
+   "src": "多比形态素材/行者孙吕布等/乔纳·华多比.png",
+   "evidence": "同名官方立绘（归档 行者孙吕布等/）",
+   "bg": "底色 0,0,0，抠掉 45.7%"
+  },
+  {
+   "name": "天使多比",
+   "file": "assets/forms/art/天使多比.png",
+   "icon": "assets/forms/art/天使多比_icon.png",
+   "w": 603,
+   "h": 640,
+   "src": "多比形态素材/1920/安吉尔多比.png",
+   "evidence": "官方表名「天使多比」；素材名「安吉尔」（Angel 音译）→ 同一只，1920 官方立绘",
+   "bg": "底色 0,0,0，抠掉 49.9%"
+  },
+  {
+   "name": "冰多比",
+   "file": "assets/forms/art/冰多比.png",
+   "icon": "assets/forms/art/冰多比_icon.png",
+   "w": 430,
+   "h": 541,
+   "src": "多比形态素材/弗瑞斯冰多比.png",
+   "evidence": "官方表名「冰多比」；素材名「弗瑞斯冰多比」（Freeze 音译）→ 同一只",
+   "bg": "底色 255,255,255，抠掉 46.7%"
+  },
+  {
+   "name": "蜘蛛多比",
+   "file": "assets/forms/art/蜘蛛多比.png",
+   "icon": "assets/forms/art/蜘蛛多比_icon.png",
+   "w": 731,
+   "h": 640,
+   "src": "多比形态素材/普伊斯·蛛多比.png",
+   "evidence": "官方表名「蜘蛛多比」；素材名「普伊斯·蛛多比」→ 同一只",
+   "bg": "底色 0,0,0，抠掉 55.8%"
+  },
+  {
+   "name": "土蝎多比",
+   "file": "assets/forms/art/土蝎多比.png",
+   "icon": "assets/forms/art/土蝎多比_icon.png",
+   "w": 277,
+   "h": 432,
+   "src": "多比形态素材/蝎多比/摩撒·蝎多比.jpg",
+   "evidence": "官方表名「土蝎多比」；素材名「摩撒·蝎多比」→ 同一只（jpg）",
+   "bg": "底色 250,251,255，抠掉 57.1%"
+  },
+  {
+   "name": "威尔鼎多比",
+   "file": "assets/forms/art/威尔鼎多比.png",
+   "icon": "assets/forms/art/威尔鼎多比_icon.png",
+   "w": 380,
+   "h": 640,
+   "src": "多比形态素材/1920/威尔鼎多比.png",
+   "evidence": "官方素材归档原版立绘（1920 系列）",
+   "bg": "底色 0,0,0，抠掉 32.6%"
+  },
+  {
+   "name": "布莱克暗夜多比",
+   "file": "assets/forms/art/布莱克暗夜多比.png",
+   "icon": "assets/forms/art/布莱克暗夜多比_icon.png",
+   "w": 483,
+   "h": 640,
+   "src": "多比形态素材/1920/布莱克暗夜多比.png",
+   "evidence": "官方素材归档原版立绘（1920 系列）",
+   "bg": "底色 0,0,0，抠掉 42.2%"
+  },
+  {
+   "name": "曼陀罗·花多比",
+   "file": "assets/forms/art/曼陀罗花多比.png",
+   "icon": "assets/forms/art/曼陀罗花多比_icon.png",
+   "w": 342,
+   "h": 640,
+   "src": "多比形态素材/1920/曼陀罗·花多比.png",
+   "evidence": "官方素材归档原版立绘（1920 系列）",
+   "bg": "底色 0,0,0，抠掉 28.9%"
+  },
+  {
+   "name": "大时多比",
+   "file": "assets/forms/art/大时多比.png",
+   "icon": "assets/forms/art/大时多比_icon.png",
+   "w": 626,
+   "h": 640,
+   "src": "多比形态素材/dobi_191026_大时多比.png",
+   "evidence": "官方素材归档原版立绘（文件名带官方动作组号 dobi_191026）",
+   "bg": "底色 0,0,0，抠掉 67.7%"
+  },
+  {
+   "name": "夜影·冽 多比",
+   "file": "assets/forms/art/夜影冽多比.png",
+   "icon": "assets/forms/art/夜影冽多比_icon.png",
+   "w": 292,
+   "h": 523,
+   "src": "多比形态素材/夜影多比/夜影·冽 多比/夜影·冽 多比.jpg",
+   "evidence": "官方素材归档原版立绘（夜影系列）",
+   "bg": "底色 255,255,255，抠掉 58.5%"
+  },
+  {
+   "name": "夜影·凌 多比",
+   "file": "assets/forms/art/夜影凌多比.png",
+   "icon": "assets/forms/art/夜影凌多比_icon.png",
+   "w": 313,
+   "h": 546,
+   "src": "多比形态素材/夜影多比/夜影·凌 多比/夜影·凌 多比.jpg",
+   "evidence": "官方素材归档原版立绘（夜影系列）",
+   "bg": "底色 255,255,255，抠掉 57.2%"
+  },
+  {
+   "name": "夜影·空 多比",
+   "file": "assets/forms/art/夜影空多比.png",
+   "icon": "assets/forms/art/夜影空多比_icon.png",
+   "w": 325,
+   "h": 532,
+   "src": "多比形态素材/夜影多比/夜影·空 多比/夜影·空 多比.jpg",
+   "evidence": "官方素材归档原版立绘（夜影系列）",
+   "bg": "底色 255,255,255，抠掉 57.1%"
+  },
+  {
+   "name": "夜影·厄斯 多比",
+   "file": "assets/forms/art/夜影厄斯多比.png",
+   "icon": "assets/forms/art/夜影厄斯多比_icon.png",
+   "w": 317,
+   "h": 546,
+   "src": "多比形态素材/夜影多比/夜影·厄斯 多比/夜影·厄斯 多比.jpg",
+   "evidence": "官方素材归档原版立绘（夜影系列）",
+   "bg": "底色 255,255,255，抠掉 57.2%"
+  },
+  {
+   "name": "夜影·正义 多比",
+   "file": "assets/forms/art/夜影正义多比.png",
+   "icon": "assets/forms/art/夜影正义多比_icon.png",
+   "w": 465,
+   "h": 576,
+   "src": "多比形态素材/夜影多比/夜影·正义 多比/夜影·正义 多比.jpg",
+   "evidence": "官方素材归档原版立绘（夜影系列）",
+   "bg": "底色 255,255,255，抠掉 54.2%"
+  },
+  {
+   "name": "夜影·博伊斯 多比",
+   "file": "assets/forms/art/夜影博伊斯多比.png",
+   "icon": "assets/forms/art/夜影博伊斯多比_icon.png",
+   "w": 280,
+   "h": 536,
+   "src": "多比形态素材/夜影多比/夜影·博伊斯 多比/夜影·博伊斯 多比.jpg",
+   "evidence": "官方素材归档原版立绘（夜影系列）",
+   "bg": "底色 255,255,255，抠掉 48.1%"
+  },
+  {
+   "name": "斯莱特·刃多比",
+   "file": "assets/forms/art/斯莱特刃多比.png",
+   "icon": "assets/forms/art/斯莱特刃多比_icon.png",
+   "w": 200,
+   "h": 357,
+   "src": "多比形态素材/斯莱特·刃多比/斯莱特·刃多比.jpg",
+   "evidence": "官方素材归档原版立绘",
+   "bg": "底色 255,255,255，抠掉 48.8%"
+  },
+  {
+   "name": "斯蒂尔·垲多比",
+   "file": "assets/forms/art/斯蒂尔垲多比.png",
+   "icon": "assets/forms/art/斯蒂尔垲多比_icon.png",
+   "w": 521,
+   "h": 640,
+   "src": "多比形态素材/斯蒂尔·垲多比.png",
+   "evidence": "官方素材归档原版立绘",
+   "bg": "底色 0,0,0，抠掉 58.9%"
+  },
+  {
+   "name": "斯隆曼·空多比",
+   "file": "assets/forms/art/斯隆曼空多比.png",
+   "icon": "assets/forms/art/斯隆曼空多比_icon.png",
+   "w": 394,
+   "h": 640,
+   "src": "多比形态素材/斯隆曼·空多比.png",
+   "evidence": "官方素材归档原版立绘",
+   "bg": "底色 0,0,0，抠掉 39.3%"
+  },
+  {
+   "name": "莱特·凛多比",
+   "file": "assets/forms/art/莱特凛多比.png",
+   "icon": "assets/forms/art/莱特凛多比_icon.png",
+   "w": 381,
+   "h": 640,
+   "src": "多比形态素材/莱特·凛多比.png",
+   "evidence": "官方素材归档原版立绘",
+   "bg": "底色 0,0,0，抠掉 47.4%"
+  },
+  {
+   "name": "哈瑞·肯多比",
+   "file": "assets/forms/art/哈瑞肯多比.png",
+   "icon": "assets/forms/art/哈瑞肯多比_icon.png",
+   "w": 285,
+   "h": 279,
+   "src": "多比形态素材/正义风火毒/哈瑞·肯多比.jpg",
+   "evidence": "官方素材归档原版立绘（正义风火毒系列）",
+   "bg": "底色 255,255,255，抠掉 58.1%"
+  },
+  {
+   "name": "费勒姆·炎多比",
+   "file": "assets/forms/art/费勒姆炎多比.png",
+   "icon": "assets/forms/art/费勒姆炎多比_icon.png",
+   "w": 318,
+   "h": 287,
+   "src": "多比形态素材/正义风火毒/费勒姆·炎多比.jpg",
+   "evidence": "官方素材归档原版立绘（正义风火毒系列）",
+   "bg": "底色 255,255,255，抠掉 61.2%"
+  },
+  {
+   "name": "克鲁尔·蝶多比",
+   "file": "assets/forms/art/克鲁尔蝶多比.png",
+   "icon": "assets/forms/art/克鲁尔蝶多比_icon.png",
+   "w": 641,
+   "h": 640,
+   "src": "多比形态素材/行者孙吕布等/克鲁尔·蝶多比.png",
+   "evidence": "官方素材归档原版立绘（行者孙吕布等系列）",
+   "bg": "底色 0,0,0，抠掉 55.5%"
+  },
+  {
+   "name": "布瑞·武多比",
+   "file": "assets/forms/art/布瑞武多比.png",
+   "icon": "assets/forms/art/布瑞武多比_icon.png",
+   "w": 622,
+   "h": 640,
+   "src": "多比形态素材/行者孙吕布等/吕布&貂蝉/布瑞·武多比.png",
+   "evidence": "官方素材归档原版立绘（吕布&貂蝉系列）",
+   "bg": "底色 0,0,0，抠掉 62.6%"
+  },
+  {
+   "name": "水多比",
+   "file": "assets/forms/art/水多比.png",
+   "icon": "assets/forms/art/水多比_icon.png",
+   "w": 380,
+   "h": 640,
+   "src": "动画视频/多比战斗动画/水多比-战斗.swf（DefineBitsJPEG3 动作帧，站姿）",
+   "evidence": "第 55 轮：从官方 SWF 动作帧抽取（水多比-战斗_005），带 alpha 合成",
+   "bg": "SWF 自带透明通道（DefineBitsJPEG3 的 alpha），未抠图"
+  },
+  {
+   "name": "火多比",
+   "file": "assets/forms/art/火多比.png",
+   "icon": "assets/forms/art/火多比_icon.png",
+   "w": 374,
+   "h": 640,
+   "src": "动画视频/多比战斗动画/火多比-战斗.swf（DefineBitsJPEG3 动作帧，站姿）",
+   "evidence": "第 55 轮：从官方 SWF 动作帧抽取（火多比-战斗_186），带 alpha 合成",
+   "bg": "SWF 自带透明通道（DefineBitsJPEG3 的 alpha），未抠图"
+  }
+ ],
+ "note": "第 55 轮增补：从多比战斗动画 SWF 抽取的官方动作帧立绘（水多比/火多比/超级克罗多比）。"
+}

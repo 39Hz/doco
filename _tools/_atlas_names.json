@@ -1,0 +1,335 @@
+{
+ "fromFilenames": {
+  "110010": "吞噬魔",
+  "110011": "克里奥佩特拉",
+  "110012": "堕落天使",
+  "110013": "莲蓬童子",
+  "110014": "怨灵",
+  "110015": "鲤鱼将军",
+  "110016": "熔岩怪",
+  "110022": "赛罗特",
+  "110023": "托米拉",
+  "110024": "拼装采矿机",
+  "110025": "武装采矿机",
+  "110026": "甲刺兽",
+  "110027": "无敌兽",
+  "110041": "寄居蟹",
+  "110042": "小海马",
+  "110054": "狐蝠",
+  "110055": "锈泥怪",
+  "110056": "青翼",
+  "110057": "御风兽",
+  "110058": "红鸾",
+  "110059": "小火狮",
+  "110060": "火元素精灵",
+  "110061": "小火龙",
+  "110064": "疾风雕战斗",
+  "110075": "幽灵虫",
+  "110078": "毒蜥",
+  "110088": "恶毒蘑菇(4)",
+  "119012": "僵尸龙",
+  "119019": "无头骑士",
+  "119028": "布斯蛮卡",
+  "119030": "_血狼兽",
+  "119039": "追猎者",
+  "119042": "罗兰琳",
+  "119046": "铁箱怪",
+  "119047": "银箱怪",
+  "119048": "金箱怪",
+  "119053": "火焰怪",
+  "119061": "光暗魔人_矢量",
+  "119063": "邪力王(矢 量)",
+  "119066": "傀儡邪力王"
+ },
+ "matched": [
+  {
+   "id": 10001,
+   "name": "哈拉兽",
+   "element": "土",
+   "size": 120,
+   "atlasId": 110001,
+   "atlasName": ""
+  },
+  {
+   "id": 10002,
+   "name": "绿毒史莱姆",
+   "element": "毒",
+   "size": 45,
+   "atlasId": 110002,
+   "atlasName": ""
+  },
+  {
+   "id": 10003,
+   "name": "绿毒粘液兽",
+   "element": "毒",
+   "size": 61,
+   "atlasId": 110003,
+   "atlasName": ""
+  },
+  {
+   "id": 10004,
+   "name": "萨西怪",
+   "element": "火",
+   "size": 69,
+   "atlasId": 110004,
+   "atlasName": ""
+  },
+  {
+   "id": 10005,
+   "name": "粘壳虫",
+   "element": "水",
+   "size": 50,
+   "atlasId": 110005,
+   "atlasName": ""
+  },
+  {
+   "id": 10006,
+   "name": "空灵树妖",
+   "element": "毒",
+   "size": 90,
+   "atlasId": 110006,
+   "atlasName": ""
+  },
+  {
+   "id": 10007,
+   "name": "晶石树妖",
+   "element": "毒",
+   "size": 90,
+   "atlasId": 110007,
+   "atlasName": ""
+  },
+  {
+   "id": 10008,
+   "name": "暗影孢子",
+   "element": "毒",
+   "size": 90,
+   "atlasId": 110008,
+   "atlasName": ""
+  },
+  {
+   "id": 10009,
+   "name": "阴孩",
+   "element": "毒",
+   "size": 90,
+   "atlasId": 110009,
+   "atlasName": ""
+  },
+  {
+   "id": 10010,
+   "name": "吞噬魔",
+   "element": "毒",
+   "size": 145,
+   "atlasId": 110010,
+   "atlasName": "吞噬魔"
+  },
+  {
+   "id": 10011,
+   "name": "克里奥佩特拉",
+   "element": "毒",
+   "size": 110,
+   "atlasId": 110011,
+   "atlasName": "克里奥佩特拉"
+  },
+  {
+   "id": 10012,
+   "name": "堕落天使",
+   "element": "暗",
+   "size": 150,
+   "atlasId": 110012,
+   "atlasName": "堕落天使"
+  },
+  {
+   "id": 10013,
+   "name": "莲蓬童子",
+   "element": "水",
+   "size": 90,
+   "atlasId": 110013,
+   "atlasName": "莲蓬童子"
+  },
+  {
+   "id": 10014,
+   "name": "怨灵",
+   "element": "水",
+   "size": 130,
+   "atlasId": 110014,
+   "atlasName": "怨灵"
+  },
+  {
+   "id": 10015,
+   "name": "鲤鱼将军",
+   "element": "水",
+   "size": 160,
+   "atlasId": 110015,
+   "atlasName": "鲤鱼将军"
+  },
+  {
+   "id": 10016,
+   "name": "火球怪",
+   "element": "火",
+   "size": 100,
+   "atlasId": 110016,
+   "atlasName": "熔岩怪"
+  },
+  {
+   "id": 10017,
+   "name": "熔岩怪",
+   "element": "火",
+   "size": 135,
+   "atlasId": 110016,
+   "atlasName": "熔岩怪"
+  },
+  {
+   "id": 10018,
+   "name": "妮可鼠",
+   "element": "光",
+   "size": 90,
+   "atlasId": 110018,
+   "atlasName": ""
+  },
+  {
+   "id": 10019,
+   "name": "八爪鱼",
+   "element": "风",
+   "size": 90,
+   "atlasId": 110019,
+   "atlasName": ""
+  },
+  {
+   "id": 10020,
+   "name": "大蘑菇",
+   "element": "毒",
+   "size": 90,
+   "atlasId": 110020,
+   "atlasName": ""
+  },
+  {
+   "id": 10021,
+   "name": "赛贝猪",
+   "element": "无",
+   "size": 90,
+   "atlasId": 110021,
+   "atlasName": ""
+  },
+  {
+   "id": 10022,
+   "name": "赛罗特",
+   "element": "无",
+   "size": 150,
+   "atlasId": 110022,
+   "atlasName": "赛罗特"
+  },
+  {
+   "id": 10023,
+   "name": "托米拉",
+   "element": "无",
+   "size": 90,
+   "atlasId": 110023,
+   "atlasName": "托米拉"
+  },
+  {
+   "id": 19001,
+   "name": "雷暴鲁巴",
+   "element": "火",
+   "size": 90,
+   "atlasId": 119001,
+   "atlasName": ""
+  },
+  {
+   "id": 19002,
+   "name": "大幽灵",
+   "element": "暗",
+   "size": 90,
+   "atlasId": 119002,
+   "atlasName": ""
+  },
+  {
+   "id": 19003,
+   "name": "猎犬酥皮",
+   "element": "土",
+   "size": 160,
+   "atlasId": 119003,
+   "atlasName": ""
+  },
+  {
+   "id": 19004,
+   "name": "螳螂阿力",
+   "element": "风",
+   "size": 197,
+   "atlasId": 119004,
+   "atlasName": ""
+  },
+  {
+   "id": 19005,
+   "name": "贪食花",
+   "element": "毒",
+   "size": 90,
+   "atlasId": 119005,
+   "atlasName": ""
+  },
+  {
+   "id": 19006,
+   "name": "卢比兽",
+   "element": "水",
+   "size": 90,
+   "atlasId": 119006,
+   "atlasName": ""
+  },
+  {
+   "id": 19007,
+   "name": "翼纹喵",
+   "element": "光",
+   "size": 90,
+   "atlasId": 119007,
+   "atlasName": ""
+  },
+  {
+   "id": 19008,
+   "name": "拉乌比I型",
+   "element": "无",
+   "size": 90,
+   "atlasId": 119008,
+   "atlasName": ""
+  },
+  {
+   "id": 19009,
+   "name": "蛇面蝙蝠",
+   "element": "毒",
+   "size": 90,
+   "atlasId": 119009,
+   "atlasName": ""
+  },
+  {
+   "id": 19010,
+   "name": "魔化多比",
+   "element": "暗",
+   "size": 90,
+   "atlasId": 119010,
+   "atlasName": ""
+  },
+  {
+   "id": 19011,
+   "name": "魔化河伯",
+   "element": "水",
+   "size": 90,
+   "atlasId": 119011,
+   "atlasName": ""
+  },
+  {
+   "id": 19012,
+   "name": "魔龙",
+   "element": "火",
+   "size": 90,
+   "atlasId": 119012,
+   "atlasName": "僵尸龙"
+  },
+  {
+   "id": 19013,
+   "name": "莎恩",
+   "element": "暗",
+   "size": 90,
+   "atlasId": 119013,
+   "atlasName": ""
+  }
+ ],
+ "unmatched": []
+}

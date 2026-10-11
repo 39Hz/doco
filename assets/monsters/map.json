@@ -1,0 +1,410 @@
+{
+  "generated": "2026-09-26T03:04:14.622Z",
+  "method": "hybrid：图鉴编号精确切图 + 官方素材外观近似替换",
+  "note": "怪兽表 36 只里，14 只在官方图鉴里有可核对编号的立绘；其余 22 只的立绘在归档中不存在（图鉴里是「? 取消/暂缓/制作中」的空占位，FLA/SWF 里是纯矢量、无位图）。为让敌人看上去正常，这 22 只改用归档里未被使用的官方立绘（图鉴未用真立绘 11 只 + 怪物大全 10 只）按元素与体型近似替换。detail[].source 为 replace 的条目即替换素材，不是该怪的原图。",
+  "counts": {
+    "total": 36,
+    "precise": 14,
+    "replaced": 22
+  },
+  "map": {
+    "10001": "assets/monsters/labeled/mon_10001.png",
+    "10002": "assets/monsters/labeled/mon_10002.png",
+    "10003": "assets/monsters/labeled/mon_10003.png",
+    "10004": "assets/monsters/labeled/mon_10004.png",
+    "10005": "assets/monsters/labeled/mon_10005.png",
+    "10006": "assets/monsters/labeled/mon_10006.png",
+    "10007": "assets/monsters/labeled/mon_10007.png",
+    "10008": "assets/monsters/labeled/mon_10008.png",
+    "10009": "assets/monsters/labeled/mon_10009.png",
+    "10010": "assets/monsters/labeled/mon_10010.png",
+    "10011": "assets/monsters/labeled/mon_10011.png",
+    "10012": "assets/monsters/labeled/mon_10012.png",
+    "10013": "assets/monsters/labeled/mon_10013.png",
+    "10014": "assets/monsters/labeled/mon_10014.png",
+    "10015": "assets/monsters/labeled/mon_10015.png",
+    "10016": "assets/monsters/labeled/mon_10016.png",
+    "10017": "assets/monsters/labeled/mon_10017.png",
+    "10018": "assets/monsters/labeled/mon_10018.png",
+    "10019": "assets/monsters/labeled/mon_10019.png",
+    "10020": "assets/monsters/labeled/mon_10020.png",
+    "10021": "assets/monsters/labeled/mon_10021.png",
+    "10022": "assets/monsters/labeled/mon_10022.png",
+    "10023": "assets/monsters/labeled/mon_10023.png",
+    "19001": "assets/monsters/labeled/mon_19001.png",
+    "19002": "assets/monsters/labeled/mon_19002.png",
+    "19003": "assets/monsters/labeled/mon_19003.png",
+    "19004": "assets/monsters/labeled/mon_19004.png",
+    "19005": "assets/monsters/labeled/mon_19005.png",
+    "19006": "assets/monsters/labeled/mon_19006.png",
+    "19007": "assets/monsters/labeled/mon_19007.png",
+    "19008": "assets/monsters/labeled/mon_19008.png",
+    "19009": "assets/monsters/labeled/mon_19009.png",
+    "19010": "assets/monsters/labeled/mon_19010.png",
+    "19011": "assets/monsters/labeled/mon_19011.png",
+    "19012": "assets/monsters/labeled/mon_19012.png",
+    "19013": "assets/monsters/labeled/mon_19013.png"
+  },
+  "detail": [
+    {
+      "id": 10001,
+      "name": "哈拉兽",
+      "element": "土",
+      "size": 120,
+      "sprite": "assets/monsters/labeled/mon_10001.png",
+      "artSize": "264x300",
+      "source": "replace（官方素材里外观相近的立绘，非该怪原图）",
+      "replacedBy": "图鉴119024"
+    },
+    {
+      "id": 10002,
+      "name": "绿毒史莱姆",
+      "element": "毒",
+      "size": 45,
+      "sprite": "assets/monsters/labeled/mon_10002.png",
+      "artSize": "198x190",
+      "source": "atlas（图鉴编号已核对）",
+      "replacedBy": null
+    },
+    {
+      "id": 10003,
+      "name": "绿毒粘液兽",
+      "element": "毒",
+      "size": 61,
+      "sprite": "assets/monsters/labeled/mon_10003.png",
+      "artSize": "282x214",
+      "source": "atlas（图鉴编号已核对）",
+      "replacedBy": null
+    },
+    {
+      "id": 10004,
+      "name": "萨西怪",
+      "element": "火",
+      "size": 69,
+      "sprite": "assets/monsters/labeled/mon_10004.png",
+      "artSize": "271x237",
+      "source": "replace（官方素材里外观相近的立绘，非该怪原图）",
+      "replacedBy": "怪物大全#7"
+    },
+    {
+      "id": 10005,
+      "name": "粘壳虫",
+      "element": "水",
+      "size": 50,
+      "sprite": "assets/monsters/labeled/mon_10005.png",
+      "artSize": "206x173",
+      "source": "atlas（图鉴编号已核对）",
+      "replacedBy": null
+    },
+    {
+      "id": 10006,
+      "name": "空灵树妖",
+      "element": "毒",
+      "size": 90,
+      "sprite": "assets/monsters/labeled/mon_10006.png",
+      "artSize": "166x209",
+      "source": "atlas（图鉴编号已核对）",
+      "replacedBy": null
+    },
+    {
+      "id": 10007,
+      "name": "晶石树妖",
+      "element": "毒",
+      "size": 90,
+      "sprite": "assets/monsters/labeled/mon_10007.png",
+      "artSize": "219x253",
+      "source": "atlas（图鉴编号已核对）",
+      "replacedBy": null
+    },
+    {
+      "id": 10008,
+      "name": "暗影孢子",
+      "element": "毒",
+      "size": 90,
+      "sprite": "assets/monsters/labeled/mon_10008.png",
+      "artSize": "165x209",
+      "source": "replace（官方素材里外观相近的立绘，非该怪原图）",
+      "replacedBy": "怪物大全#9"
+    },
+    {
+      "id": 10009,
+      "name": "阴孩",
+      "element": "毒",
+      "size": 90,
+      "sprite": "assets/monsters/labeled/mon_10009.png",
+      "artSize": "147x190",
+      "source": "atlas（图鉴编号已核对）",
+      "replacedBy": null
+    },
+    {
+      "id": 10010,
+      "name": "吞噬魔",
+      "element": "毒",
+      "size": 145,
+      "sprite": "assets/monsters/labeled/mon_10010.png",
+      "artSize": "212x226",
+      "source": "atlas（图鉴编号已核对）",
+      "replacedBy": null
+    },
+    {
+      "id": 10011,
+      "name": "克里奥佩特拉",
+      "element": "毒",
+      "size": 110,
+      "sprite": "assets/monsters/labeled/mon_10011.png",
+      "artSize": "167x234",
+      "source": "atlas（图鉴编号已核对）",
+      "replacedBy": null
+    },
+    {
+      "id": 10012,
+      "name": "堕落天使",
+      "element": "暗",
+      "size": 150,
+      "sprite": "assets/monsters/labeled/mon_10012.png",
+      "artSize": "404x324",
+      "source": "replace（官方素材里外观相近的立绘，非该怪原图）",
+      "replacedBy": "图鉴119022"
+    },
+    {
+      "id": 10013,
+      "name": "莲蓬童子",
+      "element": "水",
+      "size": 90,
+      "sprite": "assets/monsters/labeled/mon_10013.png",
+      "artSize": "179x198",
+      "source": "atlas（图鉴编号已核对）",
+      "replacedBy": null
+    },
+    {
+      "id": 10014,
+      "name": "怨灵",
+      "element": "水",
+      "size": 130,
+      "sprite": "assets/monsters/labeled/mon_10014.png",
+      "artSize": "207x251",
+      "source": "replace（官方素材里外观相近的立绘，非该怪原图）",
+      "replacedBy": "怪物大全#6"
+    },
+    {
+      "id": 10015,
+      "name": "鲤鱼将军",
+      "element": "水",
+      "size": 160,
+      "sprite": "assets/monsters/labeled/mon_10015.png",
+      "artSize": "281x258",
+      "source": "atlas（图鉴编号已核对）",
+      "replacedBy": null
+    },
+    {
+      "id": 10016,
+      "name": "火球怪",
+      "element": "火",
+      "size": 100,
+      "sprite": "assets/monsters/labeled/mon_10016.png",
+      "artSize": "213x162",
+      "source": "replace（官方素材里外观相近的立绘，非该怪原图）",
+      "replacedBy": "怪物大全#4"
+    },
+    {
+      "id": 10017,
+      "name": "熔岩怪",
+      "element": "火",
+      "size": 135,
+      "sprite": "assets/monsters/labeled/mon_10017.png",
+      "artSize": "328x310",
+      "source": "replace（官方素材里外观相近的立绘，非该怪原图）",
+      "replacedBy": "怪物大全#5"
+    },
+    {
+      "id": 10018,
+      "name": "妮可鼠",
+      "element": "光",
+      "size": 90,
+      "sprite": "assets/monsters/labeled/mon_10018.png",
+      "artSize": "301x250",
+      "source": "replace（官方素材里外观相近的立绘，非该怪原图）",
+      "replacedBy": "图鉴119017"
+    },
+    {
+      "id": 10019,
+      "name": "八爪鱼",
+      "element": "风",
+      "size": 90,
+      "sprite": "assets/monsters/labeled/mon_10019.png",
+      "artSize": "252x289",
+      "source": "replace（官方素材里外观相近的立绘，非该怪原图）",
+      "replacedBy": "图鉴119023"
+    },
+    {
+      "id": 10020,
+      "name": "大蘑菇",
+      "element": "毒",
+      "size": 90,
+      "sprite": "assets/monsters/labeled/mon_10020.png",
+      "artSize": "220x251",
+      "source": "replace（官方素材里外观相近的立绘，非该怪原图）",
+      "replacedBy": "图鉴119021"
+    },
+    {
+      "id": 10021,
+      "name": "赛贝猪",
+      "element": "无",
+      "size": 90,
+      "sprite": "assets/monsters/labeled/mon_10021.png",
+      "artSize": "?",
+      "source": "fallback（回退旧素材）",
+      "replacedBy": null
+    },
+    {
+      "id": 10022,
+      "name": "赛罗特",
+      "element": "无",
+      "size": 150,
+      "sprite": "assets/monsters/labeled/mon_10022.png",
+      "artSize": "203x233",
+      "source": "fallback（图鉴格子对不上，回退旧素材）",
+      "replacedBy": null
+    },
+    {
+      "id": 10023,
+      "name": "托米拉",
+      "element": "无",
+      "size": 90,
+      "sprite": "assets/monsters/labeled/mon_10023.png",
+      "artSize": "197x177",
+      "source": "fallback（图鉴格子对不上，回退旧素材）",
+      "replacedBy": null
+    },
+    {
+      "id": 19001,
+      "name": "雷暴鲁巴",
+      "element": "火",
+      "size": 90,
+      "sprite": "assets/monsters/labeled/mon_19001.png",
+      "artSize": "377x378",
+      "source": "replace（官方素材里外观相近的立绘，非该怪原图）",
+      "replacedBy": "怪物大全#3"
+    },
+    {
+      "id": 19002,
+      "name": "大幽灵",
+      "element": "暗",
+      "size": 90,
+      "sprite": "assets/monsters/labeled/mon_19002.png",
+      "artSize": "182x201",
+      "source": "replace（官方素材里外观相近的立绘，非该怪原图）",
+      "replacedBy": "图鉴110026"
+    },
+    {
+      "id": 19003,
+      "name": "猎犬酥皮",
+      "element": "土",
+      "size": 160,
+      "sprite": "assets/monsters/labeled/mon_19003.png",
+      "artSize": "225x207",
+      "source": "replace（官方素材里外观相近的立绘，非该怪原图）",
+      "replacedBy": "怪物大全#8"
+    },
+    {
+      "id": 19004,
+      "name": "螳螂阿力",
+      "element": "风",
+      "size": 197,
+      "sprite": "assets/monsters/labeled/mon_19004.png",
+      "artSize": "312x309",
+      "source": "replace（官方素材里外观相近的立绘，非该怪原图）",
+      "replacedBy": "怪物大全#0"
+    },
+    {
+      "id": 19005,
+      "name": "贪食花",
+      "element": "毒",
+      "size": 90,
+      "sprite": "assets/monsters/labeled/mon_19005.png",
+      "artSize": "174x159",
+      "source": "replace（官方素材里外观相近的立绘，非该怪原图）",
+      "replacedBy": "SWF幽灵（已抠黑底）"
+    },
+    {
+      "id": 19006,
+      "name": "卢比兽",
+      "element": "水",
+      "size": 90,
+      "sprite": "assets/monsters/labeled/mon_19006.png",
+      "artSize": "237x236",
+      "source": "replace（官方素材里外观相近的立绘，非该怪原图）",
+      "replacedBy": "图鉴110025"
+    },
+    {
+      "id": 19007,
+      "name": "翼纹喵",
+      "element": "光",
+      "size": 90,
+      "sprite": "assets/monsters/labeled/mon_19007.png",
+      "artSize": "125x155",
+      "source": "replace（官方素材里外观相近的立绘，非该怪原图）",
+      "replacedBy": "图鉴110030"
+    },
+    {
+      "id": 19008,
+      "name": "拉乌比I型",
+      "element": "无",
+      "size": 90,
+      "sprite": "assets/monsters/labeled/mon_19008.png",
+      "artSize": "422x317",
+      "source": "atlas（图鉴编号已核对）",
+      "replacedBy": null
+    },
+    {
+      "id": 19009,
+      "name": "蛇面蝙蝠",
+      "element": "毒",
+      "size": 90,
+      "sprite": "assets/monsters/labeled/mon_19009.png",
+      "artSize": "280x280",
+      "source": "replace（官方素材里外观相近的立绘，非该怪原图）",
+      "replacedBy": "图鉴119020"
+    },
+    {
+      "id": 19010,
+      "name": "魔化多比",
+      "element": "暗",
+      "size": 90,
+      "sprite": "assets/monsters/labeled/mon_19010.png",
+      "artSize": "325x372",
+      "source": "replace（官方素材里外观相近的立绘，非该怪原图）",
+      "replacedBy": "怪物大全#2"
+    },
+    {
+      "id": 19011,
+      "name": "魔化河伯",
+      "element": "水",
+      "size": 90,
+      "sprite": "assets/monsters/labeled/mon_19011.png",
+      "artSize": "277x281",
+      "source": "replace（官方素材里外观相近的立绘，非该怪原图）",
+      "replacedBy": "怪物大全#1"
+    },
+    {
+      "id": 19012,
+      "name": "魔龙",
+      "element": "火",
+      "size": 90,
+      "sprite": "assets/monsters/labeled/mon_19012.png",
+      "artSize": "314x350",
+      "source": "atlas（图鉴编号已核对）",
+      "replacedBy": null
+    },
+    {
+      "id": 19013,
+      "name": "莎恩",
+      "element": "暗",
+      "size": 90,
+      "sprite": "assets/monsters/labeled/mon_19013.png",
+      "artSize": "287x319",
+      "source": "replace（官方素材里外观相近的立绘，非该怪原图）",
+      "replacedBy": "图鉴119018"
+    }
+  ]
+}

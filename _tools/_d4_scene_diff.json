@@ -1,0 +1,51 @@
+[
+ {
+  "clean": "图书馆",
+  "scene": 42,
+  "meanDiff": 5.56,
+  "bigRatio": 0.0064,
+  "verdict": "已在用干净图"
+ },
+ {
+  "clean": "城堡走道",
+  "scene": 43,
+  "meanDiff": 5.41,
+  "bigRatio": 0.011,
+  "verdict": "已在用干净图"
+ },
+ {
+  "clean": "城堡郊外",
+  "scene": 28,
+  "meanDiff": 5.91,
+  "bigRatio": 0.0096,
+  "verdict": "已在用干净图"
+ },
+ {
+  "clean": "智慧学堂",
+  "scene": 32,
+  "meanDiff": 6.26,
+  "bigRatio": 0.0159,
+  "verdict": "已在用干净图"
+ },
+ {
+  "clean": "熔岩池",
+  "scene": 57,
+  "meanDiff": 3.94,
+  "bigRatio": 0.0026,
+  "verdict": "已在用干净图"
+ },
+ {
+  "clean": "空中蔓步",
+  "scene": 39,
+  "meanDiff": 5.33,
+  "bigRatio": 0.0049,
+  "verdict": "已在用干净图"
+ },
+ {
+  "clean": "藤顶风光",
+  "scene": 50,
+  "meanDiff": 5.36,
+  "bigRatio": 0.0089,
+  "verdict": "已在用干净图"
+ }
+]

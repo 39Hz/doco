@@ -1,0 +1,3341 @@
+{
+ "generated": "2026-09-29T14:51:05.179Z",
+ "source": "多克多比专区资料素材/魔法道具ICON等/多克多比技能/资源需求文档_魔法技能及道具.xlsx → 工作表「战斗内技能列表」",
+ "note": "官方原版技能表：编号ID / 效果名称 / 系别 / 描述 / 单体群体 / 光效编号（蓄力·前段·中段·后段·击中）",
+ "count": 217,
+ "iconRanges": [
+  {
+   "file": "skill_icon_300000_300020.fla",
+   "start": 300000,
+   "end": 300020
+  },
+  {
+   "file": "skill_icon_301001_301020.fla",
+   "start": 301001,
+   "end": 301020
+  },
+  {
+   "file": "skill_icon_301021_301040.fla",
+   "start": 301021,
+   "end": 301040
+  },
+  {
+   "file": "skill_icon_302001_302020.fla",
+   "start": 302001,
+   "end": 302020
+  },
+  {
+   "file": "skill_icon_303001_303020.fla",
+   "start": 303001,
+   "end": 303020
+  },
+  {
+   "file": "skill_icon_303021_303040.fla",
+   "start": 303021,
+   "end": 303040
+  },
+  {
+   "file": "skill_icon_304001_304020.fla",
+   "start": 304001,
+   "end": 304020
+  },
+  {
+   "file": "skill_icon_304021_304040.fla",
+   "start": 304021,
+   "end": 304040
+  },
+  {
+   "file": "skill_icon_305001_305020.fla",
+   "start": 305001,
+   "end": 305020
+  },
+  {
+   "file": "skill_icon_305021_305040.fla",
+   "start": 305021,
+   "end": 305040
+  },
+  {
+   "file": "skill_icon_306001_306020.fla",
+   "start": 306001,
+   "end": 306020
+  },
+  {
+   "file": "skill_icon_307001_307020.fla",
+   "start": 307001,
+   "end": 307020
+  },
+  {
+   "file": "skill_icon_308001_308020.fla",
+   "start": 308001,
+   "end": 308020
+  }
+ ],
+ "byElement": {
+  "物理": 49,
+  "火系": 28,
+  "水系": 30,
+  "土系": 31,
+  "风系": 29,
+  "风卷": 2,
+  "光系": 12,
+  "暗系": 15,
+  "毒系": 21
+ },
+ "skills": [
+  {
+   "id": 301001,
+   "name": "重击",
+   "effect": "近身",
+   "element": "物理",
+   "type": "单体",
+   "desc": "力量型技能，将力量灌注于手臂之中，给敌人强力一击",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501001"
+   }
+  },
+  {
+   "id": 301002,
+   "name": "多重重击",
+   "effect": "近身",
+   "element": "物理",
+   "type": "单体",
+   "desc": "力量型技能，将更强大的力量汇聚于手臂之中，在一瞬之间连续冲击敌人",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501003"
+   }
+  },
+  {
+   "id": 301003,
+   "name": "破甲",
+   "effect": "远程",
+   "element": "物理",
+   "type": "单体",
+   "desc": "力量型技能，用你的攻击刺穿敌人的护甲，一段时间内降低敌人的防御",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "fight_anim_501004",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501997"
+   }
+  },
+  {
+   "id": 301004,
+   "name": "雷霆冲击",
+   "effect": "远程",
+   "element": "物理",
+   "type": "群体",
+   "desc": "力量型技能，锤击地面，发出一个冲击波，使全部的敌人都受到伤害",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "fight_anim_501005",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501028"
+   }
+  },
+  {
+   "id": 301005,
+   "name": "力量激发",
+   "effect": "",
+   "element": "物理",
+   "type": "单体",
+   "desc": "你身上的斗气正慢慢的渗透到你的肌肉中，你的力量得到强化",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 301006,
+   "name": "吸血打击",
+   "effect": "近身",
+   "element": "物理",
+   "type": "单体",
+   "desc": "力量型技能，对敌人造成伤害，吸取一部分生命力转化为自身血量",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501994"
+   }
+  },
+  {
+   "id": 301007,
+   "name": "天龙斗气",
+   "effect": "远程",
+   "element": "物理",
+   "type": "群体",
+   "desc": "辅助技能，将强大的龙之斗气附身于我方全体，在短时间内提升物理攻击和魔法攻击",
+   "anim": {
+    "charge": "fight_anim_501027",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501992"
+   }
+  },
+  {
+   "id": 301008,
+   "name": "不屈意志",
+   "effect": "远程",
+   "element": "物理",
+   "type": "单体",
+   "desc": "辅助技能，靠着强大意志力来承受敌人的攻击，于几回合之间提升自身防御力",
+   "anim": {
+    "charge": "fight_anim_501027",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501993"
+   }
+  },
+  {
+   "id": 301009,
+   "name": "草泥马狂奔",
+   "effect": "远程",
+   "element": "物理",
+   "type": "单体",
+   "desc": "力量型技能，驱使马儿冲向敌人，使敌人恐慌，降低其物理攻击力",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "fight_anim_501011",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501013"
+   }
+  },
+  {
+   "id": 301010,
+   "name": "青龙偃月斩",
+   "effect": "远程",
+   "element": "物理",
+   "type": "群体",
+   "desc": "力量型技能，凝聚全身气力，发出充满爆发力的斗气攻击全体敌人",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "fight_anim_501012",
+    "mid": "fight_anim_501013",
+    "back": "",
+    "hit": "fight_anim_501029"
+   }
+  },
+  {
+   "id": 301011,
+   "name": "迅捷飞刀",
+   "effect": "远程",
+   "element": "物理",
+   "type": "单体",
+   "desc": "力量型技能，投出迅捷的飞刀攻击，使敌人持续受到伤害",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "fight_anim_501014",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505998"
+   }
+  },
+  {
+   "id": 301012,
+   "name": "能量激活",
+   "effect": "远程",
+   "element": "物理",
+   "type": "单体",
+   "desc": "恢复类技能，刺激目标体内的能量，使目标得到生命回复",
+   "anim": {
+    "charge": "fight_anim_501027",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501016"
+   }
+  },
+  {
+   "id": 301013,
+   "name": "百裂拳",
+   "effect": "近身",
+   "element": "物理",
+   "type": "单体",
+   "desc": "力量型技能，快速连续打击敌人",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501015"
+   }
+  },
+  {
+   "id": 301014,
+   "name": "斗气弹",
+   "effect": "远程",
+   "element": "物理",
+   "type": "单体",
+   "desc": "力量型技能，外放斗气打击敌人，必将斗气滞留在敌人体内，降低敌人魔法攻击力",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "fight_anim_501019",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501020"
+   }
+  },
+  {
+   "id": 301015,
+   "name": "千仞斩",
+   "effect": "远程",
+   "element": "物理",
+   "type": "群体",
+   "desc": "力量型技能，释放千万剑气切割所有敌人",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "fight_anim_501021",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501029"
+   }
+  },
+  {
+   "id": 301016,
+   "name": "强力Lv1\n战斗狂力Lv1",
+   "effect": "",
+   "element": "物理",
+   "type": "被动",
+   "desc": "被动提升一级物理攻击\n体内蕴藏着的狂暴力量，被动提升一级物理攻击",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 301017,
+   "name": "强力Lv2\n战斗狂力Lv2",
+   "effect": "",
+   "element": "物理",
+   "type": "被动",
+   "desc": "被动提升二级物理攻击\n体内蕴藏着的狂暴力量，被动提升二级物理攻击",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 301018,
+   "name": "强力Lv3\n战斗狂力Lv3",
+   "effect": "",
+   "element": "物理",
+   "type": "被动",
+   "desc": "被动提升三级物理攻击\n体内蕴藏着的狂暴力量，被动提升三级物理攻击",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 301019,
+   "name": "强力Lv4\n战斗狂力Lv4",
+   "effect": "",
+   "element": "物理",
+   "type": "被动",
+   "desc": "被动提升四级物理攻击\n体内蕴藏着的狂暴力量，被动提升四级物理攻击",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 301020,
+   "name": "强力Lv5\n战斗狂力Lv5",
+   "effect": "",
+   "element": "物理",
+   "type": "被动",
+   "desc": "被动提升五级物理攻击\n体内蕴藏着的狂暴力量，被动提升五级物理攻击",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 301021,
+   "name": "能量冲击",
+   "effect": "远程",
+   "element": "物理",
+   "type": "群体",
+   "desc": "魔武混合技能，调集空气中游离的魔法离子撞击敌人",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "fight_anim_501022",
+    "mid": "fight_anim_501013",
+    "back": "",
+    "hit": "fight_anim_501028"
+   }
+  },
+  {
+   "id": 301022,
+   "name": "妈妈的守护",
+   "effect": "远程",
+   "element": "物理",
+   "type": "单体",
+   "desc": "辅助技能，双手的拥护，能在短时间内提升极高的防御",
+   "anim": {
+    "charge": "fight_anim_501027",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501025"
+   }
+  },
+  {
+   "id": 301023,
+   "name": "破音刺",
+   "effect": "远程",
+   "element": "物理",
+   "type": "单体",
+   "desc": "精神力技能，用突破音障的速度发射体内的斗气穿透敌人",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "fight_anim_501030",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501031"
+   }
+  },
+  {
+   "id": 301024,
+   "name": "连动冲击",
+   "effect": "远程",
+   "element": "物理",
+   "type": "单体",
+   "desc": "力量型技能，外放一个巨大斗气团反复的冲撞敌人",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "fight_anim_501032",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501028"
+   }
+  },
+  {
+   "id": 301025,
+   "name": "斗破钻",
+   "effect": "远程",
+   "element": "物理",
+   "type": "群体",
+   "desc": "魔武混合技能，将高速旋转的斗气释放到敌人中间打击所有敌人",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "fight_anim_501033",
+    "mid": "fight_anim_501034",
+    "back": "",
+    "hit": "fight_anim_501029"
+   }
+  },
+  {
+   "id": 301026,
+   "name": "箭雨",
+   "effect": "远程",
+   "element": "物理",
+   "type": "群体",
+   "desc": "呼唤后方的伙伴给予箭雨的支援，打击所有敌人",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "fight_anim_501037",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501029"
+   }
+  },
+  {
+   "id": 301027,
+   "name": "凝气弹",
+   "effect": "远程",
+   "element": "物理",
+   "type": "单体",
+   "desc": "将斗气凝聚并释放，穿透敌人的护甲，给予敌人物理和魔法双重打击",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "fight_anim_501039",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501028"
+   }
+  },
+  {
+   "id": 301028,
+   "name": "碎甲",
+   "effect": "远程",
+   "element": "物理",
+   "type": "单体",
+   "desc": "击碎敌人对物理伤害的防御更容易受伤",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "fight_anim_501040",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 301029,
+   "name": "破法打击",
+   "effect": "近身",
+   "element": "物理",
+   "type": "单体",
+   "desc": "用斗气打乱敌人体内的魔法元素，减少目标的魔法防御",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "fight_anim_501043",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 301030,
+   "name": "能量置换",
+   "effect": "远程",
+   "element": "物理",
+   "type": "群体",
+   "desc": "燃烧体内的鲜血让他们转化成魔法能量赋予大家",
+   "anim": {
+    "charge": "fight_anim_501027",
+    "front": "fight_anim_501044",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 302001,
+   "name": "火球",
+   "effect": "远程",
+   "element": "火系",
+   "type": "单体",
+   "desc": "精神力技能，吸收大气中的火元素凝聚成一个炙热的火球，将它抛向敌人",
+   "anim": {
+    "charge": "fight_anim_502017",
+    "front": "fight_anim_502001",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_502996"
+   }
+  },
+  {
+   "id": 302002,
+   "name": "火雨",
+   "effect": "远程",
+   "element": "火系",
+   "type": "群体",
+   "desc": "精神力技能，召唤大气层外游离的尘埃，使它们带着炽热的火焰砸向敌方全体",
+   "anim": {
+    "charge": "fight_anim_502017",
+    "front": "fight_anim_502003",
+    "mid": "fight_anim_502994",
+    "back": "",
+    "hit": "fight_anim_502019"
+   }
+  },
+  {
+   "id": 302003,
+   "name": "狂暴",
+   "effect": "远程",
+   "element": "火系",
+   "type": "单体",
+   "desc": "辅助技能，燃烧怒气使自己狂暴，于几回合之间强化自己的物理攻击和魔法攻击",
+   "anim": {
+    "charge": "fight_anim_502017",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_509005"
+   }
+  },
+  {
+   "id": 302004,
+   "name": "多重火球",
+   "effect": "远程",
+   "element": "火系",
+   "type": "单体",
+   "desc": "精神力技能，吸收更多的火元素使其围绕在身体周围，依次变成火球抛向敌人",
+   "anim": {
+    "charge": "fight_anim_502017",
+    "front": "fight_anim_502001",
+    "mid": "fight_anim_502001",
+    "back": "fight_anim_502001",
+    "hit": "fight_anim_502999"
+   }
+  },
+  {
+   "id": 302005,
+   "name": "点燃",
+   "effect": "远程",
+   "element": "火系",
+   "type": "单体",
+   "desc": "精神力技能，熟练的控制炎之力量，操纵火之元素使敌人燃烧",
+   "anim": {
+    "charge": "fight_anim_502017",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_502992"
+   }
+  },
+  {
+   "id": 302006,
+   "name": "凤翅天翔",
+   "effect": "远程",
+   "element": "火系",
+   "type": "群体",
+   "desc": "精神力技能，召唤不死鸟的火之力量攻击敌方全体",
+   "anim": {
+    "charge": "fight_anim_502017",
+    "front": "fight_anim_502991",
+    "mid": "fight_anim_502008",
+    "back": "",
+    "hit": "fight_anim_502019"
+   }
+  },
+  {
+   "id": 302007,
+   "name": "火墙",
+   "effect": "远程",
+   "element": "火系",
+   "type": "单体",
+   "desc": "辅助技能，将火焰之壁围绕目标身前，削弱其受到的魔法伤害",
+   "anim": {
+    "charge": "fight_anim_502017",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_502990"
+   }
+  },
+  {
+   "id": 302008,
+   "name": "烈焰之拳",
+   "effect": "近身",
+   "element": "火系",
+   "type": "单体",
+   "desc": "力量型技能，让火焰环绕双拳，重重的击向敌人",
+   "anim": {
+    "charge": "fight_anim_502017",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_502009"
+   }
+  },
+  {
+   "id": 302009,
+   "name": "回暖",
+   "effect": "远程",
+   "element": "火系",
+   "type": "单体",
+   "desc": "恢复类技能，使目标体温上升，恢复一定的体能",
+   "anim": {
+    "charge": "fight_anim_502017",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_502010"
+   }
+  },
+  {
+   "id": 302010,
+   "name": "烈焰冲击",
+   "effect": "远程",
+   "element": "火系",
+   "type": "群体",
+   "desc": "力量型技能，操纵火焰形成冲击波打击全部的敌人",
+   "anim": {
+    "charge": "fight_anim_502017",
+    "front": "fight_anim_502011",
+    "mid": "fight_anim_502008",
+    "back": "",
+    "hit": "fight_anim_502019"
+   }
+  },
+  {
+   "id": 302011,
+   "name": "秘法Lv1\n魔法燃烧Lv1",
+   "effect": "",
+   "element": "火系",
+   "type": "被动",
+   "desc": "被动提升一级魔法攻击\n体内魔法开始燃烧，被动提升一级魔法攻击",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 302012,
+   "name": "秘法Lv2\n魔法燃烧Lv2",
+   "effect": "",
+   "element": "火系",
+   "type": "被动",
+   "desc": "被动提升二级魔法攻击\n体内魔法开始燃烧，被动提升二级魔法攻击",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 302013,
+   "name": "秘法Lv3\n魔法燃烧Lv3",
+   "effect": "",
+   "element": "火系",
+   "type": "被动",
+   "desc": "被动提升三级魔法攻击\n体内魔法开始燃烧，被动提升三级魔法攻击",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 302014,
+   "name": "秘法Lv4\n魔法燃烧Lv4",
+   "effect": "",
+   "element": "火系",
+   "type": "被动",
+   "desc": "被动提升四级魔法攻击\n体内魔法开始燃烧，被动提升四级魔法攻击",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 302015,
+   "name": "秘法Lv5\n魔法燃烧Lv5",
+   "effect": "",
+   "element": "火系",
+   "type": "被动",
+   "desc": "被动提升五级魔法攻击\n体内魔法开始燃烧，被动提五级魔法攻击",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 302016,
+   "name": "狂怒",
+   "effect": "远程",
+   "element": "火系",
+   "type": "单体",
+   "desc": "狂怒的心智冲昏头脑，放弃防御全力攻击",
+   "anim": {
+    "charge": "fight_anim_502017",
+    "front": "fight_anim_502022",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 302017,
+   "name": "霜火球",
+   "effect": "远程",
+   "element": "火系",
+   "type": "单体",
+   "desc": "一团超低温的火焰射向敌人，在受伤之余降低敌人速度",
+   "anim": {
+    "charge": "fight_anim_502018",
+    "front": "fight_anim_502023",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_502020"
+   }
+  },
+  {
+   "id": 302018,
+   "name": "火柱",
+   "effect": "远程",
+   "element": "火系",
+   "type": "单体",
+   "desc": "释放地下的烈焰喷涌烧伤敌人",
+   "anim": {
+    "charge": "fight_anim_502017",
+    "front": "fight_anim_502024",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 302019,
+   "name": "豪火球",
+   "effect": "火系",
+   "element": "火系",
+   "type": "单体",
+   "desc": "融合多个火球将他们一起打出",
+   "anim": {
+    "charge": "fight_anim_502017",
+    "front": "fight_anim_502025",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_502019"
+   }
+  },
+  {
+   "id": 303001,
+   "name": "冰枪",
+   "effect": "远程",
+   "element": "水系",
+   "type": "单体",
+   "desc": "精神力技能，凝结空气中的水分并使它们汇集在一起形成一把冰的长矛，抛向敌人",
+   "anim": {
+    "charge": "fight_anim_503015",
+    "front": "fight_anim_503001",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_503017"
+   }
+  },
+  {
+   "id": 303002,
+   "name": "恢复",
+   "effect": "远程",
+   "element": "水系",
+   "type": "单体",
+   "desc": "恢复类技能，召唤水之精华让它们附着在队友身上，用以抚平伤口",
+   "anim": {
+    "charge": "fight_anim_503014",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_503995"
+   }
+  },
+  {
+   "id": 303003,
+   "name": "群体恢复",
+   "effect": "远程",
+   "element": "水系",
+   "type": "群体",
+   "desc": "恢复类技能，召唤生命之泉让空气中充满水之精华，所有人的身心都获得很好的恢复",
+   "anim": {
+    "charge": "fight_anim_503014",
+    "front": "fight_anim_503002",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_503995"
+   }
+  },
+  {
+   "id": 303004,
+   "name": "清洁",
+   "effect": "远程",
+   "element": "水系",
+   "type": "单体",
+   "desc": "辅助技能，将神圣的光辉融入水元素之中，移除目标身上一个不好的状态",
+   "anim": {
+    "charge": "fight_anim_503014",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_503003"
+   }
+  },
+  {
+   "id": 303005,
+   "name": "水泡",
+   "effect": "远程",
+   "element": "水系",
+   "type": "单体",
+   "desc": "精神力技能，利用身边的水气凝聚成水泡攻击敌人",
+   "anim": {
+    "charge": "fight_anim_503014",
+    "front": "fight_anim_503005",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_503992"
+   }
+  },
+  {
+   "id": 303006,
+   "name": "冰棱盾",
+   "effect": "远程",
+   "element": "水系",
+   "type": "单体",
+   "desc": "辅助技能，聚集水气，制造一面冰棱盾保护队友，提高物理防御和魔法防御",
+   "anim": {
+    "charge": "fight_anim_503015",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_503990"
+   }
+  },
+  {
+   "id": 303007,
+   "name": "急冻",
+   "effect": "远程",
+   "element": "水系",
+   "type": "单体",
+   "desc": "精神力技能，急速冷冻敌人，使其行动速度降低",
+   "anim": {
+    "charge": "fight_anim_503015",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_503991"
+   }
+  },
+  {
+   "id": 303008,
+   "name": "圣诞快乐",
+   "effect": "远程",
+   "element": "水系",
+   "type": "单体",
+   "desc": "精神力技能，圣诞节的雪人从天而降，砸到的敌人会受到魔法伤害",
+   "anim": {
+    "charge": "fight_anim_503015",
+    "front": "fight_anim_503006",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_503986"
+   }
+  },
+  {
+   "id": 303009,
+   "name": "激流盾",
+   "effect": "远程",
+   "element": "水系",
+   "type": "单体",
+   "desc": "辅助技能，使用冰之力量将水气凝结成防护盾抵御敌人的物理攻击",
+   "anim": {
+    "charge": "fight_anim_503014",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_503987"
+   }
+  },
+  {
+   "id": 303010,
+   "name": "暴风雪",
+   "effect": "远程",
+   "element": "水系",
+   "type": "群体",
+   "desc": "魔武混合技能，集结冰和水的能量，释放出强大的暴风雪打击全部敌人",
+   "anim": {
+    "charge": "fight_anim_503015",
+    "front": "fight_anim_503988",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_503017"
+   }
+  },
+  {
+   "id": 303011,
+   "name": "团团圆圆",
+   "effect": "远程",
+   "element": "水系",
+   "type": "单体",
+   "desc": "精神力技能，给目标一个大大的汤圆吃，降低他的防御力",
+   "anim": {
+    "charge": "fight_anim_503014",
+    "front": "fight_anim_503007",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_509002"
+   }
+  },
+  {
+   "id": 303012,
+   "name": "寒冰刺",
+   "effect": "近身",
+   "element": "水系",
+   "type": "单体",
+   "desc": "力量型技能，将坚冰覆盖于手上刺向敌人",
+   "anim": {
+    "charge": "fight_anim_503015",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_503009"
+   }
+  },
+  {
+   "id": 303013,
+   "name": "螺旋暴破",
+   "effect": "远程",
+   "element": "水系",
+   "type": "群体",
+   "desc": "力量型技能，控制水元素高速旋转，将所有敌人灭于其中",
+   "anim": {
+    "charge": "fight_anim_503014",
+    "front": "fight_anim_503008",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_503016"
+   }
+  },
+  {
+   "id": 303014,
+   "name": "水箭",
+   "effect": "远程",
+   "element": "水系",
+   "type": "单体",
+   "desc": "精神力技能，将液体高速射出打击敌人，降低敌人魔法防御",
+   "anim": {
+    "charge": "fight_anim_503014",
+    "front": "fight_anim_503010",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_503011"
+   }
+  },
+  {
+   "id": 303015,
+   "name": "冰环",
+   "effect": "远程",
+   "element": "水系",
+   "type": "群体",
+   "desc": "精神力技能，将大量水元素凝结并释放到场景中间冻结所有敌人",
+   "anim": {
+    "charge": "fight_anim_503015",
+    "front": "fight_anim_503012",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_503017"
+   }
+  },
+  {
+   "id": 303016,
+   "name": "水之祝福",
+   "effect": "远程",
+   "element": "水系",
+   "type": "单体",
+   "desc": "辅助技能，获得水元素的祝福提升目标的生命上限",
+   "anim": {
+    "charge": "fight_anim_503014",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_503013"
+   }
+  },
+  {
+   "id": 303017,
+   "name": "水神祝福",
+   "effect": "远程",
+   "element": "水系",
+   "type": "群体",
+   "desc": "辅助技能，由水神亲手洒下的祝福提升所有人的生命上限",
+   "anim": {
+    "charge": "fight_anim_503014",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_503013"
+   }
+  },
+  {
+   "id": 303018,
+   "name": "精神Lv1\n魔法泉涌Lv1",
+   "effect": "",
+   "element": "水系",
+   "type": "被动",
+   "desc": "被动提升一级魔法上限\n魔法如泉水一样不断涌出，被动提升一级魔法上限",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 303019,
+   "name": "精神Lv2\n魔法泉涌Lv2",
+   "effect": "",
+   "element": "水系",
+   "type": "被动",
+   "desc": "被动提升二级魔法上限\n魔法如泉水一样不断涌出，被动提二级魔法上限",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 303020,
+   "name": "精神Lv3\n魔法泉涌Lv3",
+   "effect": "",
+   "element": "水系",
+   "type": "被动",
+   "desc": "被动提升三级魔法上限\n魔法如泉水一样不断涌出，被动提升三级魔法上限",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 303021,
+   "name": "精神Lv4\n魔法泉涌Lv4",
+   "effect": "",
+   "element": "水系",
+   "type": "被动",
+   "desc": "被动提升四级魔法上限\n魔法如泉水一样不断涌出，被动提升四级魔法上限",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 303022,
+   "name": "精神Lv5\n魔法泉涌Lv5",
+   "effect": "",
+   "element": "水系",
+   "type": "被动",
+   "desc": "被动提升五级魔法上限\n魔法如泉水一样不断涌出，被动提升五级魔法上限",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 303023,
+   "name": "重水弹",
+   "effect": "远程",
+   "element": "水系",
+   "type": "单体",
+   "desc": "力量型技能，压缩大量的水元素砸中敌人",
+   "anim": {
+    "charge": "fight_anim_503014",
+    "front": "fight_anim_503018",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_503019"
+   }
+  },
+  {
+   "id": 303024,
+   "name": "重水爆",
+   "effect": "远程",
+   "element": "水系",
+   "type": "群体",
+   "desc": "力量型技能，大量的重水弹集中爆破打击所有敌人",
+   "anim": {
+    "charge": "fight_anim_503014",
+    "front": "fight_anim_503020",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_503016"
+   }
+  },
+  {
+   "id": 303025,
+   "name": "冰针术",
+   "effect": "远程",
+   "element": "水系",
+   "type": "单体",
+   "desc": "将水元素汇聚成针刺伤敌人",
+   "anim": {
+    "charge": "fight_anim_503015",
+    "front": "fight_anim_503021",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_503017"
+   }
+  },
+  {
+   "id": 303026,
+   "name": "多重寒冰箭",
+   "effect": "远程",
+   "element": "水系",
+   "type": "群体",
+   "desc": "向每一个敌人发射一枚寒冰刺，速度更快，威力更大",
+   "anim": {
+    "charge": "fight_anim_503015",
+    "front": "fight_anim_503001",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_503017"
+   }
+  },
+  {
+   "id": 304001,
+   "name": "地之咆哮",
+   "effect": "远程",
+   "element": "土系",
+   "type": "单体",
+   "desc": "精神力技能，操控土元素使大地不停地震动，让敌人感受到大地的怒吼",
+   "anim": {
+    "charge": "fight_anim_504013",
+    "front": "fight_anim_504001",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_504015"
+   }
+  },
+  {
+   "id": 304002,
+   "name": "坚韧",
+   "effect": "远程",
+   "element": "土系",
+   "type": "单体",
+   "desc": "辅助技能，召唤土元素让它融入到皮肤之中，使队友在几回合内拥有更强的防御",
+   "anim": {
+    "charge": "fight_anim_504013",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_504002"
+   }
+  },
+  {
+   "id": 304003,
+   "name": "大地之怒",
+   "effect": "远程",
+   "element": "土系",
+   "type": "单体",
+   "desc": "精神力技能，释放大地中的能量凝聚于敌人脚下，使其受到一连串的强大攻击",
+   "anim": {
+    "charge": "fight_anim_504013",
+    "front": "fight_anim_504003",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_504015"
+   }
+  },
+  {
+   "id": 304004,
+   "name": "树根突刺",
+   "effect": "远程",
+   "element": "土系",
+   "type": "单体",
+   "desc": "精神力技能，从土地中召唤树根的尖刺攻击敌人",
+   "anim": {
+    "charge": "fight_anim_504013",
+    "front": "fight_anim_504004",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_508010"
+   }
+  },
+  {
+   "id": 304005,
+   "name": "石枪阵",
+   "effect": "远程",
+   "element": "土系",
+   "type": "群体",
+   "desc": "力量型技能，召唤出许多石枪攻击面前的所有敌人",
+   "anim": {
+    "charge": "fight_anim_504013",
+    "front": "fight_anim_504994",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_504015"
+   }
+  },
+  {
+   "id": 304006,
+   "name": "重力压制",
+   "effect": "远程",
+   "element": "土系",
+   "type": "单体",
+   "desc": "精神力技能，改变敌人受到的重力，使其受到一定伤害且一定几率速度降低",
+   "anim": {
+    "charge": "fight_anim_504013",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_504993"
+   }
+  },
+  {
+   "id": 304007,
+   "name": "泼沙",
+   "effect": "远程",
+   "element": "土系",
+   "type": "单体",
+   "desc": "诅咒技能，用沙子迷住敌人的眼睛，使其命中几率降低",
+   "anim": {
+    "charge": "fight_anim_504013",
+    "front": "fight_anim_504006",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_504991"
+   }
+  },
+  {
+   "id": 304008,
+   "name": "流沙地狱",
+   "effect": "远程",
+   "element": "土系",
+   "type": "单体",
+   "desc": "精神力技能，恐怖的流沙掩埋敌人，给予其致命伤害",
+   "anim": {
+    "charge": "fight_anim_504013",
+    "front": "fight_anim_504992",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_504015"
+   }
+  },
+  {
+   "id": 304009,
+   "name": "铜墙铁壁",
+   "effect": "远程",
+   "element": "土系",
+   "type": "单体",
+   "desc": "辅助技能，专注于防守，一定时间的提升自己的防御力，但会因此使得攻击力下降",
+   "anim": {
+    "charge": "fight_anim_504014",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_504988"
+   }
+  },
+  {
+   "id": 304010,
+   "name": "美杜莎之眼",
+   "effect": "远程",
+   "element": "土系",
+   "type": "单体",
+   "desc": "精神力技能，召唤魔蛇美杜莎，使敌人丧失行动力",
+   "anim": {
+    "charge": "fight_anim_504013",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_504989"
+   }
+  },
+  {
+   "id": 304011,
+   "name": "岩崩",
+   "effect": "近身",
+   "element": "土系",
+   "type": "单体",
+   "desc": "力量型技能，使双手化为岩石打击敌人",
+   "anim": {
+    "charge": "fight_anim_504013",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_504008"
+   }
+  },
+  {
+   "id": 304012,
+   "name": "回春",
+   "effect": "远程",
+   "element": "土系",
+   "type": "单体",
+   "desc": "恢复类技能，呼唤大地之神，使生命之力重新回到自己身体中",
+   "anim": {
+    "charge": "fight_anim_504013",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_504007"
+   }
+  },
+  {
+   "id": 304013,
+   "name": "大地之拳",
+   "effect": "远程",
+   "element": "土系",
+   "type": "群体",
+   "desc": "力量型技能，呼唤大地之神，请他向所有敌人击出愤怒的一拳",
+   "anim": {
+    "charge": "fight_anim_504013",
+    "front": "fight_anim_504011",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_504015"
+   }
+  },
+  {
+   "id": 304014,
+   "name": "破天钻",
+   "effect": "远程",
+   "element": "土系",
+   "type": "群体",
+   "desc": "力量型技能，将土中的金属元素炼化成一个巨大的钻头冲击所有敌人",
+   "anim": {
+    "charge": "fight_anim_504014",
+    "front": "fight_anim_504012",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_504016"
+   }
+  },
+  {
+   "id": 304015,
+   "name": "陷落",
+   "effect": "远程",
+   "element": "土系",
+   "type": "群体",
+   "desc": "精神力技能，把敌人脚下的泥土快速变软，使所有敌人陷在其中并窒息",
+   "anim": {
+    "charge": "fight_anim_504013",
+    "front": "fight_anim_504009",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_504015"
+   }
+  },
+  {
+   "id": 304016,
+   "name": "钢铁城墙",
+   "effect": "远程",
+   "element": "土系",
+   "type": "群体",
+   "desc": "辅助技能，在所有人的身前都竖立起一道钢铁防御",
+   "anim": {
+    "charge": "fight_anim_504014",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_504988"
+   }
+  },
+  {
+   "id": 304017,
+   "name": "岩石之枪",
+   "effect": "远程",
+   "element": "土系",
+   "type": "群体",
+   "desc": "力量型技能，坚硬的岩石破土而出，刺穿击伤所有敌人",
+   "anim": {
+    "charge": "fight_anim_504013",
+    "front": "fight_anim_504010",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_504015"
+   }
+  },
+  {
+   "id": 304018,
+   "name": "守护Lv1\n石化皮肤Lv1",
+   "effect": "",
+   "element": "土系",
+   "type": "被动",
+   "desc": "被动提升一级物理防御\n身体的皮肤变得如岩石一般，被动提升一级物理防御",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 304019,
+   "name": "守护Lv2\n石化皮肤Lv2",
+   "effect": "",
+   "element": "土系",
+   "type": "被动",
+   "desc": "被动提升二级物理防御\n身体的皮肤变得如岩石一般，被动提升二级物理防御",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 304020,
+   "name": "守护Lv3\n石化皮肤Lv3",
+   "effect": "",
+   "element": "土系",
+   "type": "被动",
+   "desc": "被动提升三级物理防御\n身体的皮肤变得如岩石一般，被动提升三级物理防御",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 304021,
+   "name": "守护Lv4\n石化皮肤Lv4",
+   "effect": "",
+   "element": "土系",
+   "type": "被动",
+   "desc": "被动提升四级物理防御\n身体的皮肤变得如岩石一般，被动提升四级物理防御",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 304022,
+   "name": "守护Lv5\n石化皮肤Lv5",
+   "effect": "",
+   "element": "土系",
+   "type": "被动",
+   "desc": "被动提升五级物理防御\n身体的皮肤变得如岩石一般，被动提升五级物理防御",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 304023,
+   "name": "大地之心",
+   "effect": "远程",
+   "element": "土系",
+   "type": "单体",
+   "desc": "大地之神祝福自己，使自己耐力加强，提升生命值上限",
+   "anim": {
+    "charge": "fight_anim_504013",
+    "front": "fight_anim_504017",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 304024,
+   "name": "飞岩",
+   "effect": "远程",
+   "element": "土系",
+   "type": "单体",
+   "desc": "发射一块坚硬的岩石打击敌人",
+   "anim": {
+    "charge": "fight_anim_504013",
+    "front": "fight_anim_504018",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_504015"
+   }
+  },
+  {
+   "id": 304025,
+   "name": "黄金之锤",
+   "effect": "土系",
+   "element": "土系",
+   "type": "单体",
+   "desc": "敌单体土属性魔法攻击2级",
+   "anim": {
+    "charge": "fight_anim_504014",
+    "front": "fight_anim_504021",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_504016"
+   }
+  },
+  {
+   "id": 305001,
+   "name": "闪电",
+   "effect": "远程",
+   "element": "风系",
+   "type": "单体",
+   "desc": "精神力技能，汇集游离的电能并引导它们击中敌人",
+   "anim": {
+    "charge": "fight_anim_505019",
+    "front": "fight_anim_505001",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505021"
+   }
+  },
+  {
+   "id": 305002,
+   "name": "旋风",
+   "effect": "远程",
+   "element": "风系",
+   "type": "群体",
+   "desc": "精神力技能，让空气变得更加活跃，形成无数的风刃，在敌方全体身上旋转使其受伤",
+   "anim": {
+    "charge": "fight_anim_505018",
+    "front": "fight_anim_505002",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505020"
+   }
+  },
+  {
+   "id": 305003,
+   "name": "叶刃",
+   "effect": "远程",
+   "element": "风系",
+   "type": "单体",
+   "desc": "精神力技能，使狂风带着尖利的树叶飞向敌人，给予敌人伤害",
+   "anim": {
+    "charge": "fight_anim_505018",
+    "front": "fight_anim_505005",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505998"
+   }
+  },
+  {
+   "id": 305004,
+   "name": "风墙",
+   "effect": "远程",
+   "element": "风系",
+   "type": "单体",
+   "desc": "辅助技能，召唤一道风墙保护自己，提高魔法防御",
+   "anim": {
+    "charge": "fight_anim_505018",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505995"
+   }
+  },
+  {
+   "id": 305005,
+   "name": "和煦之风",
+   "effect": "远程",
+   "element": "风系",
+   "type": "单体",
+   "desc": "辅助技能，和煦的清风清除敌人身上的增益状态",
+   "anim": {
+    "charge": "fight_anim_505018",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505996"
+   }
+  },
+  {
+   "id": 305006,
+   "name": "疾风翼",
+   "effect": "远程",
+   "element": "风系",
+   "type": "单体",
+   "desc": "辅助技能，借助风之力提升自己的行动速度",
+   "anim": {
+    "charge": "fight_anim_505018",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505997"
+   }
+  },
+  {
+   "id": 305007,
+   "name": "飓风",
+   "effect": "远程",
+   "element": "风系",
+   "type": "群体",
+   "desc": "力量型技能，强烈的飓风袭击所有敌人，所过之处一片狼藉",
+   "anim": {
+    "charge": "fight_anim_505018",
+    "front": "fight_anim_505992",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505020"
+   }
+  },
+  {
+   "id": 305008,
+   "name": "海市蜃楼",
+   "effect": "远程",
+   "element": "风系",
+   "type": "单体",
+   "desc": "辅助技能，通过风之力量造成敌人的幻觉，降低敌人命中自己的几率",
+   "anim": {
+    "charge": "fight_anim_505018",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505993"
+   }
+  },
+  {
+   "id": 305009,
+   "name": "暴风击",
+   "effect": "近身",
+   "element": "风系",
+   "type": "单体",
+   "desc": "力量型技能，用旋风环绕双手，弹飞敌人",
+   "anim": {
+    "charge": "fight_anim_505018",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505007"
+   }
+  },
+  {
+   "id": 305010,
+   "name": "自然之风",
+   "effect": "远程",
+   "element": "风系",
+   "type": "单体",
+   "desc": "恢复类技能，让最自然的风吹过目标的身体，使队友精神起来",
+   "anim": {
+    "charge": "fight_anim_505018",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505008"
+   }
+  },
+  {
+   "id": 305011,
+   "name": "平衡风暴",
+   "effect": "远程",
+   "element": "风系",
+   "type": "群体",
+   "desc": "恢复类技能，更多的自然之风形成平衡的风暴，使所有人都振作起来",
+   "anim": {
+    "charge": "fight_anim_505018",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505008"
+   }
+  },
+  {
+   "id": 305012,
+   "name": "风镰阵",
+   "effect": "远程",
+   "element": "风系",
+   "type": "群体",
+   "desc": "力量型技能，将风化为利刃切割所看到的一切敌人",
+   "anim": {
+    "charge": "fight_anim_505018",
+    "front": "fight_anim_505010",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505020"
+   }
+  },
+  {
+   "id": 305013,
+   "name": "震荡波",
+   "effect": "远程",
+   "element": "风系",
+   "type": "群体",
+   "desc": "精神力技能，控制空气中的风元素，用音波震伤所有敌人，并降低敌人命中",
+   "anim": {
+    "charge": "fight_anim_505019",
+    "front": "fight_anim_505011",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505021"
+   }
+  },
+  {
+   "id": 305014,
+   "name": "飞沙走石",
+   "effect": "远程",
+   "element": "风系",
+   "type": "群体",
+   "desc": "力量型技能，狂风卷积着岩块，不断撞击全部的敌人",
+   "anim": {
+    "charge": "fight_anim_505018",
+    "front": "fight_anim_505012",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505020"
+   }
+  },
+  {
+   "id": 305015,
+   "name": "狼牙风风拳",
+   "effect": "远程",
+   "element": "风系",
+   "type": "群体",
+   "desc": "精神力技能，让风化作贪狼撕咬全部敌人",
+   "anim": {
+    "charge": "fight_anim_505018",
+    "front": "fight_anim_505013",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505020"
+   }
+  },
+  {
+   "id": 305016,
+   "name": "灵敏Lv1\n捕风捉影Lv1",
+   "effect": "",
+   "element": "风系",
+   "type": "被动",
+   "desc": "被动提升一级闪避\n如风一样飘逸不定，被动提升一级闪避",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 305017,
+   "name": "灵敏Lv2\n捕风捉影Lv2",
+   "effect": "",
+   "element": "风系",
+   "type": "被动",
+   "desc": "被动提升二级闪避\n如风一样飘逸不定，被动提升二级闪避",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 305018,
+   "name": "灵敏Lv3\n捕风捉影Lv3",
+   "effect": "",
+   "element": "风系",
+   "type": "被动",
+   "desc": "被动提升三级闪避\n如风一样飘逸不定，被动提升三级闪避",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 305019,
+   "name": "灵敏Lv4\n捕风捉影Lv4",
+   "effect": "",
+   "element": "风系",
+   "type": "被动",
+   "desc": "被动提升四级闪避\n如风一样飘逸不定，被动提升四级闪避",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 305020,
+   "name": "灵敏Lv5\n捕风捉影Lv5",
+   "effect": "",
+   "element": "风系",
+   "type": "被动",
+   "desc": "被动提升五级闪避\n如风一样飘逸不定，被动提升五级闪避",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 305021,
+   "name": "风卷",
+   "effect": "远程",
+   "element": "风卷",
+   "type": "单体",
+   "desc": "精神力技能，释放一个小旋风绞击敌人",
+   "anim": {
+    "charge": "fight_anim_505018",
+    "front": "fight_anim_505014",
+    "mid": "fight_anim_505015",
+    "back": "",
+    "hit": "fight_anim_505020"
+   }
+  },
+  {
+   "id": 305022,
+   "name": "信标",
+   "effect": "远程",
+   "element": "风卷",
+   "type": "单体",
+   "desc": "辅助技能，让风给你引导，使自己的攻击更容易击中敌人的要害",
+   "anim": {
+    "charge": "fight_anim_505018",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505017"
+   }
+  },
+  {
+   "id": 305023,
+   "name": "风羽箭",
+   "effect": "远程",
+   "element": "风系",
+   "type": "单体",
+   "desc": "精神力技能，射出一束疾风形成的利箭穿透你的目标",
+   "anim": {
+    "charge": "fight_anim_505018",
+    "front": "fight_anim_505022",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505023"
+   }
+  },
+  {
+   "id": 305024,
+   "name": "电脉冲",
+   "effect": "远程",
+   "element": "风系",
+   "type": "单体",
+   "desc": "精神力技能，将电能聚集在手中，以脉冲的形式发射出去",
+   "anim": {
+    "charge": "fight_anim_505019",
+    "front": "fight_anim_505024",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505021"
+   }
+  },
+  {
+   "id": 305025,
+   "name": "风割阵",
+   "effect": "远程",
+   "element": "风系",
+   "type": "群体",
+   "desc": "精神力技能，让风的精灵高速运动起来形成一个个的切割圈打击所有敌人",
+   "anim": {
+    "charge": "fight_anim_505018",
+    "front": "fight_anim_505025",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505020"
+   }
+  },
+  {
+   "id": 305026,
+   "name": "闪电之枪",
+   "effect": "风系",
+   "element": "风系",
+   "type": "单体",
+   "desc": "将电化为长枪穿刺敌人",
+   "anim": {
+    "charge": "fight_anim_505019",
+    "front": "fight_anim_505026",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505021"
+   }
+  },
+  {
+   "id": 306001,
+   "name": "激光",
+   "effect": "远程",
+   "element": "光系",
+   "type": "群体",
+   "desc": "精神力技能，引导圣光之力，集结成激光攻击全部敌人",
+   "anim": {
+    "charge": "fight_anim_506005",
+    "front": "fight_anim_506002",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_506007"
+   }
+  },
+  {
+   "id": 306002,
+   "name": "圣疗",
+   "effect": "",
+   "element": "光系",
+   "type": "单体",
+   "desc": "目标角色头上落下圣光的碎片，可以恢复生命",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 306003,
+   "name": "刚毅Lv1\n生命之光Lv1",
+   "effect": "",
+   "element": "光系",
+   "type": "被动",
+   "desc": "被动提升一级生命上限\n接受生命的光芒洗礼，被动提升一级生命上限",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 306004,
+   "name": "刚毅Lv2\n生命之光Lv2",
+   "effect": "",
+   "element": "光系",
+   "type": "被动",
+   "desc": "被动提升二级生命上限\n接受生命的光芒洗礼，被动提升二级生命上限",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 306005,
+   "name": "刚毅Lv3\n生命之光Lv3",
+   "effect": "",
+   "element": "光系",
+   "type": "被动",
+   "desc": "被动提升三级生命上限\n接受生命的光芒洗礼，被动提升三级生命上限",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 306006,
+   "name": "刚毅Lv4\n生命之光Lv4",
+   "effect": "",
+   "element": "光系",
+   "type": "被动",
+   "desc": "被动提升四级生命上限\n接受生命的光芒洗礼，被动提升四级生命上限",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 306007,
+   "name": "刚毅Lv5\n生命之光Lv5",
+   "effect": "",
+   "element": "光系",
+   "type": "被动",
+   "desc": "被动提升五级生命上限\n接受生命的光芒洗礼，被动提升五级生命上限",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 306008,
+   "name": "洞察Lv1\n坚定耀光Lv1",
+   "effect": "",
+   "element": "光系",
+   "type": "被动",
+   "desc": "被动提升一级暴击减免\n坚定的信念闪耀出光芒，被动提升一级暴击减免",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 306009,
+   "name": "洞察Lv2\n坚定耀光Lv2",
+   "effect": "",
+   "element": "光系",
+   "type": "被动",
+   "desc": "被动提升二级暴击减免\n坚定的信念闪耀出光芒，被动提升二级暴击减免",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 306010,
+   "name": "神圣光辉",
+   "effect": "远程",
+   "element": "光系",
+   "type": "群体",
+   "desc": "精神力技能，发出神圣的光芒，使得所有敌人被击倒，并降低敌人的魔法防御",
+   "anim": {
+    "charge": "fight_anim_506005",
+    "front": "fight_anim_506004",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_506007"
+   }
+  },
+  {
+   "id": 307001,
+   "name": "诅咒",
+   "effect": "",
+   "element": "暗系",
+   "type": "单体",
+   "desc": "目标头上出现邪恶的骷髅头跳动若干次后消失",
+   "anim": {
+    "charge": "fight_anim_507004",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_507002"
+   }
+  },
+  {
+   "id": 307002,
+   "name": "黑暗",
+   "effect": "",
+   "element": "暗系",
+   "type": "单体",
+   "desc": "目标身上出现黑烟，降低其命中",
+   "anim": {
+    "charge": "fight_anim_507004",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 307003,
+   "name": "抗魔Lv1\n暗影防护Lv1",
+   "effect": "",
+   "element": "暗系",
+   "type": "被动",
+   "desc": "被动提升一级魔法防御\n暗影魔力笼罩全身，被动提升一级魔法防御",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 307004,
+   "name": "抗魔Lv2\n暗影防护Lv2",
+   "effect": "",
+   "element": "暗系",
+   "type": "被动",
+   "desc": "被动提升二级魔法防御\n暗影魔力笼罩全身，被动提升二级魔法防御",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 307005,
+   "name": "抗魔Lv3\n暗影防护Lv3",
+   "effect": "",
+   "element": "暗系",
+   "type": "被动",
+   "desc": "被动提升三级魔法防御\n暗影魔力笼罩全身，被动提升三级魔法防御",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 307006,
+   "name": "抗魔Lv4\n暗影防护Lv4",
+   "effect": "",
+   "element": "暗系",
+   "type": "被动",
+   "desc": "被动提升四级魔法防御\n暗影魔力笼罩全身，被动提升四级魔法防御",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 307007,
+   "name": "抗魔Lv5\n暗影防护Lv5",
+   "effect": "",
+   "element": "暗系",
+   "type": "被动",
+   "desc": "被动提升五级魔法防御\n暗影魔力笼罩全身，被动提升五级魔法防御",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 307008,
+   "name": "迅捷Lv1\n神行太保Lv1",
+   "effect": "",
+   "element": "毒系",
+   "type": "被动",
+   "desc": "被动提升一级速度\n天下武功，唯快不破，被动提升一级速度",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 307009,
+   "name": "迅捷Lv2\n神行太保Lv2",
+   "effect": "",
+   "element": "暗系",
+   "type": "被动",
+   "desc": "被动提升二级速度\n天下武功，唯快不破，被动提升二级速度",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 307010,
+   "name": "暗影吞噬",
+   "effect": "远程",
+   "element": "暗系",
+   "type": "群体",
+   "desc": "力量型技能，发出黑暗的光芒，击倒所有的敌人，并降低敌人的物理防御",
+   "anim": {
+    "charge": "fight_anim_507004",
+    "front": "fight_anim_507003",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_507006"
+   }
+  },
+  {
+   "id": 308001,
+   "name": "毒刺",
+   "effect": "远程",
+   "element": "毒系",
+   "type": "单体",
+   "desc": "精神力技能，带毒的飞针攻击敌人，可能使敌人中毒",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 308002,
+   "name": "毒蔓陷阱",
+   "effect": "远程",
+   "element": "毒系",
+   "type": "群体",
+   "desc": "力量型技能，从敌人脚下召唤毒蔓藤，刺入敌人的身体中",
+   "anim": {
+    "charge": "fight_anim_508007",
+    "front": "fight_anim_508002",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_508009"
+   }
+  },
+  {
+   "id": 308003,
+   "name": "专注Lv1\n百发百中Lv1",
+   "effect": "",
+   "element": "毒系",
+   "type": "被动",
+   "desc": "被动提升一级命中\n锁定目标，瞄准，射击！被动提升一级命中",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 308004,
+   "name": "专注Lv2\n百发百中Lv2",
+   "effect": "",
+   "element": "毒系",
+   "type": "被动",
+   "desc": "被动提升二级命中\n锁定目标，瞄准，射击！被动提升二级命中",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 308005,
+   "name": "专注Lv3\n百发百中Lv3",
+   "effect": "",
+   "element": "毒系",
+   "type": "被动",
+   "desc": "被动提升三级命中\n锁定目标，瞄准，射击！被动提升三级命中",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 308006,
+   "name": "专注Lv4\n百发百中Lv4",
+   "effect": "",
+   "element": "毒系",
+   "type": "被动",
+   "desc": "被动提升四级命中\n锁定目标，瞄准，射击！被动提升四级命中",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 308007,
+   "name": "专注Lv5\n百发百中Lv5",
+   "effect": "",
+   "element": "毒系",
+   "type": "被动",
+   "desc": "被动提升五级命中\n锁定目标，瞄准，射击！被动提升五级命中",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 308008,
+   "name": "破绽Lv1\n狂暴毒气Lv1",
+   "effect": "",
+   "element": "毒系",
+   "type": "被动",
+   "desc": "被动提升一级暴击\n提升身体极限，变得狂暴，被动提升一级暴击",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 308009,
+   "name": "破绽Lv2\n狂暴毒气Lv2",
+   "effect": "",
+   "element": "毒系",
+   "type": "被动",
+   "desc": "被动提升二级暴击\n提升身体极限，变得狂暴，被动提升二级暴击",
+   "anim": {
+    "charge": "",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 308010,
+   "name": "毒蔓藤",
+   "effect": "远程",
+   "element": "毒系",
+   "type": "单体",
+   "desc": "力量型技能，从敌人脚下召唤毒蔓藤，刺入敌人的身体中",
+   "anim": {
+    "charge": "fight_anim_508007",
+    "front": "fight_anim_508005",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_508009"
+   }
+  },
+  {
+   "id": 308011,
+   "name": "疗伤术",
+   "effect": "远程",
+   "element": "毒系",
+   "type": "单体",
+   "desc": "恢复类技能，治疗伙伴受伤的身体，恢复生命值",
+   "anim": {
+    "charge": "fight_anim_508008",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_508006"
+   }
+  },
+  {
+   "id": 308012,
+   "name": "盛开的曼陀罗",
+   "effect": "远程",
+   "element": "毒系",
+   "type": "群体",
+   "desc": "盛开之后的曼陀罗随之绽放化为能量碎片打击所有敌人",
+   "anim": {
+    "charge": "fight_anim_508008",
+    "front": "fight_anim_508011",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_508010"
+   }
+  },
+  {
+   "id": 308013,
+   "name": "毒爆",
+   "effect": "远程",
+   "element": "毒系",
+   "type": "单体",
+   "desc": "压缩剧毒使之爆裂在毒属性伤害的同时附加一定的固定伤害",
+   "anim": {
+    "charge": "fight_anim_508007",
+    "front": "fight_anim_508012",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 309001,
+   "name": "毒液弹",
+   "effect": "远程",
+   "element": "毒系",
+   "type": "单体",
+   "desc": "软泥怪喷出的毒液，脏兮兮的",
+   "anim": {
+    "charge": "fight_anim_508007",
+    "front": "fight_anim_508001",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_508998"
+   }
+  },
+  {
+   "id": 309002,
+   "name": "啊呸",
+   "effect": "远程",
+   "element": "物理",
+   "type": "单体",
+   "desc": "粘壳虫吐的口水，有腐蚀性",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "fight_anim_508001",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_508998"
+   }
+  },
+  {
+   "id": 309003,
+   "name": "看鸡腿",
+   "effect": "远程",
+   "element": "物理",
+   "type": "单体",
+   "desc": "胖木乃伊",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "fight_anim_501007",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501996"
+   }
+  },
+  {
+   "id": 309004,
+   "name": "亲爱的",
+   "effect": "近身",
+   "element": "暗系",
+   "type": "单体",
+   "desc": "女木乃伊",
+   "anim": {
+    "charge": "fight_anim_507004",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_507006"
+   }
+  },
+  {
+   "id": 309005,
+   "name": "突突突突",
+   "effect": "远程",
+   "element": "物理",
+   "type": "单体",
+   "desc": "莲蓬妖",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "fight_anim_501006",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501995"
+   }
+  },
+  {
+   "id": 309006,
+   "name": "吓死你",
+   "effect": "近身",
+   "element": "物理",
+   "type": "单体",
+   "desc": "水鬼",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_509002"
+   }
+  },
+  {
+   "id": 309007,
+   "name": "灭绝冲撞",
+   "effect": "近身",
+   "element": "物理",
+   "type": "单体",
+   "desc": "霸王龙玩秒杀",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501013"
+   }
+  },
+  {
+   "id": 309008,
+   "name": "魔翼天翔",
+   "effect": "",
+   "element": "毒系",
+   "type": "群体",
+   "desc": "魔翼蝙蝠，蛇魔",
+   "anim": {
+    "charge": "fight_anim_508007",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_508009"
+   }
+  },
+  {
+   "id": 309009,
+   "name": "魔翼毒牙",
+   "effect": "",
+   "element": "毒系",
+   "type": "单体",
+   "desc": "一咬就悲剧，蛇魔",
+   "anim": {
+    "charge": "fight_anim_508007",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_508009"
+   }
+  },
+  {
+   "id": 309010,
+   "name": "超级魔化激光",
+   "effect": "远程",
+   "element": "暗系",
+   "type": "群体",
+   "desc": "魔化多比",
+   "anim": {
+    "charge": "fight_anim_507004",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_507006"
+   }
+  },
+  {
+   "id": 309011,
+   "name": "河伯之怒",
+   "effect": "",
+   "element": "物理",
+   "type": "群体",
+   "desc": "敲死你个小坏蛋",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501028"
+   }
+  },
+  {
+   "id": 309012,
+   "name": "吹泡泡",
+   "effect": "远程",
+   "element": "水系",
+   "type": "单体",
+   "desc": "看俺泡你，鲶鱼",
+   "anim": {
+    "charge": "fight_anim_503014",
+    "front": "fight_anim_503005",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_503992"
+   }
+  },
+  {
+   "id": 309013,
+   "name": "武装飞弹",
+   "effect": "远程",
+   "element": "物理",
+   "type": "单体",
+   "desc": "武装采矿机",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "fight_anim_502004",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_502993"
+   }
+  },
+  {
+   "id": 309014,
+   "name": "热光线",
+   "effect": "远程",
+   "element": "火系",
+   "type": "单体",
+   "desc": "武装采矿机",
+   "anim": {
+    "charge": "fight_anim_502017",
+    "front": "fight_anim_502007",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_502993"
+   }
+  },
+  {
+   "id": 309015,
+   "name": "麦琳机枪",
+   "effect": "远程",
+   "element": "物理",
+   "type": "单体",
+   "desc": "万能采矿机",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "fight_anim_501994",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501995"
+   }
+  },
+  {
+   "id": 309016,
+   "name": "高能激光",
+   "effect": "远程",
+   "element": "光系",
+   "type": "群体",
+   "desc": "万能采矿机",
+   "anim": {
+    "charge": "fight_anim_506005",
+    "front": "fight_anim_506003",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_506007"
+   }
+  },
+  {
+   "id": 309017,
+   "name": "洲际导弹",
+   "effect": "远程",
+   "element": "火系",
+   "type": "单体",
+   "desc": "万能采矿机",
+   "anim": {
+    "charge": "fight_anim_502017",
+    "front": "fight_anim_502005",
+    "mid": "fight_anim_502994",
+    "back": "",
+    "hit": "fight_anim_502019"
+   }
+  },
+  {
+   "id": 309018,
+   "name": "自爆",
+   "effect": "近身",
+   "element": "火系",
+   "type": "单体",
+   "desc": "火球怪",
+   "anim": {
+    "charge": "fight_anim_502017",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_502006"
+   }
+  },
+  {
+   "id": 309019,
+   "name": "水晶坨坨",
+   "effect": "远程",
+   "element": "土系",
+   "type": "单体",
+   "desc": "晶石树妖",
+   "anim": {
+    "charge": "fight_anim_504013",
+    "front": "fight_anim_505006",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505998"
+   }
+  },
+  {
+   "id": 309020,
+   "name": "水晶刺",
+   "effect": "远程",
+   "element": "土系",
+   "type": "单体",
+   "desc": "晶石树妖",
+   "anim": {
+    "charge": "fight_anim_504013",
+    "front": "fight_anim_504005",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501029"
+   }
+  },
+  {
+   "id": 309021,
+   "name": "嘿呀！",
+   "effect": "近身",
+   "element": "物理",
+   "type": "单体",
+   "desc": "青州兵，我跳，我砍，原生技能无拆分",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501029"
+   }
+  },
+  {
+   "id": 309022,
+   "name": "放电",
+   "effect": "近身",
+   "element": "水系",
+   "type": "单体",
+   "desc": "水母放电，原生技能无拆分",
+   "anim": {
+    "charge": "fight_anim_503014",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505021"
+   }
+  },
+  {
+   "id": 309023,
+   "name": "守护盾",
+   "effect": "",
+   "element": "水系",
+   "type": "单体",
+   "desc": "人鱼BOSS放盾牌，原生技能无拆分",
+   "anim": {
+    "charge": "fight_anim_503014",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 309024,
+   "name": "呀喝！",
+   "effect": "远程",
+   "element": "物理",
+   "type": "单体",
+   "desc": "泰山兵丢长矛",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501029"
+   }
+  },
+  {
+   "id": 309025,
+   "name": "噢咿呀！",
+   "effect": "近身",
+   "element": "物理",
+   "type": "单体",
+   "desc": "贪食怪，无头骑士",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501029"
+   }
+  },
+  {
+   "id": 309026,
+   "name": "魔龙吐息",
+   "effect": "远程",
+   "element": "毒系",
+   "type": "群体",
+   "desc": "僵尸龙",
+   "anim": {
+    "charge": "fight_anim_508007",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_508009"
+   }
+  },
+  {
+   "id": 309027,
+   "name": "魔龙突袭",
+   "effect": "远程",
+   "element": "物理",
+   "type": "群体",
+   "desc": "僵尸龙",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501029"
+   }
+  },
+  {
+   "id": 309028,
+   "name": "噜噜万岁",
+   "effect": "",
+   "element": "毒系",
+   "type": "单体",
+   "desc": "噜噜王",
+   "anim": {
+    "charge": "fight_anim_508007",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_508009"
+   }
+  },
+  {
+   "id": 309029,
+   "name": "激光",
+   "effect": "远程",
+   "element": "光系",
+   "type": "群体",
+   "desc": "魔兽福",
+   "anim": {
+    "charge": "fight_anim_506005",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_506007"
+   }
+  },
+  {
+   "id": 309030,
+   "name": "飞针",
+   "effect": "远程",
+   "element": "毒系",
+   "type": "单体",
+   "desc": "气泡鱼",
+   "anim": {
+    "charge": "fight_anim_508007",
+    "front": "fight_anim_501017",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505998"
+   }
+  },
+  {
+   "id": 309031,
+   "name": "炫目之刃",
+   "effect": "远程",
+   "element": "暗系",
+   "type": "单体",
+   "desc": "忍者飞镖",
+   "anim": {
+    "charge": "fight_anim_507004",
+    "front": "fight_anim_501018",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501010"
+   }
+  },
+  {
+   "id": 309032,
+   "name": "鞭打",
+   "effect": "近身",
+   "element": "水系",
+   "type": "单体",
+   "desc": "小章鱼",
+   "anim": {
+    "charge": "fight_anim_503014",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_503016"
+   }
+  },
+  {
+   "id": 309033,
+   "name": "铁羽镖",
+   "effect": "远程",
+   "element": "风系",
+   "type": "单体",
+   "desc": "铁翼",
+   "anim": {
+    "charge": "fight_anim_505018",
+    "front": "fight_anim_505009",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505998"
+   }
+  },
+  {
+   "id": 309034,
+   "name": "撕咬",
+   "effect": "近身",
+   "element": "土系",
+   "type": "单体",
+   "desc": "银牙",
+   "anim": {
+    "charge": "fight_anim_504013",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_504015"
+   }
+  },
+  {
+   "id": 309035,
+   "name": "撕裂",
+   "effect": "近身",
+   "element": "暗系",
+   "type": "单体",
+   "desc": "土狼近身",
+   "anim": {
+    "charge": "fight_anim_507004",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_507006"
+   }
+  },
+  {
+   "id": 309036,
+   "name": "俯冲",
+   "effect": "远程",
+   "element": "风系",
+   "type": "单体",
+   "desc": "英雄副本老鹰技能",
+   "anim": {
+    "charge": "fight_anim_505018",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505020"
+   }
+  },
+  {
+   "id": 309037,
+   "name": "千羽刃",
+   "effect": "远程",
+   "element": "风系",
+   "type": "单体",
+   "desc": "红鸾技能",
+   "anim": {
+    "charge": "fight_anim_505018",
+    "front": "fight_anim_505016",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505998"
+   }
+  },
+  {
+   "id": 309038,
+   "name": "火箭炮",
+   "effect": "远程",
+   "element": "物理",
+   "type": "单体",
+   "desc": "追猎者技能",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "fight_anim_501023",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_502993"
+   }
+  },
+  {
+   "id": 309039,
+   "name": "地震",
+   "effect": "远程",
+   "element": "物理",
+   "type": "群体",
+   "desc": "蒙斯特凯萨群攻",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "fight_anim_501024",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501028"
+   }
+  },
+  {
+   "id": 309040,
+   "name": "烈焰波",
+   "effect": "远程",
+   "element": "火系",
+   "type": "单体",
+   "desc": "蒙斯特凯萨单体",
+   "anim": {
+    "charge": "fight_anim_502017",
+    "front": "fight_anim_502012",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_502006"
+   }
+  },
+  {
+   "id": 309041,
+   "name": "烈焰爪",
+   "effect": "近身",
+   "element": "火系",
+   "type": "单体",
+   "desc": "小火狮技能",
+   "anim": {
+    "charge": "fight_anim_502017",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_502013"
+   }
+  },
+  {
+   "id": 309042,
+   "name": "星星之火",
+   "effect": "远程",
+   "element": "火系",
+   "type": "单体",
+   "desc": "火元素精灵单体技能",
+   "anim": {
+    "charge": "fight_anim_502017",
+    "front": "fight_anim_502014",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_502015"
+   }
+  },
+  {
+   "id": 309043,
+   "name": "喷火",
+   "effect": "远程",
+   "element": "火系",
+   "type": "群体",
+   "desc": "小火龙群体技能",
+   "anim": {
+    "charge": "fight_anim_502017",
+    "front": "",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_502019"
+   }
+  },
+  {
+   "id": 309044,
+   "name": "香蕉炸弹",
+   "effect": "远程",
+   "element": "火系",
+   "type": "单体",
+   "desc": "赤焰猴技能",
+   "anim": {
+    "charge": "fight_anim_502017",
+    "front": "fight_anim_502016",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_502006"
+   }
+  },
+  {
+   "id": 309045,
+   "name": "魔神剑",
+   "effect": "远程",
+   "element": "物理",
+   "type": "单体",
+   "desc": "教官技能",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "fight_anim_501035",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501029"
+   }
+  },
+  {
+   "id": 309046,
+   "name": "烟弹",
+   "effect": "远程",
+   "element": "物理",
+   "type": "单体",
+   "desc": "斯莫克技能",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "fight_anim_501036",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_502993"
+   }
+  },
+  {
+   "id": 309047,
+   "name": "魔风箭",
+   "effect": "远程",
+   "element": "风系",
+   "type": "单体",
+   "desc": "疾风雕技能",
+   "anim": {
+    "charge": "fight_anim_505018",
+    "front": "fight_anim_505022",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505023"
+   }
+  },
+  {
+   "id": 309048,
+   "name": "魔风阵",
+   "effect": "远程",
+   "element": "风系",
+   "type": "群体",
+   "desc": "罗兰琳技能",
+   "anim": {
+    "charge": "fight_anim_505018",
+    "front": "fight_anim_505025",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_505020"
+   }
+  },
+  {
+   "id": 309049,
+   "name": "T4炸弹",
+   "effect": "远程",
+   "element": "火系",
+   "type": "群体",
+   "desc": "勇气克森图技能",
+   "anim": {
+    "charge": "fight_anim_502017",
+    "front": "fight_anim_502021",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_502019"
+   }
+  },
+  {
+   "id": 309050,
+   "name": "惊吓箱",
+   "effect": "远程",
+   "element": "物理",
+   "type": "单体",
+   "desc": "智慧克森图技能",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "fight_anim_501038",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_509002"
+   }
+  },
+  {
+   "id": 309051,
+   "name": "箭雨",
+   "effect": "远程",
+   "element": "物理",
+   "type": "群体",
+   "desc": "魅力克森图技能",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "fight_anim_501037",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501029"
+   }
+  },
+  {
+   "id": 309052,
+   "name": "飞石",
+   "effect": "远程",
+   "element": "土系",
+   "type": "单体",
+   "desc": "掘地鼹鼠技能",
+   "anim": {
+    "charge": "fight_anim_504013",
+    "front": "fight_anim_504018",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_504015"
+   }
+  },
+  {
+   "id": 309053,
+   "name": "土龙钻",
+   "effect": "近身",
+   "element": "土系",
+   "type": "单体",
+   "desc": "轰鸣采集车技能",
+   "anim": {
+    "charge": "fight_anim_504013",
+    "front": "fight_anim_504015",
+    "mid": "",
+    "back": "",
+    "hit": ""
+   }
+  },
+  {
+   "id": 309054,
+   "name": "土元素弹",
+   "effect": "远程",
+   "element": "土系",
+   "type": "单体",
+   "desc": "警戒巡逻兵技能",
+   "anim": {
+    "charge": "fight_anim_504013",
+    "front": "fight_anim_504019",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_504020"
+   }
+  },
+  {
+   "id": 309055,
+   "name": "九阴符文",
+   "effect": "远程",
+   "element": "暗系",
+   "type": "单体",
+   "desc": "僵尸熊猫单体",
+   "anim": {
+    "charge": "fight_anim_507004",
+    "front": "fight_anim_507008",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_507006"
+   }
+  },
+  {
+   "id": 309056,
+   "name": "天雷符爆",
+   "effect": "远程",
+   "element": "暗系",
+   "type": "群体",
+   "desc": "僵尸熊猫群体",
+   "anim": {
+    "charge": "fight_anim_507004",
+    "front": "fight_anim_507009",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_507009"
+   }
+  },
+  {
+   "id": 309057,
+   "name": "毒脉冲",
+   "effect": "远程",
+   "element": "毒系",
+   "type": "单体",
+   "desc": "毒狼技能",
+   "anim": {
+    "charge": "fight_anim_508007",
+    "front": "fight_anim_508013",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_508009"
+   }
+  },
+  {
+   "id": 309058,
+   "name": "不准吵我睡觉",
+   "effect": "远程",
+   "element": "物理",
+   "type": "单体",
+   "desc": "懒惰怪技能",
+   "anim": {
+    "charge": "fight_anim_501026",
+    "front": "fight_anim_501045",
+    "mid": "",
+    "back": "",
+    "hit": "fight_anim_501046"
+   }
+  }
+ ]
+}

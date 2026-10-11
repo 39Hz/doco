@@ -1,0 +1,1206 @@
+{
+ "sheets": [
+  {
+   "file": "_unity_tex/sharedassets0/logo(带网址大图).png",
+   "name": "logo(带网址大图)",
+   "w": 2048,
+   "h": 1265,
+   "fmt": "RGBA32",
+   "from": "sharedassets0.assets",
+   "fill": 0.608,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/resources/铃铛.png",
+   "name": "铃铛",
+   "w": 1152,
+   "h": 2048,
+   "fmt": "DXT5",
+   "from": "resources.assets",
+   "fill": 0.549,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets1/资源 8.png",
+   "name": "资源 8",
+   "w": 1751,
+   "h": 1347,
+   "fmt": "RGBA32",
+   "from": "sharedassets1.assets",
+   "fill": 0.489,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets1/未命名项目(2).png",
+   "name": "未命名项目(2)",
+   "w": 1438,
+   "h": 1350,
+   "fmt": "RGBA32",
+   "from": "sharedassets1.assets",
+   "fill": 0.445,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets1/组 8@2x.png",
+   "name": "组 8@2x",
+   "w": 2048,
+   "h": 780,
+   "fmt": "DXT5",
+   "from": "sharedassets1.assets",
+   "fill": 0.18,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets1/1757665989551.png",
+   "name": "1757665989551",
+   "w": 1200,
+   "h": 1200,
+   "fmt": "DXT5",
+   "from": "sharedassets1.assets",
+   "fill": 0.182,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets11/Scene11.png",
+   "name": "Scene11",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets11.assets",
+   "fill": 0.899,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/resources/BrightIcons.png",
+   "name": "BrightIcons",
+   "w": 1024,
+   "h": 1024,
+   "fmt": "RGBA32",
+   "from": "resources.assets",
+   "fill": 0.539,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/resources/DarkIcons.png",
+   "name": "DarkIcons",
+   "w": 1024,
+   "h": 1024,
+   "fmt": "DXT5",
+   "from": "resources.assets",
+   "fill": 0.614,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/resources/DarkBackground.png",
+   "name": "DarkBackground",
+   "w": 1024,
+   "h": 1024,
+   "fmt": "DXT5",
+   "from": "resources.assets",
+   "fill": 0.614,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/resources/LiberationSans SDF Atlas.png",
+   "name": "LiberationSans SDF Atlas",
+   "w": 1024,
+   "h": 1024,
+   "fmt": "Alpha8",
+   "from": "resources.assets",
+   "fill": 0.62,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets0/STKAITI Atlas.png",
+   "name": "STKAITI Atlas",
+   "w": 1024,
+   "h": 1024,
+   "fmt": "Alpha8",
+   "from": "sharedassets0.assets",
+   "fill": 0.744,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets0/BrightBackground.png",
+   "name": "BrightBackground",
+   "w": 1024,
+   "h": 1024,
+   "fmt": "DXT5",
+   "from": "sharedassets0.assets",
+   "fill": 0.219,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets82/火多比-战斗 1.png",
+   "name": "火多比-战斗 1",
+   "w": 1024,
+   "h": 1024,
+   "fmt": "DXT5",
+   "from": "sharedassets82.assets",
+   "fill": 0.179,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets82/火多比-战斗.png",
+   "name": "火多比-战斗",
+   "w": 1024,
+   "h": 1024,
+   "fmt": "DXT5",
+   "from": "sharedassets82.assets",
+   "fill": 0.179,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets1/未命名项目-图层 1(4).png",
+   "name": "未命名项目-图层 1(4)",
+   "w": 1080,
+   "h": 726,
+   "fmt": "RGBA32",
+   "from": "sharedassets1.assets",
+   "fill": 0.196,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets1/克罗.png",
+   "name": "克罗",
+   "w": 1079,
+   "h": 675,
+   "fmt": "RGBA32",
+   "from": "sharedassets1.assets",
+   "fill": 0.21,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/resources/光明.png",
+   "name": "光明",
+   "w": 880,
+   "h": 754,
+   "fmt": "RGBA32",
+   "from": "resources.assets",
+   "fill": 0.482,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets1/白彩 1.png",
+   "name": "白彩 1",
+   "w": 661,
+   "h": 661,
+   "fmt": "RGBA32",
+   "from": "sharedassets1.assets",
+   "fill": 0.204,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets1/尼奥.png",
+   "name": "尼奥",
+   "w": 601,
+   "h": 640,
+   "fmt": "RGBA32",
+   "from": "sharedassets1.assets",
+   "fill": 0.204,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets1/组 7@2x.png",
+   "name": "组 7@2x",
+   "w": 564,
+   "h": 564,
+   "fmt": "DXT5",
+   "from": "sharedassets1.assets",
+   "fill": 0.09,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/globalgamemanagers/Medium01.png",
+   "name": "Medium01",
+   "w": 512,
+   "h": 512,
+   "fmt": "Alpha8",
+   "from": "globalgamemanagers.assets",
+   "fill": 0.625,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/globalgamemanagers/Medium05.png",
+   "name": "Medium05",
+   "w": 512,
+   "h": 512,
+   "fmt": "Alpha8",
+   "from": "globalgamemanagers.assets",
+   "fill": 0.625,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/globalgamemanagers/Large02.png",
+   "name": "Large02",
+   "w": 512,
+   "h": 512,
+   "fmt": "Alpha8",
+   "from": "globalgamemanagers.assets",
+   "fill": 0.625,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/globalgamemanagers/Thin01.png",
+   "name": "Thin01",
+   "w": 512,
+   "h": 512,
+   "fmt": "Alpha8",
+   "from": "globalgamemanagers.assets",
+   "fill": 0.625,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/globalgamemanagers/Medium03.png",
+   "name": "Medium03",
+   "w": 512,
+   "h": 512,
+   "fmt": "Alpha8",
+   "from": "globalgamemanagers.assets",
+   "fill": 0.625,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/globalgamemanagers/Medium06.png",
+   "name": "Medium06",
+   "w": 512,
+   "h": 512,
+   "fmt": "Alpha8",
+   "from": "globalgamemanagers.assets",
+   "fill": 0.625,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/globalgamemanagers/Medium04.png",
+   "name": "Medium04",
+   "w": 512,
+   "h": 512,
+   "fmt": "Alpha8",
+   "from": "globalgamemanagers.assets",
+   "fill": 0.625,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/globalgamemanagers/Thin02.png",
+   "name": "Thin02",
+   "w": 512,
+   "h": 512,
+   "fmt": "Alpha8",
+   "from": "globalgamemanagers.assets",
+   "fill": 0.625,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/globalgamemanagers/Medium02.png",
+   "name": "Medium02",
+   "w": 512,
+   "h": 512,
+   "fmt": "Alpha8",
+   "from": "globalgamemanagers.assets",
+   "fill": 0.625,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/globalgamemanagers/Large01.png",
+   "name": "Large01",
+   "w": 512,
+   "h": 512,
+   "fmt": "Alpha8",
+   "from": "globalgamemanagers.assets",
+   "fill": 0.625,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets83/b9075016-349b-4af0-844d-728a343593df.png",
+   "name": "b9075016-349b-4af0-844d-728a343593df",
+   "w": 680,
+   "h": 352,
+   "fmt": "DXT5",
+   "from": "sharedassets83.assets",
+   "fill": 0.79,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets1/矩形 11@2x.png",
+   "name": "矩形 11@2x",
+   "w": 488,
+   "h": 488,
+   "fmt": "DXT5",
+   "from": "sharedassets1.assets",
+   "fill": 0.076,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets83/f811cae8-b703-42f2-962e-1d5b826217c2.png",
+   "name": "f811cae8-b703-42f2-962e-1d5b826217c2",
+   "w": 536,
+   "h": 385,
+   "fmt": "RGBA32",
+   "from": "sharedassets83.assets",
+   "fill": 0.9,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets1/8a33eacd-067b-495a-9ec9-aefa55760761.png",
+   "name": "8a33eacd-067b-495a-9ec9-aefa55760761",
+   "w": 501,
+   "h": 350,
+   "fmt": "RGBA32",
+   "from": "sharedassets1.assets",
+   "fill": 0.155,
+   "stock": false
+  }
+ ],
+ "full": [
+  {
+   "file": "_unity_tex/sharedassets81/未命名项目-图层 1 (5).png",
+   "name": "未命名项目-图层 1 (5)",
+   "w": 2048,
+   "h": 1186,
+   "fmt": "RGB24",
+   "from": "sharedassets81.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets83/未命名项目-图层 53.png",
+   "name": "未命名项目-图层 53",
+   "w": 1917,
+   "h": 1118,
+   "fmt": "RGB24",
+   "from": "sharedassets83.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets1/未命名项目-图层 1.png",
+   "name": "未命名项目-图层 1",
+   "w": 1729,
+   "h": 1192,
+   "fmt": "RGB24",
+   "from": "sharedassets1.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets0/多克多比桌面.png",
+   "name": "多克多比桌面",
+   "w": 1800,
+   "h": 1125,
+   "fmt": "RGB24",
+   "from": "sharedassets0.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets76/Scene86.png",
+   "name": "Scene86",
+   "w": 1794,
+   "h": 1037,
+   "fmt": "RGB24",
+   "from": "sharedassets76.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets80/未命名项目-图层 1 (4).png",
+   "name": "未命名项目-图层 1 (4)",
+   "w": 1619,
+   "h": 944,
+   "fmt": "RGBA32",
+   "from": "sharedassets80.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets77/Scene87.png",
+   "name": "Scene87",
+   "w": 1495,
+   "h": 874,
+   "fmt": "RGBA32",
+   "from": "sharedassets77.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets79/Scene89.png",
+   "name": "Scene89",
+   "w": 1494,
+   "h": 869,
+   "fmt": "RGB24",
+   "from": "sharedassets79.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets73/Scene83.png",
+   "name": "Scene83",
+   "w": 1496,
+   "h": 867,
+   "fmt": "RGB24",
+   "from": "sharedassets73.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets72/Scene82.png",
+   "name": "Scene82",
+   "w": 1498,
+   "h": 865,
+   "fmt": "RGB24",
+   "from": "sharedassets72.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets71/Scene81.png",
+   "name": "Scene81",
+   "w": 1417,
+   "h": 902,
+   "fmt": "RGBA32",
+   "from": "sharedassets71.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets15/Scene15.png",
+   "name": "Scene15",
+   "w": 1440,
+   "h": 840,
+   "fmt": "DXT1",
+   "from": "sharedassets15.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets16/Scene16.png",
+   "name": "Scene16",
+   "w": 1440,
+   "h": 840,
+   "fmt": "DXT1",
+   "from": "sharedassets16.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets25/Scene25.png",
+   "name": "Scene25",
+   "w": 1440,
+   "h": 840,
+   "fmt": "DXT1",
+   "from": "sharedassets25.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets28/Scene30.png",
+   "name": "Scene30",
+   "w": 1440,
+   "h": 840,
+   "fmt": "DXT1",
+   "from": "sharedassets28.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets32/Scene38.png",
+   "name": "Scene38",
+   "w": 1440,
+   "h": 840,
+   "fmt": "DXT1",
+   "from": "sharedassets32.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets33/Scene39.png",
+   "name": "Scene39",
+   "w": 1440,
+   "h": 840,
+   "fmt": "DXT1",
+   "from": "sharedassets33.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets34/Scene40.png",
+   "name": "Scene40",
+   "w": 1440,
+   "h": 840,
+   "fmt": "DXT1",
+   "from": "sharedassets34.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets35/Scene41.png",
+   "name": "Scene41",
+   "w": 1440,
+   "h": 840,
+   "fmt": "DXT1",
+   "from": "sharedassets35.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets40/Scene46.png",
+   "name": "Scene46",
+   "w": 1440,
+   "h": 840,
+   "fmt": "DXT1",
+   "from": "sharedassets40.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets43/Scene50.png",
+   "name": "Scene50",
+   "w": 1440,
+   "h": 840,
+   "fmt": "DXT1",
+   "from": "sharedassets43.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets46/Scene53.png",
+   "name": "Scene53",
+   "w": 1440,
+   "h": 840,
+   "fmt": "DXT1",
+   "from": "sharedassets46.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets5/Scene5.png",
+   "name": "Scene5",
+   "w": 1440,
+   "h": 840,
+   "fmt": "DXT1",
+   "from": "sharedassets5.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets50/Scene57.png",
+   "name": "Scene57",
+   "w": 1440,
+   "h": 840,
+   "fmt": "DXT1",
+   "from": "sharedassets50.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets53/Scene63.png",
+   "name": "Scene63",
+   "w": 1440,
+   "h": 840,
+   "fmt": "DXT1",
+   "from": "sharedassets53.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets55/Scene65.png",
+   "name": "Scene65",
+   "w": 1440,
+   "h": 840,
+   "fmt": "DXT1",
+   "from": "sharedassets55.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets57/Scene67.png",
+   "name": "Scene67",
+   "w": 1440,
+   "h": 840,
+   "fmt": "DXT1",
+   "from": "sharedassets57.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets60/Scene70.png",
+   "name": "Scene70",
+   "w": 1440,
+   "h": 840,
+   "fmt": "DXT1",
+   "from": "sharedassets60.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets61/Scene71.png",
+   "name": "Scene71",
+   "w": 1440,
+   "h": 840,
+   "fmt": "DXT1",
+   "from": "sharedassets61.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets65/Scene75.png",
+   "name": "Scene75",
+   "w": 1440,
+   "h": 840,
+   "fmt": "DXT1",
+   "from": "sharedassets65.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/resources/Scene1.png",
+   "name": "Scene1",
+   "w": 1438,
+   "h": 839,
+   "fmt": "RGB24",
+   "from": "resources.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets27/Scene28.png",
+   "name": "Scene28",
+   "w": 1438,
+   "h": 839,
+   "fmt": "RGB24",
+   "from": "sharedassets27.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets30/Scene32.png",
+   "name": "Scene32",
+   "w": 1438,
+   "h": 839,
+   "fmt": "RGB24",
+   "from": "sharedassets30.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets45/Scene52.png",
+   "name": "Scene52",
+   "w": 1438,
+   "h": 839,
+   "fmt": "RGB24",
+   "from": "sharedassets45.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets59/Scene69.png",
+   "name": "Scene69",
+   "w": 1438,
+   "h": 839,
+   "fmt": "RGB24",
+   "from": "sharedassets59.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets24/Scene24.png",
+   "name": "Scene24",
+   "w": 1437,
+   "h": 839,
+   "fmt": "RGB24",
+   "from": "sharedassets24.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets54/Scene64.png",
+   "name": "Scene64",
+   "w": 1437,
+   "h": 839,
+   "fmt": "RGB24",
+   "from": "sharedassets54.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets67/Scene77.png",
+   "name": "Scene77",
+   "w": 1437,
+   "h": 839,
+   "fmt": "RGB24",
+   "from": "sharedassets67.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets74/Scene84.png",
+   "name": "Scene84",
+   "w": 1437,
+   "h": 839,
+   "fmt": "RGB24",
+   "from": "sharedassets74.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets10/Scene10.png",
+   "name": "Scene10",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets10.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets12/Scene12.png",
+   "name": "Scene12",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets12.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets13/Scene13.png",
+   "name": "Scene13",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets13.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets14/Scene14.png",
+   "name": "Scene14",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets14.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets17/Scene17.png",
+   "name": "Scene17",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets17.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets18/Scene18.png",
+   "name": "Scene18",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets18.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets19/Scene19.png",
+   "name": "Scene19",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets19.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets2/Scene2.png",
+   "name": "Scene2",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets2.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets20/Scene20.png",
+   "name": "Scene20",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets20.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets21/Scene21.png",
+   "name": "Scene21",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets21.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets22/Scene22.png",
+   "name": "Scene22",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets22.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets26/Scene26.png",
+   "name": "Scene26",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets26.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets3/Scene3.png",
+   "name": "Scene3",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets3.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets31/Scene33.png",
+   "name": "Scene33",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets31.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets36/Scene42.png",
+   "name": "Scene42",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets36.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets37/Scene43.png",
+   "name": "Scene43",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets37.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets38/Scene44.png",
+   "name": "Scene44",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets38.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets39/Scene45.png",
+   "name": "Scene45",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets39.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets4/Scene4.png",
+   "name": "Scene4",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets4.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets41/Scene48.png",
+   "name": "Scene48",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets41.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets42/Scene49.png",
+   "name": "Scene49",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets42.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets44/Scene51.png",
+   "name": "Scene51",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets44.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets47/Scene54.png",
+   "name": "Scene54",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets47.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets48/Scene55.png",
+   "name": "Scene55",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets48.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets49/Scene56.png",
+   "name": "Scene56",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets49.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets51/Scene58.png",
+   "name": "Scene58",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets51.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets52/Scene59.png",
+   "name": "Scene59",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets52.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets56/Scene66.png",
+   "name": "Scene66",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets56.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets58/Scene68.png",
+   "name": "Scene68",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets58.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets6/Scene6.png",
+   "name": "Scene6",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets6.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets62/Scene72.png",
+   "name": "Scene72",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets62.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets63/Scene73.png",
+   "name": "Scene73",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets63.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets64/Scene74.png",
+   "name": "Scene74",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets64.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets66/Scene76.png",
+   "name": "Scene76",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets66.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets68/Scene78.png",
+   "name": "Scene78",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets68.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets69/Scene79.png",
+   "name": "Scene79",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets69.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets70/Scene80.png",
+   "name": "Scene80",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets70.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets75/Scene85.png",
+   "name": "Scene85",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets75.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets8/Scene8.png",
+   "name": "Scene8",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets8.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets9/Scene9.png",
+   "name": "Scene9",
+   "w": 1437,
+   "h": 838,
+   "fmt": "RGBA32",
+   "from": "sharedassets9.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets78/Scene88.png",
+   "name": "Scene88",
+   "w": 1442,
+   "h": 835,
+   "fmt": "RGB24",
+   "from": "sharedassets78.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets23/Scene23.png",
+   "name": "Scene23",
+   "w": 1436,
+   "h": 838,
+   "fmt": "RGB24",
+   "from": "sharedassets23.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets29/Scene31.png",
+   "name": "Scene31",
+   "w": 1436,
+   "h": 838,
+   "fmt": "RGB24",
+   "from": "sharedassets29.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets7/Scene7.png",
+   "name": "Scene7",
+   "w": 1436,
+   "h": 838,
+   "fmt": "RGB24",
+   "from": "sharedassets7.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets1/未命名项目-图层 3.png",
+   "name": "未命名项目-图层 3",
+   "w": 999,
+   "h": 680,
+   "fmt": "RGB24",
+   "from": "sharedassets1.assets",
+   "fill": 1,
+   "stock": false
+  },
+  {
+   "file": "_unity_tex/sharedassets1/未命名项目-图层 1 (2).png",
+   "name": "未命名项目-图层 1 (2)",
+   "w": 500,
+   "h": 339,
+   "fmt": "RGB24",
+   "from": "sharedassets1.assets",
+   "fill": 1,
+   "stock": false
+  }
+ ]
+}

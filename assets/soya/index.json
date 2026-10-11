@@ -1,0 +1,59 @@
+{
+ "generated": "2026-09-26T07:05:08.182Z",
+ "soya": [
+  {
+   "id": 170001,
+   "name": "威泰格兽（德尔路）",
+   "file": "assets/soya/soya_170001.png",
+   "w": 345,
+   "h": 359,
+   "src": "5.bmp",
+   "evidence": "图鉴170001"
+  },
+  {
+   "id": 170002,
+   "name": "伊莱切兽",
+   "file": "assets/soya/soya_170002.png",
+   "w": 281,
+   "h": 351,
+   "src": "2.bmp",
+   "evidence": "图鉴170002"
+  },
+  {
+   "id": 170003,
+   "name": "欧瑞坦兽（麦肯）",
+   "file": "assets/soya/soya_170003.png",
+   "w": 248,
+   "h": 297,
+   "src": "1.bmp",
+   "evidence": "图鉴170003"
+  },
+  {
+   "id": 170004,
+   "name": "凯科特斯兽",
+   "file": "assets/soya/soya_170004.png",
+   "w": 212,
+   "h": 251,
+   "src": "3.bmp",
+   "evidence": "图鉴170004"
+  },
+  {
+   "id": 170005,
+   "name": "帕古因兽",
+   "file": "assets/soya/soya_170005.png",
+   "w": 283,
+   "h": 420,
+   "src": "企鹅.png",
+   "evidence": "图鉴170005（企鹅）"
+  },
+  {
+   "id": 170006,
+   "name": "斯提尔兽（咪鲁）",
+   "file": "assets/soya/soya_170006.png",
+   "w": 418,
+   "h": 420,
+   "src": "斯提尔.png",
+   "evidence": "图鉴170006"
+  }
+ ]
+}

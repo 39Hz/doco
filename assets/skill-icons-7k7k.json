@@ -1,0 +1,480 @@
+{
+ "generated": "2026-09-30T12:43:15.820Z",
+ "source": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+ "rule": "skill_icon_<元素位><三位序号>；元素位 1=物理 2=火 3=水 4=土 5=风 6=毒（毒为本项目新增约定）；序号=官方元素组内序号",
+ "count": 86,
+ "bySkill": {
+  "毒蔓藤": {
+   "gameIcon": "skill_icon_6010",
+   "officialId": 308010,
+   "element": "毒"
+  },
+  "毒蔓陷阱": {
+   "gameIcon": "skill_icon_6002",
+   "officialId": 308002,
+   "element": "毒"
+  },
+  "毒刺": {
+   "gameIcon": "skill_icon_6001",
+   "officialId": 308001,
+   "element": "毒"
+  },
+  "多重寒冰箭": {
+   "gameIcon": "skill_icon_3026",
+   "officialId": 303026,
+   "element": "水"
+  },
+  "平衡风暴": {
+   "gameIcon": "skill_icon_5011",
+   "officialId": 305011,
+   "element": "风"
+  },
+  "自然之风": {
+   "gameIcon": "skill_icon_5010",
+   "officialId": 305010,
+   "element": "风"
+  },
+  "暴风击": {
+   "gameIcon": "skill_icon_5009",
+   "officialId": 305009,
+   "element": "风"
+  },
+  "海市蜃楼": {
+   "gameIcon": "skill_icon_5008",
+   "officialId": 305008,
+   "element": "风"
+  },
+  "飓风": {
+   "gameIcon": "skill_icon_5007",
+   "officialId": 305007,
+   "element": "风"
+  },
+  "疾风翼": {
+   "gameIcon": "skill_icon_5006",
+   "officialId": 305006,
+   "element": "风"
+  },
+  "和煦之风": {
+   "gameIcon": "skill_icon_5005",
+   "officialId": 305005,
+   "element": "风"
+  },
+  "风墙": {
+   "gameIcon": "skill_icon_5004",
+   "officialId": 305004,
+   "element": "风"
+  },
+  "旋风": {
+   "gameIcon": "skill_icon_5002",
+   "officialId": 305002,
+   "element": "风"
+  },
+  "闪电": {
+   "gameIcon": "skill_icon_5001",
+   "officialId": 305001,
+   "element": "风"
+  },
+  "回春": {
+   "gameIcon": "skill_icon_4012",
+   "officialId": 304012,
+   "element": "土"
+  },
+  "岩崩": {
+   "gameIcon": "skill_icon_4011",
+   "officialId": 304011,
+   "element": "土"
+  },
+  "美杜莎之眼": {
+   "gameIcon": "skill_icon_4010",
+   "officialId": 304010,
+   "element": "土"
+  },
+  "铜墙铁壁": {
+   "gameIcon": "skill_icon_4009",
+   "officialId": 304009,
+   "element": "土"
+  },
+  "流沙地狱": {
+   "gameIcon": "skill_icon_4008",
+   "officialId": 304008,
+   "element": "土"
+  },
+  "泼沙": {
+   "gameIcon": "skill_icon_4007",
+   "officialId": 304007,
+   "element": "土"
+  },
+  "重力压制": {
+   "gameIcon": "skill_icon_4006",
+   "officialId": 304006,
+   "element": "土"
+  },
+  "石枪阵": {
+   "gameIcon": "skill_icon_4005",
+   "officialId": 304005,
+   "element": "土"
+  },
+  "坚韧": {
+   "gameIcon": "skill_icon_4002",
+   "officialId": 304002,
+   "element": "土"
+  },
+  "地之咆哮": {
+   "gameIcon": "skill_icon_4001",
+   "officialId": 304001,
+   "element": "土"
+  },
+  "水箭": {
+   "gameIcon": "skill_icon_3014",
+   "officialId": 303014,
+   "element": "水"
+  },
+  "螺旋暴破": {
+   "gameIcon": "skill_icon_3013",
+   "officialId": 303013,
+   "element": "水"
+  },
+  "寒冰刺": {
+   "gameIcon": "skill_icon_3012",
+   "officialId": 303012,
+   "element": "水"
+  },
+  "团团圆圆": {
+   "gameIcon": "skill_icon_3011",
+   "officialId": 303011,
+   "element": "水"
+  },
+  "暴风雪": {
+   "gameIcon": "skill_icon_3010",
+   "officialId": 303010,
+   "element": "水"
+  },
+  "圣诞快乐": {
+   "gameIcon": "skill_icon_3008",
+   "officialId": 303008,
+   "element": "水"
+  },
+  "急冻": {
+   "gameIcon": "skill_icon_3007",
+   "officialId": 303007,
+   "element": "水"
+  },
+  "冰棱盾": {
+   "gameIcon": "skill_icon_3006",
+   "officialId": 303006,
+   "element": "水"
+  },
+  "清洁": {
+   "gameIcon": "skill_icon_3004",
+   "officialId": 303004,
+   "element": "水"
+  },
+  "群体恢复": {
+   "gameIcon": "skill_icon_3003",
+   "officialId": 303003,
+   "element": "水"
+  },
+  "恢复": {
+   "gameIcon": "skill_icon_3002",
+   "officialId": 303002,
+   "element": "水"
+  },
+  "烈焰冲击": {
+   "gameIcon": "skill_icon_2010",
+   "officialId": 302010,
+   "element": "火"
+  },
+  "回暖": {
+   "gameIcon": "skill_icon_2009",
+   "officialId": 302009,
+   "element": "火"
+  },
+  "烈焰之拳": {
+   "gameIcon": "skill_icon_2008",
+   "officialId": 302008,
+   "element": "火"
+  },
+  "凤翅天翔": {
+   "gameIcon": "skill_icon_2006",
+   "officialId": 302006,
+   "element": "火"
+  },
+  "点燃": {
+   "gameIcon": "skill_icon_2005",
+   "officialId": 302005,
+   "element": "火"
+  },
+  "草泥马狂奔": {
+   "gameIcon": "skill_icon_1009",
+   "officialId": 301009,
+   "element": "物理"
+  },
+  "天龙斗气": {
+   "gameIcon": "skill_icon_1007",
+   "officialId": 301007,
+   "element": "物理"
+  },
+  "吸血打击": {
+   "gameIcon": "skill_icon_1006",
+   "officialId": 301006,
+   "element": "物理"
+  },
+  "力量激发": {
+   "gameIcon": "skill_icon_1005",
+   "officialId": 301005,
+   "element": "物理"
+  },
+  "破甲": {
+   "gameIcon": "skill_icon_1003",
+   "officialId": 301003,
+   "element": "物理"
+  },
+  "多重重击": {
+   "gameIcon": "skill_icon_1002",
+   "officialId": 301002,
+   "element": "物理"
+  },
+  "毒爆": {
+   "gameIcon": "skill_icon_6013",
+   "officialId": 308013,
+   "element": "毒"
+  },
+  "风羽箭": {
+   "gameIcon": "skill_icon_5023",
+   "officialId": 305023,
+   "element": "风"
+  },
+  "钢铁城墙": {
+   "gameIcon": "skill_icon_4016",
+   "officialId": 304016,
+   "element": "土"
+  },
+  "重水爆": {
+   "gameIcon": "skill_icon_3024",
+   "officialId": 303024,
+   "element": "水"
+  },
+  "重水弹": {
+   "gameIcon": "skill_icon_3023",
+   "officialId": 303023,
+   "element": "水"
+  },
+  "凝气弹": {
+   "gameIcon": "skill_icon_1027",
+   "officialId": 301027,
+   "element": "物理"
+  },
+  "连动冲击": {
+   "gameIcon": "skill_icon_1024",
+   "officialId": 301024,
+   "element": "物理"
+  },
+  "破音刺": {
+   "gameIcon": "skill_icon_1023",
+   "officialId": 301023,
+   "element": "物理"
+  },
+  "风镰阵": {
+   "gameIcon": "skill_icon_5012",
+   "officialId": 305012,
+   "element": "风"
+  },
+  "多重火球": {
+   "gameIcon": "skill_icon_2004",
+   "officialId": 302004,
+   "element": "火"
+  },
+  "狂暴": {
+   "gameIcon": "skill_icon_2003",
+   "officialId": 302003,
+   "element": "火"
+  },
+  "火雨": {
+   "gameIcon": "skill_icon_2002",
+   "officialId": 302002,
+   "element": "火"
+  },
+  "火球": {
+   "gameIcon": "skill_icon_2001",
+   "officialId": 302001,
+   "element": "火"
+  },
+  "冰枪": {
+   "gameIcon": "skill_icon_3001",
+   "officialId": 303001,
+   "element": "水"
+  },
+  "雷霆冲击": {
+   "gameIcon": "skill_icon_1004",
+   "officialId": 301004,
+   "element": "物理"
+  },
+  "叶刃": {
+   "gameIcon": "skill_icon_5003",
+   "officialId": 305003,
+   "element": "风"
+  },
+  "激流盾": {
+   "gameIcon": "skill_icon_3009",
+   "officialId": 303009,
+   "element": "水"
+  },
+  "水泡": {
+   "gameIcon": "skill_icon_3005",
+   "officialId": 303005,
+   "element": "水"
+  },
+  "树根突刺": {
+   "gameIcon": "skill_icon_4004",
+   "officialId": 304004,
+   "element": "土"
+  },
+  "狂毒专属": {
+   "gameIcon": "skill_icon_6091",
+   "officialId": null,
+   "element": "毒",
+   "appended": true,
+   "note": "官方表无此技能 → 追加式编号（不占官方序号位）"
+  },
+  "龙卷火焰": {
+   "gameIcon": "skill_icon_2091",
+   "officialId": null,
+   "element": "火",
+   "appended": true,
+   "note": "官方表无此技能 → 追加式编号（不占官方序号位）"
+  },
+  "魔气弹": {
+   "gameIcon": "skill_icon_1091",
+   "officialId": null,
+   "element": "物理",
+   "appended": true,
+   "note": "官方表无此技能 → 追加式编号（不占官方序号位）"
+  },
+  "魔焰灼烧": {
+   "gameIcon": "skill_icon_2092",
+   "officialId": null,
+   "element": "火",
+   "appended": true,
+   "note": "官方表无此技能 → 追加式编号（不占官方序号位）"
+  },
+  "血冰箭": {
+   "gameIcon": "skill_icon_3091",
+   "officialId": null,
+   "element": "水",
+   "appended": true,
+   "note": "官方表无此技能 → 追加式编号（不占官方序号位）"
+  },
+  "魔羽箭": {
+   "gameIcon": "skill_icon_5091",
+   "officialId": null,
+   "element": "风",
+   "appended": true,
+   "note": "官方表无此技能 → 追加式编号（不占官方序号位）"
+  },
+  "吸血蔓藤": {
+   "gameIcon": "skill_icon_6092",
+   "officialId": null,
+   "element": "毒",
+   "appended": true,
+   "note": "官方表无此技能 → 追加式编号（不占官方序号位）"
+  },
+  "血晶地刺": {
+   "gameIcon": "skill_icon_4091",
+   "officialId": null,
+   "element": "土",
+   "appended": true,
+   "note": "官方表无此技能 → 追加式编号（不占官方序号位）"
+  },
+  "熔岩阵": {
+   "gameIcon": "skill_icon_2093",
+   "officialId": null,
+   "element": "火",
+   "appended": true,
+   "note": "官方表无此技能 → 追加式编号（不占官方序号位）"
+  },
+  "毒蜂群": {
+   "gameIcon": "skill_icon_6093",
+   "officialId": null,
+   "element": "毒",
+   "appended": true,
+   "note": "官方表无此技能 → 追加式编号（不占官方序号位）"
+  },
+  "雷神之锤": {
+   "gameIcon": "skill_icon_5092",
+   "officialId": null,
+   "element": "风",
+   "appended": true,
+   "note": "官方表无此技能 → 追加式编号（不占官方序号位）"
+  },
+  "冰锥阵": {
+   "gameIcon": "skill_icon_3092",
+   "officialId": null,
+   "element": "水",
+   "appended": true,
+   "note": "官方表无此技能 → 追加式编号（不占官方序号位）"
+  },
+  "小魔光术": {
+   "gameIcon": "skill_icon_8091",
+   "officialId": null,
+   "element": "暗",
+   "appended": true,
+   "note": "官方表无此技能 → 追加式编号（不占官方序号位）"
+  },
+  "暗影箭雨": {
+   "gameIcon": "skill_icon_8092",
+   "officialId": null,
+   "element": "暗",
+   "appended": true,
+   "note": "官方表无此技能 → 追加式编号（不占官方序号位）"
+  },
+  "魔能爆弹": {
+   "gameIcon": "skill_icon_8093",
+   "officialId": null,
+   "element": "暗",
+   "appended": true,
+   "note": "官方表无此技能 → 追加式编号（不占官方序号位）"
+  },
+  "小圣光术": {
+   "gameIcon": "skill_icon_7091",
+   "officialId": null,
+   "element": "光",
+   "appended": true,
+   "note": "官方表无此技能 → 追加式编号（不占官方序号位）"
+  },
+  "圣光剑雨": {
+   "gameIcon": "skill_icon_7092",
+   "officialId": null,
+   "element": "光",
+   "appended": true,
+   "note": "官方表无此技能 → 追加式编号（不占官方序号位）"
+  },
+  "光能爆弹": {
+   "gameIcon": "skill_icon_7093",
+   "officialId": null,
+   "element": "光",
+   "appended": true,
+   "note": "官方表无此技能 → 追加式编号（不占官方序号位）"
+  },
+  "火壁": {
+   "gameIcon": "skill_icon_2094",
+   "officialId": null,
+   "element": "火",
+   "appended": true,
+   "note": "官方表无此技能 → 追加式编号（不占官方序号位）"
+  },
+  "大地之怒（\n超级\n技能）": {
+   "gameIcon": "skill_icon_4092",
+   "officialId": null,
+   "element": "土",
+   "appended": true,
+   "note": "官方表无此技能 → 追加式编号（不占官方序号位）"
+  },
+  "信标": {
+   "gameIcon": "skill_icon_5093",
+   "officialId": null,
+   "element": "风",
+   "appended": true,
+   "note": "官方表无此技能 → 追加式编号（不占官方序号位）"
+  }
+ }
+}

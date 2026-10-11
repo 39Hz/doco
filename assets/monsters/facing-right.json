@@ -1,0 +1,305 @@
+{
+ "generated": "2026-09-27T09:43:13.341Z",
+ "method": "眼白重心相对整头重心的偏移；偏右=素材朝右",
+ "needFlipInBattle": [
+  10006,
+  10008,
+  10009,
+  10013,
+  10015,
+  10017,
+  10019,
+  19005,
+  19007
+ ],
+ "all": [
+  {
+   "id": 10001,
+   "name": "哈拉兽",
+   "dir": "左",
+   "off": -10,
+   "by": "眼白",
+   "precise": false
+  },
+  {
+   "id": 10002,
+   "name": "绿毒史莱姆",
+   "dir": "左",
+   "off": -16.9,
+   "by": "眼白",
+   "precise": true
+  },
+  {
+   "id": 10003,
+   "name": "绿毒粘液兽",
+   "dir": "左",
+   "off": -34.2,
+   "by": "眼白",
+   "precise": true
+  },
+  {
+   "id": 10004,
+   "name": "萨西怪",
+   "dir": "左",
+   "off": -21.6,
+   "by": "眼白",
+   "precise": false
+  },
+  {
+   "id": 10005,
+   "name": "粘壳虫",
+   "dir": "左",
+   "off": -67.6,
+   "by": "眼白",
+   "precise": true
+  },
+  {
+   "id": 10006,
+   "name": "空灵树妖",
+   "dir": "右",
+   "off": 3.2,
+   "by": "整头重心",
+   "precise": true
+  },
+  {
+   "id": 10007,
+   "name": "晶石树妖",
+   "dir": "左",
+   "off": -6.1,
+   "by": "眼白",
+   "precise": true
+  },
+  {
+   "id": 10008,
+   "name": "暗影孢子",
+   "dir": "右",
+   "off": 3,
+   "by": "整头重心",
+   "precise": false
+  },
+  {
+   "id": 10009,
+   "name": "阴孩",
+   "dir": "右",
+   "off": 7.9,
+   "by": "眼白",
+   "precise": true
+  },
+  {
+   "id": 10010,
+   "name": "吞噬魔",
+   "dir": "左",
+   "off": -21.3,
+   "by": "眼白",
+   "precise": true
+  },
+  {
+   "id": 10011,
+   "name": "克里奥佩特拉",
+   "dir": "左",
+   "off": -10.2,
+   "by": "眼白",
+   "precise": true
+  },
+  {
+   "id": 10012,
+   "name": "堕落天使",
+   "dir": "左",
+   "off": -2.6,
+   "by": "眼白",
+   "precise": false
+  },
+  {
+   "id": 10013,
+   "name": "莲蓬童子",
+   "dir": "右",
+   "off": 4,
+   "by": "眼白",
+   "precise": true
+  },
+  {
+   "id": 10014,
+   "name": "怨灵",
+   "dir": "左",
+   "off": -19.5,
+   "by": "眼白",
+   "precise": false
+  },
+  {
+   "id": 10015,
+   "name": "鲤鱼将军",
+   "dir": "右",
+   "off": 3.1,
+   "by": "眼白",
+   "precise": true
+  },
+  {
+   "id": 10016,
+   "name": "火球怪",
+   "dir": "左",
+   "off": -23.9,
+   "by": "眼白",
+   "precise": false
+  },
+  {
+   "id": 10017,
+   "name": "熔岩怪",
+   "dir": "右",
+   "off": 19.4,
+   "by": "整头重心",
+   "precise": false
+  },
+  {
+   "id": 10018,
+   "name": "妮可鼠",
+   "dir": "左",
+   "off": -22,
+   "by": "眼白",
+   "precise": false
+  },
+  {
+   "id": 10019,
+   "name": "八爪鱼",
+   "dir": "右",
+   "off": 8.1,
+   "by": "眼白",
+   "precise": false
+  },
+  {
+   "id": 10020,
+   "name": "大蘑菇",
+   "dir": "左",
+   "off": -30.1,
+   "by": "眼白",
+   "precise": false
+  },
+  {
+   "id": 10021,
+   "name": "赛贝猪",
+   "dir": "左",
+   "off": -3.3,
+   "by": "眼白",
+   "precise": false
+  },
+  {
+   "id": 10022,
+   "name": "赛罗特",
+   "dir": "左",
+   "off": -13.7,
+   "by": "眼白",
+   "precise": false
+  },
+  {
+   "id": 10023,
+   "name": "托米拉",
+   "dir": "左",
+   "off": -15.3,
+   "by": "眼白",
+   "precise": false
+  },
+  {
+   "id": 19001,
+   "name": "雷暴鲁巴",
+   "dir": "左",
+   "off": -72.7,
+   "by": "眼白",
+   "precise": false
+  },
+  {
+   "id": 19002,
+   "name": "大幽灵",
+   "dir": "左",
+   "off": -38.6,
+   "by": "眼白",
+   "precise": false
+  },
+  {
+   "id": 19003,
+   "name": "猎犬酥皮",
+   "dir": "左",
+   "off": -44.5,
+   "by": "眼白",
+   "precise": false
+  },
+  {
+   "id": 19004,
+   "name": "螳螂阿力",
+   "dir": "左",
+   "off": -114.7,
+   "by": "眼白",
+   "precise": false
+  },
+  {
+   "id": 19005,
+   "name": "贪食花",
+   "dir": "右",
+   "off": 11.1,
+   "by": "眼白",
+   "precise": false
+  },
+  {
+   "id": 19006,
+   "name": "卢比兽",
+   "dir": "左",
+   "off": -44,
+   "by": "眼白",
+   "precise": false
+  },
+  {
+   "id": 19007,
+   "name": "翼纹喵",
+   "dir": "右",
+   "off": 10.7,
+   "by": "眼白",
+   "precise": false
+  },
+  {
+   "id": 19008,
+   "name": "拉乌比I型",
+   "dir": "左",
+   "off": -8.1,
+   "by": "眼白",
+   "precise": true
+  },
+  {
+   "id": 19009,
+   "name": "蛇面蝙蝠",
+   "dir": "左",
+   "off": -50.8,
+   "by": "眼白",
+   "precise": false
+  },
+  {
+   "id": 19010,
+   "name": "魔化多比",
+   "dir": "左",
+   "off": -9.2,
+   "by": "眼白",
+   "precise": false
+  },
+  {
+   "id": 19011,
+   "name": "魔化河伯",
+   "dir": "左",
+   "off": -24.2,
+   "by": "眼白",
+   "precise": false
+  },
+  {
+   "id": 19012,
+   "name": "魔龙",
+   "dir": "左",
+   "off": -7.9,
+   "by": "眼白",
+   "precise": true
+  },
+  {
+   "id": 19013,
+   "name": "莎恩",
+   "dir": "左",
+   "off": -17.2,
+   "by": "眼白",
+   "precise": false
+  }
+ ]
+}

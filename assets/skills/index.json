@@ -1,0 +1,1362 @@
+{
+ "generated": "2026-09-30T13:54:29.395Z",
+ "icons": [
+  {
+   "id": 1001,
+   "file": "assets/skills/skill_icon_1001.png",
+   "src": "skill_icon_1001_1020.png",
+   "w": 65,
+   "h": 64
+  },
+  {
+   "id": 1002,
+   "file": "assets/skills/skill_icon_1002.png",
+   "src": "skill_icon_1001_1020.png",
+   "w": 65,
+   "h": 65
+  },
+  {
+   "id": 1003,
+   "file": "assets/skills/skill_icon_1003.png",
+   "src": "skill_icon_1001_1020.png",
+   "w": 65,
+   "h": 65
+  },
+  {
+   "id": 1004,
+   "file": "assets/skills/skill_icon_1004.png",
+   "src": "skill_icon_1001_1020.png",
+   "w": 65,
+   "h": 64
+  },
+  {
+   "id": 2001,
+   "name": "火球",
+   "file": "assets/skills/skill_icon_2001.png",
+   "from": "图鉴 y=517 第0列"
+  },
+  {
+   "id": 2002,
+   "name": "火雨",
+   "file": "assets/skills/skill_icon_2002.png",
+   "from": "图鉴 y=517 第1列"
+  },
+  {
+   "id": 2003,
+   "name": "嗜血",
+   "file": "assets/skills/skill_icon_2003.png",
+   "from": "图鉴 y=517 第2列"
+  },
+  {
+   "id": 2004,
+   "name": "多重火球",
+   "file": "assets/skills/skill_icon_2004.png",
+   "from": "图鉴 y=517 第3列"
+  },
+  {
+   "id": 3001,
+   "file": "assets/skills/skill_icon_3001.png",
+   "src": "skill_icon_3001_3020.png",
+   "w": 64,
+   "h": 64
+  },
+  {
+   "id": 3002,
+   "file": "assets/skills/skill_icon_3002.png",
+   "src": "skill_icon_3001_3020.png",
+   "w": 64,
+   "h": 65
+  },
+  {
+   "id": 3003,
+   "file": "assets/skills/skill_icon_3003.png",
+   "src": "skill_icon_3001_3020.png",
+   "w": 64,
+   "h": 64
+  },
+  {
+   "id": 3004,
+   "file": "assets/skills/skill_icon_3004.png",
+   "src": "skill_icon_3001_3020.png",
+   "w": 64,
+   "h": 64
+  },
+  {
+   "id": 4001,
+   "name": "地之咆哮",
+   "file": "assets/skills/skill_icon_4001.png",
+   "from": "图鉴 y=1164 第0列"
+  },
+  {
+   "id": 4002,
+   "name": "坚韧",
+   "file": "assets/skills/skill_icon_4002.png",
+   "from": "图鉴 y=1164 第1列"
+  },
+  {
+   "id": 4003,
+   "name": "大地之怒",
+   "file": "assets/skills/skill_icon_4003.png",
+   "from": "图鉴 y=1164 第2列"
+  },
+  {
+   "id": 5001,
+   "file": "assets/skills/skill_icon_5001.png",
+   "src": "skill_icon_5001_5020.png",
+   "w": 64,
+   "h": 65
+  },
+  {
+   "id": 5002,
+   "file": "assets/skills/skill_icon_5002.png",
+   "src": "skill_icon_5001_5020.png",
+   "w": 64,
+   "h": 64
+  },
+  {
+   "id": 308010,
+   "name": "毒蔓藤",
+   "file": "assets/skills/skill_icon_6010.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=毒）",
+   "element": "毒",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_6010",
+   "iconIdRule": "元素位 6（毒）+ 组内序号 10"
+  },
+  {
+   "id": 308002,
+   "name": "毒蔓陷阱",
+   "file": "assets/skills/skill_icon_6002.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=毒）",
+   "element": "毒",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_6002",
+   "iconIdRule": "元素位 6（毒）+ 组内序号 2"
+  },
+  {
+   "id": 308001,
+   "name": "毒刺",
+   "file": "assets/skills/skill_icon_6001.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=毒）",
+   "element": "毒",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_6001",
+   "iconIdRule": "元素位 6（毒）+ 组内序号 1"
+  },
+  {
+   "id": 303026,
+   "name": "多重寒冰箭",
+   "file": "assets/skills/skill_icon_3026.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=水）",
+   "element": "水",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_3026",
+   "iconIdRule": "元素位 3（水）+ 组内序号 26"
+  },
+  {
+   "id": 305011,
+   "name": "平衡风暴",
+   "file": "assets/skills/skill_icon_5011.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=风）",
+   "element": "风",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_5011",
+   "iconIdRule": "元素位 5（风）+ 组内序号 11"
+  },
+  {
+   "id": 305010,
+   "name": "自然之风",
+   "file": "assets/skills/skill_icon_5010.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=风）",
+   "element": "风",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_5010",
+   "iconIdRule": "元素位 5（风）+ 组内序号 10"
+  },
+  {
+   "id": 305009,
+   "name": "暴风击",
+   "file": "assets/skills/skill_icon_5009.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=风）",
+   "element": "风",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_5009",
+   "iconIdRule": "元素位 5（风）+ 组内序号 9"
+  },
+  {
+   "id": 305008,
+   "name": "海市蜃楼",
+   "file": "assets/skills/skill_icon_5008.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=风）",
+   "element": "风",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_5008",
+   "iconIdRule": "元素位 5（风）+ 组内序号 8"
+  },
+  {
+   "id": 305007,
+   "name": "飓风",
+   "file": "assets/skills/skill_icon_5007.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=风）",
+   "element": "风",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_5007",
+   "iconIdRule": "元素位 5（风）+ 组内序号 7"
+  },
+  {
+   "id": 305006,
+   "name": "疾风翼",
+   "file": "assets/skills/skill_icon_5006.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=风）",
+   "element": "风",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_5006",
+   "iconIdRule": "元素位 5（风）+ 组内序号 6"
+  },
+  {
+   "id": 305005,
+   "name": "和煦之风",
+   "file": "assets/skills/skill_icon_5005.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=风）",
+   "element": "风",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_5005",
+   "iconIdRule": "元素位 5（风）+ 组内序号 5"
+  },
+  {
+   "id": 305004,
+   "name": "风墙",
+   "file": "assets/skills/skill_icon_5004.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=风）",
+   "element": "风",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_5004",
+   "iconIdRule": "元素位 5（风）+ 组内序号 4"
+  },
+  {
+   "id": 304012,
+   "name": "回春",
+   "file": "assets/skills/skill_icon_4012.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=土）",
+   "element": "土",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_4012",
+   "iconIdRule": "元素位 4（土）+ 组内序号 12"
+  },
+  {
+   "id": 304011,
+   "name": "岩崩",
+   "file": "assets/skills/skill_icon_4011.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=土）",
+   "element": "土",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_4011",
+   "iconIdRule": "元素位 4（土）+ 组内序号 11"
+  },
+  {
+   "id": 304010,
+   "name": "美杜莎之眼",
+   "file": "assets/skills/skill_icon_4010.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=土）",
+   "element": "土",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_4010",
+   "iconIdRule": "元素位 4（土）+ 组内序号 10"
+  },
+  {
+   "id": 304009,
+   "name": "铜墙铁壁",
+   "file": "assets/skills/skill_icon_4009.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=土）",
+   "element": "土",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_4009",
+   "iconIdRule": "元素位 4（土）+ 组内序号 9"
+  },
+  {
+   "id": 304008,
+   "name": "流沙地狱",
+   "file": "assets/skills/skill_icon_4008.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=土）",
+   "element": "土",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_4008",
+   "iconIdRule": "元素位 4（土）+ 组内序号 8"
+  },
+  {
+   "id": 304007,
+   "name": "泼沙",
+   "file": "assets/skills/skill_icon_4007.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=土）",
+   "element": "土",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_4007",
+   "iconIdRule": "元素位 4（土）+ 组内序号 7"
+  },
+  {
+   "id": 304006,
+   "name": "重力压制",
+   "file": "assets/skills/skill_icon_4006.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=土）",
+   "element": "土",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_4006",
+   "iconIdRule": "元素位 4（土）+ 组内序号 6"
+  },
+  {
+   "id": 304005,
+   "name": "石枪阵",
+   "file": "assets/skills/skill_icon_4005.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=土）",
+   "element": "土",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_4005",
+   "iconIdRule": "元素位 4（土）+ 组内序号 5"
+  },
+  {
+   "id": 303014,
+   "name": "水箭",
+   "file": "assets/skills/skill_icon_3014.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=水）",
+   "element": "水",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_3014",
+   "iconIdRule": "元素位 3（水）+ 组内序号 14"
+  },
+  {
+   "id": 303013,
+   "name": "螺旋暴破",
+   "file": "assets/skills/skill_icon_3013.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=水）",
+   "element": "水",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_3013",
+   "iconIdRule": "元素位 3（水）+ 组内序号 13"
+  },
+  {
+   "id": 303012,
+   "name": "寒冰刺",
+   "file": "assets/skills/skill_icon_3012.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=水）",
+   "element": "水",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_3012",
+   "iconIdRule": "元素位 3（水）+ 组内序号 12"
+  },
+  {
+   "id": 303011,
+   "name": "团团圆圆",
+   "file": "assets/skills/skill_icon_3011.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=水）",
+   "element": "水",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_3011",
+   "iconIdRule": "元素位 3（水）+ 组内序号 11"
+  },
+  {
+   "id": 303010,
+   "name": "暴风雪",
+   "file": "assets/skills/skill_icon_3010.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=水）",
+   "element": "水",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_3010",
+   "iconIdRule": "元素位 3（水）+ 组内序号 10"
+  },
+  {
+   "id": 303008,
+   "name": "圣诞快乐",
+   "file": "assets/skills/skill_icon_3008.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=水）",
+   "element": "水",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_3008",
+   "iconIdRule": "元素位 3（水）+ 组内序号 8"
+  },
+  {
+   "id": 303007,
+   "name": "急冻",
+   "file": "assets/skills/skill_icon_3007.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=水）",
+   "element": "水",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_3007",
+   "iconIdRule": "元素位 3（水）+ 组内序号 7"
+  },
+  {
+   "id": 303006,
+   "name": "冰棱盾",
+   "file": "assets/skills/skill_icon_3006.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=水）",
+   "element": "水",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_3006",
+   "iconIdRule": "元素位 3（水）+ 组内序号 6"
+  },
+  {
+   "id": 301009,
+   "name": "草泥马狂奔",
+   "file": "assets/skills/skill_icon_1009.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=物理）",
+   "element": "物理",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_1009",
+   "iconIdRule": "元素位 1（物理）+ 组内序号 9"
+  },
+  {
+   "id": 301007,
+   "name": "天龙斗气",
+   "file": "assets/skills/skill_icon_1007.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=物理）",
+   "element": "物理",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_1007",
+   "iconIdRule": "元素位 1（物理）+ 组内序号 7"
+  },
+  {
+   "id": 301006,
+   "name": "吸血打击",
+   "file": "assets/skills/skill_icon_1006.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=物理）",
+   "element": "物理",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_1006",
+   "iconIdRule": "元素位 1（物理）+ 组内序号 6"
+  },
+  {
+   "id": 301005,
+   "name": "力量激发",
+   "file": "assets/skills/skill_icon_1005.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=物理）",
+   "element": "物理",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_1005",
+   "iconIdRule": "元素位 1（物理）+ 组内序号 5"
+  },
+  {
+   "id": 308013,
+   "name": "毒爆",
+   "file": "assets/skills/skill_icon_6013.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=毒）",
+   "element": "毒",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_6013",
+   "iconIdRule": "元素位 6（毒）+ 组内序号 13"
+  },
+  {
+   "id": 305023,
+   "name": "风羽箭",
+   "file": "assets/skills/skill_icon_5023.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=风）",
+   "element": "风",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_5023",
+   "iconIdRule": "元素位 5（风）+ 组内序号 23"
+  },
+  {
+   "id": 304016,
+   "name": "钢铁城墙",
+   "file": "assets/skills/skill_icon_4016.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=土）",
+   "element": "土",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_4016",
+   "iconIdRule": "元素位 4（土）+ 组内序号 16"
+  },
+  {
+   "id": 303024,
+   "name": "重水爆",
+   "file": "assets/skills/skill_icon_3024.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=水）",
+   "element": "水",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_3024",
+   "iconIdRule": "元素位 3（水）+ 组内序号 24"
+  },
+  {
+   "id": 301027,
+   "name": "凝气弹",
+   "file": "assets/skills/skill_icon_1027.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=物理）",
+   "element": "物理",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_1027",
+   "iconIdRule": "元素位 1（物理）+ 组内序号 27"
+  },
+  {
+   "id": 301024,
+   "name": "连动冲击",
+   "file": "assets/skills/skill_icon_1024.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=物理）",
+   "element": "物理",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_1024",
+   "iconIdRule": "元素位 1（物理）+ 组内序号 24"
+  },
+  {
+   "id": 301023,
+   "name": "破音刺",
+   "file": "assets/skills/skill_icon_1023.png",
+   "from": "多克多比_7k7k美术资源_20260929（角色大全技能条目缩略图）",
+   "evidence": "第 55 轮：7k7k 详情页「技能名称+技能属性」与官方技能表双重确认（元素=物理）",
+   "element": "物理",
+   "conf": "official",
+   "source": "7k7k",
+   "gameIcon": "skill_icon_1023",
+   "iconIdRule": "元素位 1（物理）+ 组内序号 23"
+  },
+  {
+   "id": 1091,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_1091.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 2005,
+   "name": "点燃",
+   "file": "assets/skills/skill_icon_2005.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "被技能表 game/tables/skills-official.js 引用为「点燃」的图标",
+   "source": "7k7k"
+  },
+  {
+   "id": 2006,
+   "name": "凤翅天翔",
+   "file": "assets/skills/skill_icon_2006.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "被技能表 game/tables/skills-official.js 引用为「凤翅天翔」的图标",
+   "source": "7k7k"
+  },
+  {
+   "id": 2008,
+   "name": "烈焰之拳",
+   "file": "assets/skills/skill_icon_2008.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "被技能表 game/tables/skills-official.js 引用为「烈焰之拳」的图标",
+   "source": "7k7k"
+  },
+  {
+   "id": 2009,
+   "name": "回暖",
+   "file": "assets/skills/skill_icon_2009.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "被技能表 game/tables/skills-official.js 引用为「回暖」的图标",
+   "source": "7k7k"
+  },
+  {
+   "id": 2010,
+   "name": "烈焰冲击",
+   "file": "assets/skills/skill_icon_2010.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "被技能表 game/tables/skills-official.js 引用为「烈焰冲击」的图标",
+   "source": "7k7k"
+  },
+  {
+   "id": 2091,
+   "name": "龙卷火焰",
+   "file": "assets/skills/skill_icon_2091.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "被技能表 game/tables/skills-official.js 引用为「龙卷火焰」的图标",
+   "source": "7k7k"
+  },
+  {
+   "id": 2092,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_2092.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 2093,
+   "name": "熔岩阵",
+   "file": "assets/skills/skill_icon_2093.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "被技能表 game/tables/skills-official.js 引用为「熔岩阵」的图标",
+   "source": "7k7k"
+  },
+  {
+   "id": 2094,
+   "name": "火壁",
+   "file": "assets/skills/skill_icon_2094.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "被技能表 game/tables/skills-official.js 引用为「火壁」的图标",
+   "source": "7k7k"
+  },
+  {
+   "id": 3005,
+   "name": "水泡",
+   "file": "assets/skills/skill_icon_3005.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "被技能表 game/tables/skills-official.js 引用为「水泡」的图标",
+   "source": "7k7k"
+  },
+  {
+   "id": 3009,
+   "name": "激流盾",
+   "file": "assets/skills/skill_icon_3009.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "被技能表 game/tables/skills-official.js 引用为「激流盾」的图标",
+   "source": "7k7k"
+  },
+  {
+   "id": 301002,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_301002.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 301003,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_301003.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 301004,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_301004.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 301005,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_301005.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 301006,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_301006.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 301007,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_301007.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 301009,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_301009.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 301023,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_301023.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 301024,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_301024.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 301027,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_301027.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 302001,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_302001.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 302002,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_302002.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 302003,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_302003.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 302004,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_302004.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 302005,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_302005.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 302006,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_302006.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 302008,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_302008.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 302009,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_302009.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 302010,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_302010.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 3023,
+   "name": "重水弹",
+   "file": "assets/skills/skill_icon_3023.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "被技能表 game/tables/skills-official.js 引用为「重水弹」的图标",
+   "source": "7k7k"
+  },
+  {
+   "id": 303001,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_303001.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 303002,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_303002.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 303003,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_303003.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 303004,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_303004.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 303005,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_303005.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 303006,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_303006.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 303007,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_303007.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 303008,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_303008.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 303009,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_303009.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 303010,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_303010.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 303011,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_303011.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 303012,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_303012.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 303013,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_303013.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 303014,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_303014.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 303023,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_303023.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 303024,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_303024.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 303026,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_303026.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 304001,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_304001.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 304002,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_304002.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 304004,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_304004.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 304005,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_304005.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 304006,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_304006.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 304007,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_304007.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 304008,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_304008.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 304009,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_304009.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 304010,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_304010.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 304011,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_304011.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 304012,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_304012.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 304016,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_304016.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 305001,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_305001.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 305002,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_305002.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 305003,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_305003.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 305004,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_305004.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 305005,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_305005.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 305006,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_305006.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 305007,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_305007.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 305008,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_305008.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 305009,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_305009.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 305010,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_305010.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 305011,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_305011.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 305012,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_305012.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 305023,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_305023.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 308001,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_308001.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 308002,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_308002.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 308010,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_308010.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 308013,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_308013.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 3091,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_3091.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 3092,
+   "name": "冰锥阵",
+   "file": "assets/skills/skill_icon_3092.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "被技能表 game/tables/skills-official.js 引用为「冰锥阵」的图标",
+   "source": "7k7k"
+  },
+  {
+   "id": 4004,
+   "name": "树根突刺",
+   "file": "assets/skills/skill_icon_4004.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "被技能表 game/tables/skills-official.js 引用为「树根突刺」的图标",
+   "source": "7k7k"
+  },
+  {
+   "id": 4091,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_4091.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 4092,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_4092.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 5003,
+   "name": "叶刃",
+   "file": "assets/skills/skill_icon_5003.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "被技能表 game/tables/skills-official.js 引用为「叶刃」的图标",
+   "source": "7k7k"
+  },
+  {
+   "id": 5012,
+   "name": "风镰阵",
+   "file": "assets/skills/skill_icon_5012.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "被技能表 game/tables/skills-official.js 引用为「风镰阵」的图标",
+   "source": "7k7k"
+  },
+  {
+   "id": 5091,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_5091.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 5092,
+   "name": "雷神之锤",
+   "file": "assets/skills/skill_icon_5092.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "被技能表 game/tables/skills-official.js 引用为「雷神之锤」的图标",
+   "source": "7k7k"
+  },
+  {
+   "id": 5093,
+   "name": "信标",
+   "file": "assets/skills/skill_icon_5093.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "被技能表 game/tables/skills-official.js 引用为「信标」的图标",
+   "source": "7k7k"
+  },
+  {
+   "id": 6091,
+   "name": "狂毒专属",
+   "file": "assets/skills/skill_icon_6091.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "被技能表 game/tables/skills-official.js 引用为「狂毒专属」的图标",
+   "source": "7k7k"
+  },
+  {
+   "id": 6092,
+   "name": "(未被技能表引用)",
+   "file": "assets/skills/skill_icon_6092.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "**未被任何地方引用** —— 待确认是否可删",
+   "source": "待确认"
+  },
+  {
+   "id": 6093,
+   "name": "毒蜂群",
+   "file": "assets/skills/skill_icon_6093.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "被技能表 game/tables/skills-official.js 引用为「毒蜂群」的图标",
+   "source": "7k7k"
+  },
+  {
+   "id": 7091,
+   "name": "小圣光术",
+   "file": "assets/skills/skill_icon_7091.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "被技能表 game/tables/skills-official.js 引用为「小圣光术」的图标",
+   "source": "7k7k"
+  },
+  {
+   "id": 7092,
+   "name": "圣光剑雨",
+   "file": "assets/skills/skill_icon_7092.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "被技能表 game/tables/skills-official.js 引用为「圣光剑雨」的图标",
+   "source": "7k7k"
+  },
+  {
+   "id": 7093,
+   "name": "光能爆弹",
+   "file": "assets/skills/skill_icon_7093.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "被技能表 game/tables/skills-official.js 引用为「光能爆弹」的图标",
+   "source": "7k7k"
+  },
+  {
+   "id": 8091,
+   "name": "小魔光术",
+   "file": "assets/skills/skill_icon_8091.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "被技能表 game/tables/skills-official.js 引用为「小魔光术」的图标",
+   "source": "7k7k"
+  },
+  {
+   "id": 8092,
+   "name": "暗影箭雨",
+   "file": "assets/skills/skill_icon_8092.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "被技能表 game/tables/skills-official.js 引用为「暗影箭雨」的图标",
+   "source": "7k7k"
+  },
+  {
+   "id": 8093,
+   "name": "魔能爆弹",
+   "file": "assets/skills/skill_icon_8093.png",
+   "from": "第 55 轮：7k7k 角色大全缩略图（游戏编号格式）",
+   "evidence": "被技能表 game/tables/skills-official.js 引用为「魔能爆弹」的图标",
+   "source": "7k7k"
+  }
+ ],
+ "note": " 第 55 轮：按官方技能表 + 图鉴行列对应补齐技能图标（写出 159 张）。 第 55 轮：按官方技能表 + 图鉴行列对应补齐技能图标（写出 159 张）。 第 55 轮：从图鉴裁的 159 个图标**未接入**（行内列序↔技能ID 的假设未通过验证），移到 _tmp_test_out/skill-icons-candidate/ 待核对。assets/skills 只保留已核对的原版 17 个。 第 55 轮：从 7k7k 角色大全接入 39 个技能图标（名字+元素双确认；已用技能保持官方图鉴版）。 第 55 轮：7k7k 图标按游戏编号规则改名（39 个），映射写入 assets/skill-icons-7k7k.json。 第 55 轮：把磁盘上的全部图标登记进索引（补 97 条），并标出未被引用的。 第 55 轮：把未被任何地方引用的 0 个图标隔离到 _tmp_test_out/skill-icons-unused/（画的是不同版本，未删）。"
+}

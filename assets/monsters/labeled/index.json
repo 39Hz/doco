@@ -1,0 +1,290 @@
+{
+ "10001": {
+  "name": "哈拉兽",
+  "atlasId": null,
+  "file": "assets/monsters/m_012.png",
+  "w": 200,
+  "h": 200,
+  "source": "m_*.png（按尺寸近似，名字待人工核对）"
+ },
+ "10002": {
+  "name": "绿毒史莱姆",
+  "atlasId": 110002,
+  "file": "assets/monsters/labeled/mon_10002.png",
+  "w": 198,
+  "h": 190,
+  "source": "atlas（图鉴编号已核对）"
+ },
+ "10003": {
+  "name": "绿毒粘液兽",
+  "atlasId": 110003,
+  "file": "assets/monsters/labeled/mon_10003.png",
+  "w": 282,
+  "h": 214,
+  "source": "atlas（图鉴编号已核对）"
+ },
+ "10004": {
+  "name": "萨西怪",
+  "atlasId": null,
+  "file": "assets/monsters/m_051.png",
+  "w": 200,
+  "h": 200,
+  "source": "m_*.png（按尺寸近似，名字待人工核对）"
+ },
+ "10005": {
+  "name": "粘壳虫",
+  "atlasId": 110005,
+  "file": "assets/monsters/labeled/mon_10005.png",
+  "w": 206,
+  "h": 173,
+  "source": "atlas（图鉴编号已核对）"
+ },
+ "10006": {
+  "name": "空灵树妖",
+  "atlasId": 110006,
+  "file": "assets/monsters/labeled/mon_10006.png",
+  "w": 166,
+  "h": 209,
+  "source": "atlas（图鉴编号已核对）"
+ },
+ "10007": {
+  "name": "晶石树妖",
+  "atlasId": 110007,
+  "file": "assets/monsters/labeled/mon_10007.png",
+  "w": 219,
+  "h": 253,
+  "source": "atlas（图鉴编号已核对）"
+ },
+ "10008": {
+  "name": "暗影孢子",
+  "atlasId": null,
+  "file": "assets/monsters/m_017.png",
+  "w": 200,
+  "h": 200,
+  "source": "m_*.png（按尺寸近似，名字待人工核对）"
+ },
+ "10009": {
+  "name": "阴孩",
+  "atlasId": 110009,
+  "file": "assets/monsters/labeled/mon_10009.png",
+  "w": 147,
+  "h": 190,
+  "source": "atlas（图鉴编号已核对）"
+ },
+ "10010": {
+  "name": "吞噬魔",
+  "atlasId": 110010,
+  "file": "assets/monsters/labeled/mon_10010.png",
+  "w": 212,
+  "h": 226,
+  "source": "atlas（图鉴编号已核对）"
+ },
+ "10011": {
+  "name": "克里奥佩特拉",
+  "atlasId": 110011,
+  "file": "assets/monsters/labeled/mon_10011.png",
+  "w": 167,
+  "h": 234,
+  "source": "atlas（图鉴编号已核对）"
+ },
+ "10012": {
+  "name": "堕落天使",
+  "atlasId": null,
+  "file": "assets/monsters/m_005.png",
+  "w": 200,
+  "h": 200,
+  "source": "m_*.png（按尺寸近似，名字待人工核对）"
+ },
+ "10013": {
+  "name": "莲蓬童子",
+  "atlasId": 110013,
+  "file": "assets/monsters/labeled/mon_10013.png",
+  "w": 179,
+  "h": 198,
+  "source": "atlas（图鉴编号已核对）"
+ },
+ "10014": {
+  "name": "怨灵",
+  "atlasId": null,
+  "file": "assets/monsters/m_010.png",
+  "w": 200,
+  "h": 200,
+  "source": "m_*.png（按尺寸近似，名字待人工核对）"
+ },
+ "10015": {
+  "name": "鲤鱼将军",
+  "atlasId": 110015,
+  "file": "assets/monsters/labeled/mon_10015.png",
+  "w": 281,
+  "h": 258,
+  "source": "atlas（图鉴编号已核对）"
+ },
+ "10016": {
+  "name": "火球怪",
+  "atlasId": null,
+  "file": "assets/monsters/m_015.png",
+  "w": 200,
+  "h": 200,
+  "source": "m_*.png（按尺寸近似，名字待人工核对）"
+ },
+ "10017": {
+  "name": "熔岩怪",
+  "atlasId": null,
+  "file": "assets/monsters/m_007.png",
+  "w": 200,
+  "h": 200,
+  "source": "m_*.png（按尺寸近似，名字待人工核对）"
+ },
+ "10018": {
+  "name": "妮可鼠",
+  "atlasId": null,
+  "file": "assets/monsters/m_019.png",
+  "w": 200,
+  "h": 200,
+  "source": "m_*.png（按尺寸近似，名字待人工核对）"
+ },
+ "10019": {
+  "name": "八爪鱼",
+  "atlasId": null,
+  "file": "assets/monsters/m_022.png",
+  "w": 200,
+  "h": 200,
+  "source": "m_*.png（按尺寸近似，名字待人工核对）"
+ },
+ "10020": {
+  "name": "大蘑菇",
+  "atlasId": null,
+  "file": "assets/monsters/m_024.png",
+  "w": 200,
+  "h": 200,
+  "source": "m_*.png（按尺寸近似，名字待人工核对）"
+ },
+ "10021": {
+  "name": "赛贝猪",
+  "atlasId": null,
+  "file": "assets/monsters/m_027.png",
+  "w": 200,
+  "h": 200,
+  "source": "m_*.png（按尺寸近似，名字待人工核对）"
+ },
+ "10022": {
+  "name": "赛罗特",
+  "atlasId": 110022,
+  "file": "assets/monsters/labeled/mon_10022.png",
+  "w": 203,
+  "h": 233,
+  "source": "atlas（图鉴编号已核对）"
+ },
+ "10023": {
+  "name": "托米拉",
+  "atlasId": 110023,
+  "file": "assets/monsters/labeled/mon_10023.png",
+  "w": 197,
+  "h": 177,
+  "source": "atlas（图鉴编号已核对）"
+ },
+ "19001": {
+  "name": "雷暴鲁巴",
+  "atlasId": null,
+  "file": "assets/monsters/m_029.png",
+  "w": 200,
+  "h": 200,
+  "source": "m_*.png（按尺寸近似，名字待人工核对）"
+ },
+ "19002": {
+  "name": "大幽灵",
+  "atlasId": null,
+  "file": "assets/monsters/m_032.png",
+  "w": 200,
+  "h": 200,
+  "source": "m_*.png（按尺寸近似，名字待人工核对）"
+ },
+ "19003": {
+  "name": "猎犬酥皮",
+  "atlasId": null,
+  "file": "assets/monsters/m_002.png",
+  "w": 200,
+  "h": 200,
+  "source": "m_*.png（按尺寸近似，名字待人工核对）"
+ },
+ "19004": {
+  "name": "螳螂阿力",
+  "atlasId": null,
+  "file": "assets/monsters/m_000.png",
+  "w": 200,
+  "h": 200,
+  "source": "m_*.png（按尺寸近似，名字待人工核对）"
+ },
+ "19005": {
+  "name": "贪食花",
+  "atlasId": null,
+  "file": "assets/monsters/m_034.png",
+  "w": 200,
+  "h": 200,
+  "source": "m_*.png（按尺寸近似，名字待人工核对）"
+ },
+ "19006": {
+  "name": "卢比兽",
+  "atlasId": null,
+  "file": "assets/monsters/m_036.png",
+  "w": 200,
+  "h": 200,
+  "source": "m_*.png（按尺寸近似，名字待人工核对）"
+ },
+ "19007": {
+  "name": "翼纹喵",
+  "atlasId": null,
+  "file": "assets/monsters/m_039.png",
+  "w": 200,
+  "h": 200,
+  "source": "m_*.png（按尺寸近似，名字待人工核对）"
+ },
+ "19008": {
+  "name": "拉乌比I型",
+  "atlasId": 119008,
+  "file": "assets/monsters/labeled/mon_19008.png",
+  "w": 422,
+  "h": 317,
+  "source": "atlas（图鉴编号已核对）"
+ },
+ "19009": {
+  "name": "蛇面蝙蝠",
+  "atlasId": null,
+  "file": "assets/monsters/m_041.png",
+  "w": 200,
+  "h": 200,
+  "source": "m_*.png（按尺寸近似，名字待人工核对）"
+ },
+ "19010": {
+  "name": "魔化多比",
+  "atlasId": null,
+  "file": "assets/monsters/m_044.png",
+  "w": 200,
+  "h": 200,
+  "source": "m_*.png（按尺寸近似，名字待人工核对）"
+ },
+ "19011": {
+  "name": "魔化河伯",
+  "atlasId": null,
+  "file": "assets/monsters/m_046.png",
+  "w": 200,
+  "h": 200,
+  "source": "m_*.png（按尺寸近似，名字待人工核对）"
+ },
+ "19012": {
+  "name": "魔龙",
+  "atlasId": 119012,
+  "file": "assets/monsters/labeled/mon_19012.png",
+  "w": 314,
+  "h": 350,
+  "source": "atlas（图鉴编号已核对）"
+ },
+ "19013": {
+  "name": "莎恩",
+  "atlasId": null,
+  "file": "assets/monsters/m_049.png",
+  "w": 200,
+  "h": 200,
+  "source": "m_*.png（按尺寸近似，名字待人工核对）"
+ }
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>多克多比 · 浮空群岛</title>
+<link rel="stylesheet" href="hub.css">
+</head>
+<body>
+
+<div id="app">
+
+  <header class="bar">
+    <div class="brand">
+      <span class="logo">多克多比</span>
+      <span class="sub">浮空群岛 · 世界地图</span>
+    </div>
+    <div class="tools">
+      <div class="modes">
+        <button class="btn mode on" data-mode="map">🗺 世界地图</button>
+        <button class="btn mode" data-mode="gallery">▦ 场景档案馆</button>
+      </div>
+      <button id="btn-edit" class="btn" title="开绑定时，点岛后可从 88 张场景里挑选归属">✎ 编辑绑定</button>
+      <button id="btn-sfx" class="btn" title="界面音效开关">🔊</button>
+    </div>
+  </header>
+
+  <!-- ============ 世界地图模式 ============ -->
+  <main class="stage" id="stage-map">
+    <div class="map-wrap">
+      <div class="map-frame" id="map-frame">
+        <img id="map-img" src="assets/scenes/scene_62.jpg" alt="浮空群岛世界地图">
+        <div class="map-vignette"></div>
+        <div class="map-scan"></div>
+        <!-- 热区由 JS 注入 -->
+        <div class="hotspots" id="hotspots"></div>
+        <div class="map-title">
+          <span>浮空群岛</span>
+          <em>拖动或点击任一岛屿进入</em>
+        </div>
+      </div>
+    </div>
+
+    <aside class="panel" id="panel">
+      <div class="panel-empty" id="panel-empty">
+        <div class="pe-icon">🗺</div>
+        <div class="pe-title">选择一个岛屿</div>
+        <div class="pe-desc">把鼠标移到地图上的任意浮空岛，查看它的信息与所属场景。</div>
+        <ul class="pe-tips">
+          <li>悬停 —— 高亮岛屿</li>
+          <li>点击 —— 锁定并打开</li>
+          <li>编辑绑定 —— 给岛挑选归属场景</li>
+        </ul>
+      </div>
+
+      <div class="panel-body hidden" id="panel-body">
+        <div class="p-head">
+          <span class="p-num" id="p-num">1</span>
+          <div>
+            <h2 id="p-name">王城 · 中央大陆</h2>
+            <span class="p-tag" id="p-tag">主城</span>
+          </div>
+        </div>
+        <p class="p-desc" id="p-desc"></p>
+
+        <div class="p-track" id="p-track">
+          <button class="btn ghost small" id="p-play">▶ 播放该岛配乐</button>
+          <span class="p-track-name" id="p-track-name">—</span>
+        </div>
+
+        <div class="p-scenes-head">
+          <span>所属场景 <b id="p-scene-count">0</b></span>
+          <button class="btn ghost small hidden" id="p-pick">＋ 从档案馆选</button>
+        </div>
+        <div class="p-scenes" id="p-scenes"></div>
+        <div class="p-hint hidden" id="p-hint">该岛还没绑定场景。点「编辑绑定」后可从 88 张场景里挑选。</div>
+
+        <div class="p-actions">
+          <button class="btn" id="p-explore">进入该岛第一个场景 →</button>
+          <button class="btn ghost" id="p-gallery">在档案馆中查看全部</button>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <!-- ============ 档案馆模式 ============ -->
+  <main class="stage hidden" id="stage-gallery">
+    <div class="gallery-main">
+      <div class="viewport" id="viewport">
+        <img id="scene-img" class="scene-img" alt="">
+        <div class="vignette"></div>
+        <div class="scanlines"></div>
+        <div class="hud">
+          <div class="hud-title">
+            <span id="scene-name">载入中…</span>
+            <span id="scene-idx" class="hud-idx"></span>
+          </div>
+          <div id="scene-desc" class="hud-desc"></div>
+        </div>
+        <div class="now-playing" id="now-playing">
+          <span class="disc" id="disc">♪</span>
+          <span id="np-text">背景音乐未播放</span>
+        </div>
+        <button class="nav prev" id="btn-prev">‹</button>
+        <button class="nav next" id="btn-next">›</button>
+      </div>
+    </div>
+    <aside class="panel gallery-side">
+      <div class="gs-head">原声带 <b id="count-tracks">0</b> 首</div>
+      <div class="track-list" id="track-list"></div>
+      <div class="gs-ctl">
+        <button class="btn ghost small" id="btn-play">▶</button>
+        <button class="btn ghost small" id="btn-loop">🔁 单曲</button>
+        <label class="vol">音量<input type="range" id="vol" min="0" max="100" value="55"><span id="vol-num">55</span></label>
+      </div>
+      <div class="gs-tip">← → 切换场景 · 空格 巡游 · 1-9 选曲 · F 收藏 · 点标题改名</div>
+      <div class="gs-foot" id="gallery-status"></div>
+    </aside>
+  </main>
+
+  <section class="strip-wrap" id="strip-wrap">
+    <div class="strip-label">场景 <b id="count-scenes">0</b> 个 · 点击切换</div>
+    <div class="strip" id="strip"></div>
+  </section>
+
+  <!-- 编辑绑定模式下的场景选择器 -->
+  <div class="picker hidden" id="picker">
+    <div class="picker-box">
+      <div class="picker-head">
+        <span id="picker-title">选择场景</span>
+        <button class="btn ghost small" id="picker-close">✕ 关闭</button>
+      </div>
+      <div class="picker-grid" id="picker-grid"></div>
+    </div>
+  </div>
+
+  <footer class="foot">
+    <span id="foot-status">就绪</span>
+    <span class="dim">素材来源于原版《多克多比》客户端 · 仅供个人怀旧与非商业用途</span>
+  </footer>
+
+</div>
+
+<script src="assets/manifest.js"></script>
+<script src="world.js"></script>
+<script src="hub.js"></script>
+</body>
+</html>

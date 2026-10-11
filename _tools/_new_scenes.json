@@ -1,0 +1,47 @@
+[
+ {
+  "id": 89,
+  "name": "云中城堡",
+  "src": "多克多比专区资料素材/场景/场景/云中城堡.png",
+  "srcW": 1600,
+  "srcH": 933,
+  "out": "assets/scenes/scene_89.jpg",
+  "bytes": 144481
+ },
+ {
+  "id": 90,
+  "name": "城堡大厅",
+  "src": "多克多比专区资料素材/场景/场景/城堡大厅.png",
+  "srcW": 1600,
+  "srcH": 933,
+  "out": "assets/scenes/scene_90.jpg",
+  "bytes": 176251
+ },
+ {
+  "id": 91,
+  "name": "燃烧瀑布",
+  "src": "多克多比专区资料素材/场景/场景/燃烧瀑布.png",
+  "srcW": 1600,
+  "srcH": 933,
+  "out": "assets/scenes/scene_91.jpg",
+  "bytes": 133390
+ },
+ {
+  "id": 92,
+  "name": "幽水宫",
+  "src": "多克多比专区资料素材/场景/多克多比新场景图/天空裂缝/幽水宫.jpg",
+  "srcW": 1280,
+  "srcH": 746,
+  "out": "assets/scenes/scene_92.jpg",
+  "bytes": 114816
+ },
+ {
+  "id": 93,
+  "name": "邪力宫殿",
+  "src": "多克多比专区资料素材/场景/多克多比新场景图/天空裂缝/邪力宫殿.jpg",
+  "srcW": 2667,
+  "srcH": 1556,
+  "out": "assets/scenes/scene_93.jpg",
+  "bytes": 101750
+ }
+]

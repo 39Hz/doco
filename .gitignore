@@ -1,0 +1,31 @@
+# ===== Python 运行时（用 _tools/py-embed-3.11.9.zip 解压重建）=====
+_tools/py/
+
+# ===== 归档包（内容已解压存在）=====
+地图大全.zip
+多克多比音乐.zip
+
+# ===== 中间产物 / 高清素材（运行时不用）=====
+.crops/
+地图大全_超清4K/
+dist/
+
+# ===== 二进制（走 Releases）=====
+_build/*.exe
+
+# ===== 字形图集产物（防工具重新生成时混进来）=====
+_tools/glyphs/*.rgba
+
+# ===== 运行时数据 / 临时文件 =====
+save.json
+*.log
+_tmp*/
+*.tmp
+
+# ===== 系统垃圾 =====
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ===== 会话工作目录 =====
+.workbuddy/

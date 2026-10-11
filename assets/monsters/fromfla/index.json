@@ -1,0 +1,26 @@
+{
+ "110059": {
+  "name": "小火狮",
+  "file": "assets/monsters/fromfla/mon_110059.jpg",
+  "w": 720,
+  "h": 486,
+  "jpegCount": 7,
+  "flaKB": 9550
+ },
+ "119028": {
+  "name": "布斯蛮卡",
+  "file": "assets/monsters/fromfla/mon_119028.jpg",
+  "w": 13312,
+  "h": 62716,
+  "jpegCount": 1,
+  "flaKB": 9580
+ },
+ "119053": {
+  "name": "火焰怪",
+  "file": "assets/monsters/fromfla/mon_119053.jpg",
+  "w": 65392,
+  "h": 22358,
+  "jpegCount": 1,
+  "flaKB": 2326
+ }
+}

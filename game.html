@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>多克多比 · 浮空群岛</title>
+<link rel="stylesheet" href="game/style.css">
+</head>
+<body>
+<div id="app">
+  <div id="stage">
+    <canvas id="game" width="960" height="560"></canvas>
+    <!-- 起名字用的真实输入框（第 54 轮）。
+         为什么用 DOM input 而不是在 canvas 上抓键盘：**中文要走输入法**，
+         自己抓 keydown 只能拿到 ASCII，玩家就没法起中文名了。
+         这个框平时隐藏，改名时才显示并 focus；确认后把值交给游戏。 -->
+    <input id="nameInput" type="text" maxlength="12" autocomplete="off" spellcheck="false"
+           style="display:none;position:absolute;left:50%;top:46%;transform:translate(-50%,-50%);
+                  width:300px;padding:10px 14px;font-size:20px;text-align:center;
+                  border:2px solid #ffd23f;border-radius:10px;outline:none;
+                  background:rgba(8,12,22,.96);color:#ffe45e;z-index:50;
+                  font-family:'Microsoft YaHei',sans-serif">
+    <div id="loading">
+      <div class="ld-logo">多克多比</div>
+      <div class="ld-sub">浮 空 群 岛</div>
+      <div class="ld-bar"><i id="ld-fill"></i></div>
+      <div class="ld-pct" id="ld-pct">0%</div>
+      <div class="ld-text" id="ld-text">正在载入素材…</div>
+      <div class="ld-tip" id="ld-tip"></div>
+      <div class="ld-ver">离线复刻版 v0.9</div>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <div class="tb-left">
+      <span class="tb-title">多克多比 · 浮空群岛</span>
+      <span class="tb-stat" id="tb-stat"></span>
+    </div>
+    <div class="tb-right">
+      <!-- 技能面板按钮（第 55 轮，用户要求「技能选择也设定个按键放在上面」）——
+         与键盘 V / K 等价，放在顶栏最左，顺手就能点。 -->
+    <button class="tbtn" id="btn-skills" title="技能面板（V 或 K）—— 搭配技能：点左边格子选中、点右边技能库装备">技能</button>
+    <button class="tbtn" id="btn-gift" title="在线礼包（T）—— 在线 10/20/30 分钟各一份，含白色彩晶石碎片">礼包</button>
+      <button class="tbtn" id="btn-save" title="存档已自动保存">💾 已存档</button>
+      <button class="tbtn" id="btn-mute" title="静音 (M)">🔊</button>
+      <button class="tbtn" id="btn-vol-down" title="音量 -">−</button>
+      <span class="tb-vol" id="tb-vol">55</span>
+      <button class="tbtn" id="btn-vol-up" title="音量 +">+</button>
+      <button class="tbtn" id="btn-full" title="全屏 (F)">⛶</button>
+      <button class="tbtn danger" id="btn-reset" title="清空存档重开">重开</button>
+    </div>
+  </div>
+
+  <div class="help">
+    <b>操作</b>
+    <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> / 方向键 移动 ·
+    <kbd>空格</kbd> 互动 / 确认 ·
+    <kbd>Tab</kbd> 岛屿旅行 ·
+    <kbd>M</kbd> 静音 ·
+    <kbd>F</kbd> 全屏 ·
+    <kbd>Esc</kbd> 返回
+  </div>
+</div>
+
+<!-- 运行配置（唯一"离线/在线"开关）与内核（共享状态 S / 画布 ctx）。
+     必须排在最前：后面所有模块都从 window.DKDbbGame.core 取共享物。 -->
+<script src="game/config.js"></script>
+<script src="game/core/state.js"></script>
+<script src="game/core/canvas.js"></script>
+<!-- 共享提示原语（批次 4）：写 S.toast，主体与 app/* 都用它 -->
+<script src="game/core/toast.js"></script>
+<script src="game/engine/engine.js"></script>
+<script src="game/engine/mouse.js"></script>
+<script src="game/engine/fx.js"></script>
+<script src="game/tables/data.js"></script>
+<script src="game/tables/quest.js"></script>
+<script src="assets/manifest.js"></script>
+<script src="assets/bgm/scene-bgm.js"></script>
+<script src="world.js"></script>
+<script src="assets/anim/index.js"></script>
+<script src="assets/forms/walk/index.js"></script>
+<script src="assets/monsters/map.js"></script>
+<script src="assets/forms.js"></script>
+<!-- 官方技能表（_tools/merge-skills.mjs 生成）与按属性配招（_tools/assign-form-skills.mjs 生成）。
+     必须排在 assets/forms.js 之后：前者往 D.SKILLS 里合并，后者改写 __DKDbb_FORMS__.forms[].skills -->
+<script src="game/tables/skills-official.js"></script>
+<script src="game/tables/form-skills-official.js"></script>
+<!-- 官方 14 个副本的数据（M4-1，玩法来自 7k7k 原文，见 docs/官方资料库.md 第十二章） -->
+<script src="game/tables/dungeons.js"></script>
+<!-- 小游戏（M4-4，名字与规则来自归档 `小游戏截图` 里的原版截图） -->
+<script src="game/tables/minigames.js"></script>
+<script src="game/tables/minigame-links.js"></script>
+<!-- 珍宝小屋与白色彩晶石经济（M4-4，7k7k/177905 + 177906 原文） -->
+<script src="game/tables/treasure.js"></script>
+<script src="assets/items.js"></script>
+<script src="assets/soya.js"></script>
+<!-- 骑士与魔王立绘（_tools/build-knight-art.mjs 从官方资料包的 rar 里解出） -->
+<script src="assets/knights.js"></script>
+<script src="assets/npcs.js"></script>
+<script src="assets/gamedata.js"></script>
+<script src="assets/quests.js"></script>
+<script src="game/tables/costumes.js"></script>
+<script src="game/tables/sumo.js"></script>
+<script src="game/tables/crystal.js"></script>
+<script src="game/tables/forms-acquire.js"></script>
+<!-- 内核·图片缓存与怪物立绘画法：依赖 engine.js(util/text) 与 data.js(D.ELEMENT_COLOR)，
+     所以排在它们之后、game.js 之前。 -->
+<script src="game/core/images.js"></script>
+<!-- 领域层（纯逻辑，零 I/O）—— 批次 2。只往 window.DKDbbGame.domain 注册纯函数，
+     不依赖内核之外的东西；排在 game.js 之前即可（game.js 启动时就取用）。 -->
+<script src="game/domain/turn-order.js"></script>
+<script src="game/domain/battle-math.js"></script>
+<script src="game/domain/seal.js"></script>
+<script src="game/domain/dungeon-rules.js"></script>
+<!-- 界面层（批次 8）：角色绘法（立绘 / 走路帧 / 影子 / 立绘头像 / 背景 / SP 指示） -->
+  <script src="game/ui/figures.js"></script>
+  <script src="game/ui/panels.js"></script>
+  <script src="game/ui/places.js"></script>
+  <script src="game/ui/zukan.js"></script>
+  <!-- 界面层（批次 6）：战斗视图（指令布局 / 消息框 / 结印界面 / 出手顺序条 / 整块战斗画面） -->
+  <script src="game/ui/battle-view.js"></script>
+  <!-- 界面层（批次 7）：大地图（七大地形与通道图 / 几何 / 岛名标签 / 命中测试 / 整块绘制） -->
+  <script src="game/ui/worldmap.js"></script>
+  <!-- 界面层（批次 7）：场景探索（小怪 / NPC / 主角 / 目标标记 / 左右出口 / 顶栏信息与经验条） -->
+  <script src="game/ui/explore.js"></script>
+  <!-- 界面层（批次 7 · ui 收尾）：杂货铺 + 服饰大楼（布局与绘制；改存档的逻辑在 app/shop.js） -->
+  <script src="game/ui/shop.js"></script>
+  <!-- 界面层（批次 7 · ui 收尾）：背包 / 属性面板 / 索亚（布局与绘制） -->
+  <script src="game/ui/bag.js"></script>
+  <!-- 界面层（批次 7 · ui 收尾）：技能面板（布局 / 命中测试 / 绘制） -->
+  <script src="game/ui/skillpanel.js"></script>
+  <!-- 界面层（批次 7 · ui 收尾）：主菜单（布局 / 存档槽卡片 / 帮助与关于的绘制；动作在 app/title.js） -->
+  <script src="game/ui/title.js"></script>
+  <!-- 界面层（批次 7 · ui 收尾）：晶石对战（棋盘坐标 + 整块绘制；战斗模拟在 app/crystal.js） -->
+  <script src="game/ui/crystal.js"></script>
+  <!-- 应用层（批次 9 · 常量与工具）：战斗布局常量 / 结印方向 / 强化别名 + 难度档位。
+       放在 app 区块最前：ui 与 app 都经 G.app.battleGeom.* / G.app.difficulty.* 惰性取用。 -->
+  <script src="game/app/battle-geom.js"></script>
+  <script src="game/app/difficulty.js"></script>
+  <!-- 应用层（批次 4）：起名字 -->
+  <script src="game/app/rename.js"></script>
+  <!-- 应用层（批次 4）：战报任务 -->
+  <script src="game/app/warreport.js"></script>
+  <!-- 应用层（批次 4）：白色彩晶石经济 + 珍宝小屋 + 在线礼包 -->
+  <script src="game/app/economy.js"></script>
+  <!-- 应用层（批次 4）：场景 BGM 选择 -->
+  <script src="game/app/bgm.js"></script>
+  <!-- 应用层（批次 5）：对话推进 -->
+  <script src="game/app/dialog.js"></script>
+  <!-- 应用层（批次 4）：变身唤醒 + 唤醒小游戏编排 / 副本全流程。
+       两者相互引用（副本的管线关、空战关在唤醒模块），经 G.app.* 惰性解析，顺序无关。 -->
+  <script src="game/app/awaken.js"></script>
+  <script src="game/app/dungeon.js"></script>
+  <!-- 应用层（批次 5）：NPC 排布 + 功能菜单 + 恢复生命 -->
+  <script src="game/app/npc.js"></script>
+  <!-- 应用层（批次 5）：小怪刷新与重生 + 场景内容生成 -->
+  <script src="game/app/spawn.js"></script>
+  <!-- 应用层（批次 5）：场景互通 / 出口 / gotoScene / enterScene -->
+  <script src="game/app/scene.js"></script>
+  <!-- 应用层（批次 5）：属性 / 服饰附魔 / 配招 / applySaveToRuntime / grantExp -->
+  <script src="game/app/player.js"></script>
+  <!-- 应用层（批次 6）：战斗逻辑（战斗流程 / 伤害 / 结印 / 索亚出手 / 战斗播报） -->
+  <script src="game/app/battle.js"></script>
+  <!-- 应用层（批次 7 · ui 收尾）：杂货铺 + 服饰大楼（买卖 / 穿戴 / 附魔，会读写存档） -->
+  <script src="game/app/shop.js"></script>
+  <!-- 应用层（批次 7 · ui 收尾）：主菜单动作（继续 / 读档 / 存槽 / 新建，会读写存档） -->
+  <script src="game/app/title.js"></script>
+  <!-- 应用层（批次 7 · ui 收尾）：晶石对战模拟（编成 / 消除结算 / 回合 / 点击落子，会读写存档） -->
+  <script src="game/app/crystal.js"></script>
+  <!-- 应用层（批次 7）：小游戏入口 / 奖励 / 结算 + 列表状态 MINI（会进副本、发奖励） -->
+  <script src="game/app/minigame.js"></script>
+  <!-- 应用层（批次 7 · 续）：小游戏实现（make 工厂 / 每帧 tick / 重置 / miniStagePass，读存档与副本状态） -->
+  <script src="game/app/minigames.js"></script>
+  <!-- 界面层（批次 8 · 界面绘制）：副本绘制（副本列表 / 关卡 / 翻牌 / 士气 / 证据）。
+       挂在这里（app 之后）：它要在**加载期**解构 app 层的值型导出（SKI / NOTE / PL_W / PIPE_* …），
+       而 ui 默认排在 app 之前。依赖方向仍是 ui → app（合规）；app 对 ui 只有运行时惰性引用，换序安全。 -->
+  <script src="game/ui/dungeon-view.js"></script>
+  <!-- 界面层（批次 8 · 界面绘制残余）：对话 / 任务列表 / 战报 / 珍宝小屋 / 唤醒 / 小游戏列表 /
+       选形态 / 战斗结算。同样挂在 app 之后（理由同 dungeon-view.js）：其中战报 / 珍宝 / 唤醒 /
+       小游戏列表在**加载期**要解构 app 层的值型导出（WAR_TARGET / TREASURE / AWAKEN / MINI 等），
+       而 ui 默认排在 app 之前；依赖方向仍是 ui → app（合规），app 对 ui 只有运行时惰性引用。 -->
+  <script src="game/ui/dialog.js"></script>
+  <script src="game/ui/questlist.js"></script>
+  <script src="game/ui/warreport-view.js"></script>
+  <script src="game/ui/treasure-view.js"></script>
+  <script src="game/ui/awaken-view.js"></script>
+  <script src="game/ui/minigames-view.js"></script>
+  <script src="game/ui/pick.js"></script>
+  <script src="game/ui/result.js"></script>
+  <!-- 端口层（批次 7）：接口契约（只有签名，无实现）—— 存档 / 内容 / 会话 -->
+  <script src="game/ports/save-store.js"></script>
+  <script src="game/ports/content.js"></script>
+  <script src="game/ports/session.js"></script>
+  <!-- 适配层（批次 7）：端口的本地实现（localStorage + /__save；assets/*.js；匿名会话） -->
+  <script src="game/adapters/local-save.js"></script>
+  <script src="game/adapters/bundled-content.js"></script>
+  <script src="game/adapters/anonymous-session.js"></script>
+  <!-- 顶层编排（批次 9 · update(dt)）：主更新 + 全部模式的输入分发（22 分支）+ 命中工具 rectHit。
+       顶层（与 boot.js 同级）—— 它同时查 ui 布局（G.ui.*）与推 app 状态（G.app.*），
+       只有装配级能同时看见两层，故不放 app/ 也不放 ui/。必须排在 ui/app 之后、game.js 之前。 -->
+  <script src="game/input.js"></script>
+  <!-- 装配点（批次 7）：读 config 选适配器 → 校验契约 → 登记 G.runtime（主循环仍在 game.js，见文件头） -->
+  <script src="game/boot.js"></script>
+  <script src="game/game.js"></script>
+</body>
+</html>

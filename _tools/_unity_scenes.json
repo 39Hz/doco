@@ -1,0 +1,573 @@
+{
+ "both": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  28,
+  30,
+  31,
+  32,
+  33,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88
+ ],
+ "onlyUni": [
+  89
+ ],
+ "onlyMine": [
+  27,
+  29,
+  34,
+  35,
+  36,
+  37,
+  47,
+  60,
+  61,
+  62
+ ],
+ "unity": [
+  {
+   "id": 1,
+   "file": "_unity_tex/resources/Scene1.png",
+   "w": 1438,
+   "h": 839
+  },
+  {
+   "id": 10,
+   "file": "_unity_tex/sharedassets10/Scene10.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 11,
+   "file": "_unity_tex/sharedassets11/Scene11.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 12,
+   "file": "_unity_tex/sharedassets12/Scene12.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 13,
+   "file": "_unity_tex/sharedassets13/Scene13.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 14,
+   "file": "_unity_tex/sharedassets14/Scene14.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 15,
+   "file": "_unity_tex/sharedassets15/Scene15.png",
+   "w": 1440,
+   "h": 840
+  },
+  {
+   "id": 16,
+   "file": "_unity_tex/sharedassets16/Scene16.png",
+   "w": 1440,
+   "h": 840
+  },
+  {
+   "id": 17,
+   "file": "_unity_tex/sharedassets17/Scene17.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 18,
+   "file": "_unity_tex/sharedassets18/Scene18.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 19,
+   "file": "_unity_tex/sharedassets19/Scene19.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 2,
+   "file": "_unity_tex/sharedassets2/Scene2.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 20,
+   "file": "_unity_tex/sharedassets20/Scene20.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 21,
+   "file": "_unity_tex/sharedassets21/Scene21.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 22,
+   "file": "_unity_tex/sharedassets22/Scene22.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 23,
+   "file": "_unity_tex/sharedassets23/Scene23.png",
+   "w": 1436,
+   "h": 838
+  },
+  {
+   "id": 24,
+   "file": "_unity_tex/sharedassets24/Scene24.png",
+   "w": 1437,
+   "h": 839
+  },
+  {
+   "id": 25,
+   "file": "_unity_tex/sharedassets25/Scene25.png",
+   "w": 1440,
+   "h": 840
+  },
+  {
+   "id": 26,
+   "file": "_unity_tex/sharedassets26/Scene26.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 28,
+   "file": "_unity_tex/sharedassets27/Scene28.png",
+   "w": 1438,
+   "h": 839
+  },
+  {
+   "id": 30,
+   "file": "_unity_tex/sharedassets28/Scene30.png",
+   "w": 1440,
+   "h": 840
+  },
+  {
+   "id": 31,
+   "file": "_unity_tex/sharedassets29/Scene31.png",
+   "w": 1436,
+   "h": 838
+  },
+  {
+   "id": 3,
+   "file": "_unity_tex/sharedassets3/Scene3.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 32,
+   "file": "_unity_tex/sharedassets30/Scene32.png",
+   "w": 1438,
+   "h": 839
+  },
+  {
+   "id": 33,
+   "file": "_unity_tex/sharedassets31/Scene33.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 38,
+   "file": "_unity_tex/sharedassets32/Scene38.png",
+   "w": 1440,
+   "h": 840
+  },
+  {
+   "id": 39,
+   "file": "_unity_tex/sharedassets33/Scene39.png",
+   "w": 1440,
+   "h": 840
+  },
+  {
+   "id": 40,
+   "file": "_unity_tex/sharedassets34/Scene40.png",
+   "w": 1440,
+   "h": 840
+  },
+  {
+   "id": 41,
+   "file": "_unity_tex/sharedassets35/Scene41.png",
+   "w": 1440,
+   "h": 840
+  },
+  {
+   "id": 42,
+   "file": "_unity_tex/sharedassets36/Scene42.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 43,
+   "file": "_unity_tex/sharedassets37/Scene43.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 44,
+   "file": "_unity_tex/sharedassets38/Scene44.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 45,
+   "file": "_unity_tex/sharedassets39/Scene45.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 4,
+   "file": "_unity_tex/sharedassets4/Scene4.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 46,
+   "file": "_unity_tex/sharedassets40/Scene46.png",
+   "w": 1440,
+   "h": 840
+  },
+  {
+   "id": 48,
+   "file": "_unity_tex/sharedassets41/Scene48.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 49,
+   "file": "_unity_tex/sharedassets42/Scene49.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 50,
+   "file": "_unity_tex/sharedassets43/Scene50.png",
+   "w": 1440,
+   "h": 840
+  },
+  {
+   "id": 51,
+   "file": "_unity_tex/sharedassets44/Scene51.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 52,
+   "file": "_unity_tex/sharedassets45/Scene52.png",
+   "w": 1438,
+   "h": 839
+  },
+  {
+   "id": 53,
+   "file": "_unity_tex/sharedassets46/Scene53.png",
+   "w": 1440,
+   "h": 840
+  },
+  {
+   "id": 54,
+   "file": "_unity_tex/sharedassets47/Scene54.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 55,
+   "file": "_unity_tex/sharedassets48/Scene55.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 56,
+   "file": "_unity_tex/sharedassets49/Scene56.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 5,
+   "file": "_unity_tex/sharedassets5/Scene5.png",
+   "w": 1440,
+   "h": 840
+  },
+  {
+   "id": 57,
+   "file": "_unity_tex/sharedassets50/Scene57.png",
+   "w": 1440,
+   "h": 840
+  },
+  {
+   "id": 58,
+   "file": "_unity_tex/sharedassets51/Scene58.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 59,
+   "file": "_unity_tex/sharedassets52/Scene59.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 63,
+   "file": "_unity_tex/sharedassets53/Scene63.png",
+   "w": 1440,
+   "h": 840
+  },
+  {
+   "id": 64,
+   "file": "_unity_tex/sharedassets54/Scene64.png",
+   "w": 1437,
+   "h": 839
+  },
+  {
+   "id": 65,
+   "file": "_unity_tex/sharedassets55/Scene65.png",
+   "w": 1440,
+   "h": 840
+  },
+  {
+   "id": 66,
+   "file": "_unity_tex/sharedassets56/Scene66.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 67,
+   "file": "_unity_tex/sharedassets57/Scene67.png",
+   "w": 1440,
+   "h": 840
+  },
+  {
+   "id": 68,
+   "file": "_unity_tex/sharedassets58/Scene68.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 69,
+   "file": "_unity_tex/sharedassets59/Scene69.png",
+   "w": 1438,
+   "h": 839
+  },
+  {
+   "id": 6,
+   "file": "_unity_tex/sharedassets6/Scene6.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 70,
+   "file": "_unity_tex/sharedassets60/Scene70.png",
+   "w": 1440,
+   "h": 840
+  },
+  {
+   "id": 71,
+   "file": "_unity_tex/sharedassets61/Scene71.png",
+   "w": 1440,
+   "h": 840
+  },
+  {
+   "id": 72,
+   "file": "_unity_tex/sharedassets62/Scene72.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 73,
+   "file": "_unity_tex/sharedassets63/Scene73.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 74,
+   "file": "_unity_tex/sharedassets64/Scene74.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 75,
+   "file": "_unity_tex/sharedassets65/Scene75.png",
+   "w": 1440,
+   "h": 840
+  },
+  {
+   "id": 76,
+   "file": "_unity_tex/sharedassets66/Scene76.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 77,
+   "file": "_unity_tex/sharedassets67/Scene77.png",
+   "w": 1437,
+   "h": 839
+  },
+  {
+   "id": 78,
+   "file": "_unity_tex/sharedassets68/Scene78.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 79,
+   "file": "_unity_tex/sharedassets69/Scene79.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 7,
+   "file": "_unity_tex/sharedassets7/Scene7.png",
+   "w": 1436,
+   "h": 838
+  },
+  {
+   "id": 80,
+   "file": "_unity_tex/sharedassets70/Scene80.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 81,
+   "file": "_unity_tex/sharedassets71/Scene81.png",
+   "w": 1417,
+   "h": 902
+  },
+  {
+   "id": 82,
+   "file": "_unity_tex/sharedassets72/Scene82.png",
+   "w": 1498,
+   "h": 865
+  },
+  {
+   "id": 83,
+   "file": "_unity_tex/sharedassets73/Scene83.png",
+   "w": 1496,
+   "h": 867
+  },
+  {
+   "id": 84,
+   "file": "_unity_tex/sharedassets74/Scene84.png",
+   "w": 1437,
+   "h": 839
+  },
+  {
+   "id": 85,
+   "file": "_unity_tex/sharedassets75/Scene85.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 86,
+   "file": "_unity_tex/sharedassets76/Scene86.png",
+   "w": 1794,
+   "h": 1037
+  },
+  {
+   "id": 87,
+   "file": "_unity_tex/sharedassets77/Scene87.png",
+   "w": 1495,
+   "h": 874
+  },
+  {
+   "id": 88,
+   "file": "_unity_tex/sharedassets78/Scene88.png",
+   "w": 1442,
+   "h": 835
+  },
+  {
+   "id": 89,
+   "file": "_unity_tex/sharedassets79/Scene89.png",
+   "w": 1494,
+   "h": 869
+  },
+  {
+   "id": 8,
+   "file": "_unity_tex/sharedassets8/Scene8.png",
+   "w": 1437,
+   "h": 838
+  },
+  {
+   "id": 9,
+   "file": "_unity_tex/sharedassets9/Scene9.png",
+   "w": 1437,
+   "h": 838
+  }
+ ]
+}

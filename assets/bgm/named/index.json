@@ -1,0 +1,251 @@
+{
+ "generated": "2026-09-26T03:20:37.815Z",
+ "note": "原版「多克多比音乐」目录里的曲子，按名字判断用途。游戏里战斗用 battle、城镇用 town、副本用 dungeon/boss、野外用 wild。",
+ "tracks": [
+  {
+   "orig": "乌卡前线2.mp3",
+   "name": "bgm_乌卡前线2",
+   "file": "assets/bgm/named/bgm_乌卡前线2.mp3",
+   "kb": 838,
+   "usage": "boss"
+  },
+  {
+   "orig": "勇气峡谷 修改.mp3",
+   "name": "bgm_勇气峡谷",
+   "file": "assets/bgm/named/bgm_勇气峡谷.mp3",
+   "kb": 1545,
+   "usage": "wild"
+  },
+  {
+   "orig": "圣地 修改.mp3",
+   "name": "bgm_圣地",
+   "file": "assets/bgm/named/bgm_圣地.mp3",
+   "kb": 3248,
+   "usage": "holy"
+  },
+  {
+   "orig": "多比城堡1 修改.mp3",
+   "name": "bgm_多比城堡1",
+   "file": "assets/bgm/named/bgm_多比城堡1.mp3",
+   "kb": 1015,
+   "usage": "town"
+  },
+  {
+   "orig": "多比大街 修改.mp3",
+   "name": "bgm_多比大街",
+   "file": "assets/bgm/named/bgm_多比大街.mp3",
+   "kb": 636,
+   "usage": "town"
+  },
+  {
+   "orig": "悬疑密室 修改.mp3",
+   "name": "bgm_悬疑密室",
+   "file": "assets/bgm/named/bgm_悬疑密室.mp3",
+   "kb": 1281,
+   "usage": "dungeon"
+  },
+  {
+   "orig": "悬疑密室 修改3.mp3",
+   "name": "bgm_悬疑密室_v3",
+   "file": "assets/bgm/named/bgm_悬疑密室_v3.mp3",
+   "kb": 855,
+   "usage": "dungeon"
+  },
+  {
+   "orig": "战斗场景 2.mp3",
+   "name": "bgm_战斗场景_2",
+   "file": "assets/bgm/named/bgm_战斗场景_2.mp3",
+   "kb": 375,
+   "usage": "battle"
+  },
+  {
+   "orig": "潜伏躲避 修改.mp3",
+   "name": "bgm_潜伏躲避",
+   "file": "assets/bgm/named/bgm_潜伏躲避.mp3",
+   "kb": 3864,
+   "usage": "sneak"
+  },
+  {
+   "orig": "热闹室内 修改.mp3",
+   "name": "bgm_热闹室内",
+   "file": "assets/bgm/named/bgm_热闹室内.mp3",
+   "kb": 724,
+   "usage": "town"
+  },
+  {
+   "orig": "空灵 修改.mp3",
+   "name": "bgm_空灵",
+   "file": "assets/bgm/named/bgm_空灵.mp3",
+   "kb": 1671,
+   "usage": "holy"
+  },
+  {
+   "orig": "索亚城 修改.mp3",
+   "name": "bgm_索亚城",
+   "file": "assets/bgm/named/bgm_索亚城.mp3",
+   "kb": 781,
+   "usage": "soya"
+  },
+  {
+   "orig": "轻松有趣 修改.mp3",
+   "name": "bgm_轻松有趣",
+   "file": "assets/bgm/named/bgm_轻松有趣.mp3",
+   "kb": 2537,
+   "usage": "light"
+  },
+  {
+   "orig": "速度 修改.mp3",
+   "name": "bgm_速度",
+   "file": "assets/bgm/named/bgm_速度.mp3",
+   "kb": 3113,
+   "usage": "speed"
+  },
+  {
+   "orig": "魔法室内 修改.mp3",
+   "name": "bgm_魔法室内",
+   "file": "assets/bgm/named/bgm_魔法室内.mp3",
+   "kb": 2124,
+   "usage": "magic"
+  }
+ ],
+ "byUsage": {
+  "boss": [
+   {
+    "orig": "乌卡前线2.mp3",
+    "name": "bgm_乌卡前线2",
+    "file": "assets/bgm/named/bgm_乌卡前线2.mp3",
+    "kb": 838,
+    "usage": "boss"
+   }
+  ],
+  "wild": [
+   {
+    "orig": "勇气峡谷 修改.mp3",
+    "name": "bgm_勇气峡谷",
+    "file": "assets/bgm/named/bgm_勇气峡谷.mp3",
+    "kb": 1545,
+    "usage": "wild"
+   }
+  ],
+  "holy": [
+   {
+    "orig": "圣地 修改.mp3",
+    "name": "bgm_圣地",
+    "file": "assets/bgm/named/bgm_圣地.mp3",
+    "kb": 3248,
+    "usage": "holy"
+   },
+   {
+    "orig": "空灵 修改.mp3",
+    "name": "bgm_空灵",
+    "file": "assets/bgm/named/bgm_空灵.mp3",
+    "kb": 1671,
+    "usage": "holy"
+   }
+  ],
+  "town": [
+   {
+    "orig": "多比城堡1 修改.mp3",
+    "name": "bgm_多比城堡1",
+    "file": "assets/bgm/named/bgm_多比城堡1.mp3",
+    "kb": 1015,
+    "usage": "town"
+   },
+   {
+    "orig": "多比大街 修改.mp3",
+    "name": "bgm_多比大街",
+    "file": "assets/bgm/named/bgm_多比大街.mp3",
+    "kb": 636,
+    "usage": "town"
+   },
+   {
+    "orig": "热闹室内 修改.mp3",
+    "name": "bgm_热闹室内",
+    "file": "assets/bgm/named/bgm_热闹室内.mp3",
+    "kb": 724,
+    "usage": "town"
+   }
+  ],
+  "dungeon": [
+   {
+    "orig": "悬疑密室 修改.mp3",
+    "name": "bgm_悬疑密室",
+    "file": "assets/bgm/named/bgm_悬疑密室.mp3",
+    "kb": 1281,
+    "usage": "dungeon"
+   },
+   {
+    "orig": "悬疑密室 修改3.mp3",
+    "name": "bgm_悬疑密室_v3",
+    "file": "assets/bgm/named/bgm_悬疑密室_v3.mp3",
+    "kb": 855,
+    "usage": "dungeon"
+   }
+  ],
+  "battle": [
+   {
+    "orig": "战斗场景 2.mp3",
+    "name": "bgm_战斗场景_2",
+    "file": "assets/bgm/named/bgm_战斗场景_2.mp3",
+    "kb": 375,
+    "usage": "battle"
+   }
+  ],
+  "sneak": [
+   {
+    "orig": "潜伏躲避 修改.mp3",
+    "name": "bgm_潜伏躲避",
+    "file": "assets/bgm/named/bgm_潜伏躲避.mp3",
+    "kb": 3864,
+    "usage": "sneak"
+   }
+  ],
+  "soya": [
+   {
+    "orig": "索亚城 修改.mp3",
+    "name": "bgm_索亚城",
+    "file": "assets/bgm/named/bgm_索亚城.mp3",
+    "kb": 781,
+    "usage": "soya"
+   }
+  ],
+  "light": [
+   {
+    "orig": "轻松有趣 修改.mp3",
+    "name": "bgm_轻松有趣",
+    "file": "assets/bgm/named/bgm_轻松有趣.mp3",
+    "kb": 2537,
+    "usage": "light"
+   }
+  ],
+  "speed": [
+   {
+    "orig": "速度 修改.mp3",
+    "name": "bgm_速度",
+    "file": "assets/bgm/named/bgm_速度.mp3",
+    "kb": 3113,
+    "usage": "speed"
+   }
+  ],
+  "magic": [
+   {
+    "orig": "魔法室内 修改.mp3",
+    "name": "bgm_魔法室内",
+    "file": "assets/bgm/named/bgm_魔法室内.mp3",
+    "kb": 2124,
+    "usage": "magic"
+   }
+  ]
+ },
+ "pick": {
+  "battle": "assets/bgm/named/bgm_战斗场景_2.mp3",
+  "boss": "assets/bgm/named/bgm_乌卡前线2.mp3",
+  "town": "assets/bgm/named/bgm_多比城堡1.mp3",
+  "title": "assets/bgm/named/bgm_轻松有趣.mp3",
+  "dungeon": "assets/bgm/named/bgm_悬疑密室.mp3",
+  "wild": "assets/bgm/named/bgm_勇气峡谷.mp3",
+  "holy": "assets/bgm/named/bgm_圣地.mp3",
+  "magic": "assets/bgm/named/bgm_魔法室内.mp3",
+  "sneak": "assets/bgm/named/bgm_潜伏躲避.mp3"
+ }
+}

@@ -1,0 +1,74 @@
+[
+ {
+  "k": 0,
+  "w": 312,
+  "h": 309,
+  "file": "assets/monsters/daquan/dq_00.png"
+ },
+ {
+  "k": 1,
+  "w": 277,
+  "h": 281,
+  "file": "assets/monsters/daquan/dq_01.png"
+ },
+ {
+  "k": 2,
+  "w": 325,
+  "h": 372,
+  "file": "assets/monsters/daquan/dq_02.png"
+ },
+ {
+  "k": 3,
+  "w": 377,
+  "h": 378,
+  "file": "assets/monsters/daquan/dq_03.png"
+ },
+ {
+  "k": 4,
+  "w": 213,
+  "h": 162,
+  "file": "assets/monsters/daquan/dq_04.png"
+ },
+ {
+  "k": 5,
+  "w": 328,
+  "h": 310,
+  "file": "assets/monsters/daquan/dq_05.png"
+ },
+ {
+  "k": 6,
+  "w": 207,
+  "h": 251,
+  "file": "assets/monsters/daquan/dq_06.png"
+ },
+ {
+  "k": 7,
+  "w": 271,
+  "h": 237,
+  "file": "assets/monsters/daquan/dq_07.png"
+ },
+ {
+  "k": 8,
+  "w": 225,
+  "h": 207,
+  "file": "assets/monsters/daquan/dq_08.png"
+ },
+ {
+  "k": 9,
+  "w": 165,
+  "h": 209,
+  "file": "assets/monsters/daquan/dq_09.png"
+ },
+ {
+  "k": 10,
+  "w": 48,
+  "h": 59,
+  "file": "assets/monsters/daquan/dq_10.png"
+ },
+ {
+  "k": 11,
+  "w": 58,
+  "h": 59,
+  "file": "assets/monsters/daquan/dq_11.png"
+ }
+]

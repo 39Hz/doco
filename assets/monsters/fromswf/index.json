@@ -1,0 +1,138 @@
+{
+ "110010": {
+  "name": "吞噬魔",
+  "file": "assets/monsters/fromswf/mon_110010.jpg",
+  "w": 350,
+  "h": 220,
+  "kind": "jpeg",
+  "bitmapCount": 10
+ },
+ "110011": {
+  "name": "克里奥佩特拉",
+  "file": "assets/monsters/fromswf/mon_110011.jpg",
+  "w": 1170,
+  "h": 64,
+  "kind": "jpeg",
+  "bitmapCount": 1
+ },
+ "110013": {
+  "name": "莲蓬童子",
+  "file": "assets/monsters/fromswf/mon_110013.jpg",
+  "w": 500,
+  "h": 448,
+  "kind": "jpeg",
+  "bitmapCount": 4
+ },
+ "110015": {
+  "name": "鲤鱼将军",
+  "file": "assets/monsters/fromswf/mon_110015.jpg",
+  "w": 1191,
+  "h": 67,
+  "kind": "jpeg",
+  "bitmapCount": 1
+ },
+ "110016": {
+  "name": "熔岩怪",
+  "file": "assets/monsters/fromswf/mon_110016.jpg",
+  "w": 350,
+  "h": 230,
+  "kind": "jpeg",
+  "bitmapCount": 10
+ },
+ "110022": {
+  "name": "赛罗特",
+  "file": "assets/monsters/fromswf/mon_110022.jpg",
+  "w": 250,
+  "h": 140,
+  "kind": "jpeg",
+  "bitmapCount": 8
+ },
+ "110023": {
+  "name": "托米拉",
+  "file": "assets/monsters/fromswf/mon_110023.jpg",
+  "w": 417,
+  "h": 1111,
+  "kind": "jpeg",
+  "bitmapCount": 19
+ },
+ "110024": {
+  "name": "拼装采矿机",
+  "file": "assets/monsters/fromswf/mon_110024.jpg",
+  "w": 250,
+  "h": 150,
+  "kind": "jpeg",
+  "bitmapCount": 10
+ },
+ "110026": {
+  "name": "甲刺兽",
+  "file": "assets/monsters/fromswf/mon_110026.jpg",
+  "w": 290,
+  "h": 121,
+  "kind": "jpeg",
+  "bitmapCount": 4
+ },
+ "110042": {
+  "name": "小海马",
+  "file": "assets/monsters/fromswf/mon_110042.jpg",
+  "w": 200,
+  "h": 119,
+  "kind": "jpeg",
+  "bitmapCount": 1
+ },
+ "110055": {
+  "name": "锈泥怪",
+  "file": "assets/monsters/fromswf/mon_110055.jpg",
+  "w": 189,
+  "h": 133,
+  "kind": "jpeg",
+  "bitmapCount": 9
+ },
+ "110075": {
+  "name": "幽灵虫",
+  "file": "assets/monsters/fromswf/mon_110075.png",
+  "w": 115,
+  "h": 125,
+  "kind": "lossless",
+  "bitmapCount": 7
+ },
+ "110078": {
+  "name": "毒蜥",
+  "file": "assets/monsters/fromswf/mon_110078.jpg",
+  "w": 129,
+  "h": 131,
+  "kind": "jpeg",
+  "bitmapCount": 6
+ },
+ "119019": {
+  "name": "无头骑士",
+  "file": "assets/monsters/fromswf/mon_119019.jpg",
+  "w": 110,
+  "h": 130,
+  "kind": "jpeg",
+  "bitmapCount": 7
+ },
+ "119028": {
+  "name": "布斯蛮卡",
+  "file": "assets/monsters/fromswf/mon_119028.jpg",
+  "w": 587,
+  "h": 302,
+  "kind": "jpeg",
+  "bitmapCount": 2
+ },
+ "119039": {
+  "name": "追猎者",
+  "file": "assets/monsters/fromswf/mon_119039.jpg",
+  "w": 150,
+  "h": 60,
+  "kind": "jpeg",
+  "bitmapCount": 1
+ },
+ "119053": {
+  "name": "火焰怪",
+  "file": "assets/monsters/fromswf/mon_119053.jpg",
+  "w": 262,
+  "h": 228,
+  "kind": "jpeg",
+  "bitmapCount": 5
+ }
+}

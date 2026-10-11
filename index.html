@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>多克多比 · 场景档案馆</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+
+  <header class="bar">
+    <div class="brand">
+      <span class="logo">多克多比</span>
+      <span class="sub">场景档案馆 · 童年复刻计划</span>
+    </div>
+    <div class="tools">
+      <button id="btn-autoplay" class="btn" title="自动巡游场景 (空格)">▶ 自动巡游</button>
+      <button id="btn-zoom" class="btn" title="画面缩放 (Z)">⤢ 适应窗口</button>
+      <button id="btn-hide" class="btn" title="隐藏界面 (H)">◻ 沉浸模式</button>
+    </div>
+  </header>
+
+  <main class="stage">
+    <div class="viewport" id="viewport">
+      <img id="scene-img" class="scene-img" alt="">
+      <div class="vignette"></div>
+      <div class="scanlines"></div>
+
+      <div class="hud">
+        <div class="hud-title">
+          <span id="scene-name">载入中…</span>
+          <span id="scene-idx" class="hud-idx"></span>
+        </div>
+        <div id="scene-desc" class="hud-desc"></div>
+      </div>
+
+      <div class="now-playing" id="now-playing">
+        <span class="disc" id="disc">♪</span>
+        <span id="np-text">背景音乐未播放</span>
+      </div>
+
+      <button class="nav prev" id="btn-prev" title="上一张 (←)">‹</button>
+      <button class="nav next" id="btn-next" title="下一张 (→)">›</button>
+    </div>
+  </main>
+
+  <section class="strip-wrap">
+    <div class="strip-label">场景 <b id="count-scenes">0</b> 个 · 点击切换</div>
+    <div class="strip" id="strip"></div>
+  </section>
+
+  <section class="player">
+    <div class="player-left">
+      <div class="track-title">原声带 <b id="count-tracks">0</b> 首 <span class="dim">（原版客户端音源）</span></div>
+      <div class="track-list" id="track-list"></div>
+    </div>
+    <div class="player-right">
+      <div class="ctl-row">
+        <button class="btn ghost" id="btn-play" title="播放/暂停 (P)">▶</button>
+        <button class="btn ghost" id="btn-loop" title="单曲循环 / 顺序播放">🔁 单曲循环</button>
+        <button class="btn ghost" id="btn-sfx" title="界面音效开关">🔊 音效 开</button>
+      </div>
+      <label class="vol">
+        音量 <input type="range" id="vol" min="0" max="100" value="55">
+        <span id="vol-num">55</span>
+      </label>
+      <div class="tip" id="tip">
+        快捷键：<kbd>←</kbd><kbd>→</kbd> 切换场景 · <kbd>空格</kbd> 巡游 · <kbd>1-9</kbd> 选曲 · <kbd>M</kbd> 静音 · <kbd>F</kbd> 收藏
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <span id="foot-status">就绪</span>
+    <span class="dim">素材来源于原版《多克多比》客户端 · 仅供个人怀旧与非商业用途</span>
+  </footer>
+
+</div>
+
+<script src="assets/manifest.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,399 @@
+{
+ "generated": "gen-form-walk.mjs",
+ "note": "由官方立绘合成的走路帧（归档没有多比走路循环）；脚底钉住的挤压+侧倾，4 帧一循环",
+ "count": 49,
+ "forms": {
+  "乔纳华多比": [
+   "assets/forms/walk/乔纳华多比_1.png",
+   "assets/forms/walk/乔纳华多比_2.png",
+   "assets/forms/walk/乔纳华多比_3.png",
+   "assets/forms/walk/乔纳华多比_4.png",
+   "assets/forms/walk/乔纳华多比_5.png",
+   "assets/forms/walk/乔纳华多比_6.png"
+  ],
+  "人鱼多比": [
+   "assets/forms/walk/人鱼多比_1.png",
+   "assets/forms/walk/人鱼多比_2.png",
+   "assets/forms/walk/人鱼多比_3.png",
+   "assets/forms/walk/人鱼多比_4.png",
+   "assets/forms/walk/人鱼多比_5.png",
+   "assets/forms/walk/人鱼多比_6.png"
+  ],
+  "光多比": [
+   "assets/forms/walk/光多比_1.png",
+   "assets/forms/walk/光多比_2.png",
+   "assets/forms/walk/光多比_3.png",
+   "assets/forms/walk/光多比_4.png",
+   "assets/forms/walk/光多比_5.png",
+   "assets/forms/walk/光多比_6.png"
+  ],
+  "克罗": [
+   "assets/forms/walk/克罗_1.png",
+   "assets/forms/walk/克罗_2.png",
+   "assets/forms/walk/克罗_3.png",
+   "assets/forms/walk/克罗_4.png",
+   "assets/forms/walk/克罗_5.png",
+   "assets/forms/walk/克罗_6.png"
+  ],
+  "克鲁尔蝶多比": [
+   "assets/forms/walk/克鲁尔蝶多比_1.png",
+   "assets/forms/walk/克鲁尔蝶多比_2.png",
+   "assets/forms/walk/克鲁尔蝶多比_3.png",
+   "assets/forms/walk/克鲁尔蝶多比_4.png",
+   "assets/forms/walk/克鲁尔蝶多比_5.png",
+   "assets/forms/walk/克鲁尔蝶多比_6.png"
+  ],
+  "兔多比": [
+   "assets/forms/walk/兔多比_1.png",
+   "assets/forms/walk/兔多比_2.png",
+   "assets/forms/walk/兔多比_3.png",
+   "assets/forms/walk/兔多比_4.png",
+   "assets/forms/walk/兔多比_5.png",
+   "assets/forms/walk/兔多比_6.png"
+  ],
+  "冰多比": [
+   "assets/forms/walk/冰多比_1.png",
+   "assets/forms/walk/冰多比_2.png",
+   "assets/forms/walk/冰多比_3.png",
+   "assets/forms/walk/冰多比_4.png",
+   "assets/forms/walk/冰多比_5.png",
+   "assets/forms/walk/冰多比_6.png"
+  ],
+  "凤凰多比": [
+   "assets/forms/walk/凤凰多比_1.png",
+   "assets/forms/walk/凤凰多比_2.png",
+   "assets/forms/walk/凤凰多比_3.png",
+   "assets/forms/walk/凤凰多比_4.png",
+   "assets/forms/walk/凤凰多比_5.png",
+   "assets/forms/walk/凤凰多比_6.png"
+  ],
+  "利刃多比": [
+   "assets/forms/walk/利刃多比_1.png",
+   "assets/forms/walk/利刃多比_2.png",
+   "assets/forms/walk/利刃多比_3.png",
+   "assets/forms/walk/利刃多比_4.png",
+   "assets/forms/walk/利刃多比_5.png",
+   "assets/forms/walk/利刃多比_6.png"
+  ],
+  "厄斯垒": [
+   "assets/forms/walk/厄斯垒_1.png",
+   "assets/forms/walk/厄斯垒_2.png",
+   "assets/forms/walk/厄斯垒_3.png",
+   "assets/forms/walk/厄斯垒_4.png",
+   "assets/forms/walk/厄斯垒_5.png",
+   "assets/forms/walk/厄斯垒_6.png"
+  ],
+  "吕布多比": [
+   "assets/forms/walk/吕布多比_1.png",
+   "assets/forms/walk/吕布多比_2.png",
+   "assets/forms/walk/吕布多比_3.png",
+   "assets/forms/walk/吕布多比_4.png",
+   "assets/forms/walk/吕布多比_5.png",
+   "assets/forms/walk/吕布多比_6.png"
+  ],
+  "哈瑞肯多比": [
+   "assets/forms/walk/哈瑞肯多比_1.png",
+   "assets/forms/walk/哈瑞肯多比_2.png",
+   "assets/forms/walk/哈瑞肯多比_3.png",
+   "assets/forms/walk/哈瑞肯多比_4.png",
+   "assets/forms/walk/哈瑞肯多比_5.png",
+   "assets/forms/walk/哈瑞肯多比_6.png"
+  ],
+  "土蝎多比": [
+   "assets/forms/walk/土蝎多比_1.png",
+   "assets/forms/walk/土蝎多比_2.png",
+   "assets/forms/walk/土蝎多比_3.png",
+   "assets/forms/walk/土蝎多比_4.png",
+   "assets/forms/walk/土蝎多比_5.png",
+   "assets/forms/walk/土蝎多比_6.png"
+  ],
+  "夜影冽多比": [
+   "assets/forms/walk/夜影冽多比_1.png",
+   "assets/forms/walk/夜影冽多比_2.png",
+   "assets/forms/walk/夜影冽多比_3.png",
+   "assets/forms/walk/夜影冽多比_4.png",
+   "assets/forms/walk/夜影冽多比_5.png",
+   "assets/forms/walk/夜影冽多比_6.png"
+  ],
+  "夜影凌多比": [
+   "assets/forms/walk/夜影凌多比_1.png",
+   "assets/forms/walk/夜影凌多比_2.png",
+   "assets/forms/walk/夜影凌多比_3.png",
+   "assets/forms/walk/夜影凌多比_4.png",
+   "assets/forms/walk/夜影凌多比_5.png",
+   "assets/forms/walk/夜影凌多比_6.png"
+  ],
+  "夜影博伊斯多比": [
+   "assets/forms/walk/夜影博伊斯多比_1.png",
+   "assets/forms/walk/夜影博伊斯多比_2.png",
+   "assets/forms/walk/夜影博伊斯多比_3.png",
+   "assets/forms/walk/夜影博伊斯多比_4.png",
+   "assets/forms/walk/夜影博伊斯多比_5.png",
+   "assets/forms/walk/夜影博伊斯多比_6.png"
+  ],
+  "夜影厄斯多比": [
+   "assets/forms/walk/夜影厄斯多比_1.png",
+   "assets/forms/walk/夜影厄斯多比_2.png",
+   "assets/forms/walk/夜影厄斯多比_3.png",
+   "assets/forms/walk/夜影厄斯多比_4.png",
+   "assets/forms/walk/夜影厄斯多比_5.png",
+   "assets/forms/walk/夜影厄斯多比_6.png"
+  ],
+  "夜影正义多比": [
+   "assets/forms/walk/夜影正义多比_1.png",
+   "assets/forms/walk/夜影正义多比_2.png",
+   "assets/forms/walk/夜影正义多比_3.png",
+   "assets/forms/walk/夜影正义多比_4.png",
+   "assets/forms/walk/夜影正义多比_5.png",
+   "assets/forms/walk/夜影正义多比_6.png"
+  ],
+  "夜影空多比": [
+   "assets/forms/walk/夜影空多比_1.png",
+   "assets/forms/walk/夜影空多比_2.png",
+   "assets/forms/walk/夜影空多比_3.png",
+   "assets/forms/walk/夜影空多比_4.png",
+   "assets/forms/walk/夜影空多比_5.png",
+   "assets/forms/walk/夜影空多比_6.png"
+  ],
+  "大时多比": [
+   "assets/forms/walk/大时多比_1.png",
+   "assets/forms/walk/大时多比_2.png",
+   "assets/forms/walk/大时多比_3.png",
+   "assets/forms/walk/大时多比_4.png",
+   "assets/forms/walk/大时多比_5.png",
+   "assets/forms/walk/大时多比_6.png"
+  ],
+  "天使多比": [
+   "assets/forms/walk/天使多比_1.png",
+   "assets/forms/walk/天使多比_2.png",
+   "assets/forms/walk/天使多比_3.png",
+   "assets/forms/walk/天使多比_4.png",
+   "assets/forms/walk/天使多比_5.png",
+   "assets/forms/walk/天使多比_6.png"
+  ],
+  "威尔鼎多比": [
+   "assets/forms/walk/威尔鼎多比_1.png",
+   "assets/forms/walk/威尔鼎多比_2.png",
+   "assets/forms/walk/威尔鼎多比_3.png",
+   "assets/forms/walk/威尔鼎多比_4.png",
+   "assets/forms/walk/威尔鼎多比_5.png",
+   "assets/forms/walk/威尔鼎多比_6.png"
+  ],
+  "布瑞武多比": [
+   "assets/forms/walk/布瑞武多比_1.png",
+   "assets/forms/walk/布瑞武多比_2.png",
+   "assets/forms/walk/布瑞武多比_3.png",
+   "assets/forms/walk/布瑞武多比_4.png",
+   "assets/forms/walk/布瑞武多比_5.png",
+   "assets/forms/walk/布瑞武多比_6.png"
+  ],
+  "布莱克暗夜多比": [
+   "assets/forms/walk/布莱克暗夜多比_1.png",
+   "assets/forms/walk/布莱克暗夜多比_2.png",
+   "assets/forms/walk/布莱克暗夜多比_3.png",
+   "assets/forms/walk/布莱克暗夜多比_4.png",
+   "assets/forms/walk/布莱克暗夜多比_5.png",
+   "assets/forms/walk/布莱克暗夜多比_6.png"
+  ],
+  "悟空多比": [
+   "assets/forms/walk/悟空多比_1.png",
+   "assets/forms/walk/悟空多比_2.png",
+   "assets/forms/walk/悟空多比_3.png",
+   "assets/forms/walk/悟空多比_4.png",
+   "assets/forms/walk/悟空多比_5.png",
+   "assets/forms/walk/悟空多比_6.png"
+  ],
+  "斯莱特刃多比": [
+   "assets/forms/walk/斯莱特刃多比_1.png",
+   "assets/forms/walk/斯莱特刃多比_2.png",
+   "assets/forms/walk/斯莱特刃多比_3.png",
+   "assets/forms/walk/斯莱特刃多比_4.png",
+   "assets/forms/walk/斯莱特刃多比_5.png",
+   "assets/forms/walk/斯莱特刃多比_6.png"
+  ],
+  "斯蒂尔垲多比": [
+   "assets/forms/walk/斯蒂尔垲多比_1.png",
+   "assets/forms/walk/斯蒂尔垲多比_2.png",
+   "assets/forms/walk/斯蒂尔垲多比_3.png",
+   "assets/forms/walk/斯蒂尔垲多比_4.png",
+   "assets/forms/walk/斯蒂尔垲多比_5.png",
+   "assets/forms/walk/斯蒂尔垲多比_6.png"
+  ],
+  "斯隆曼空多比": [
+   "assets/forms/walk/斯隆曼空多比_1.png",
+   "assets/forms/walk/斯隆曼空多比_2.png",
+   "assets/forms/walk/斯隆曼空多比_3.png",
+   "assets/forms/walk/斯隆曼空多比_4.png",
+   "assets/forms/walk/斯隆曼空多比_5.png",
+   "assets/forms/walk/斯隆曼空多比_6.png"
+  ],
+  "旋风多比": [
+   "assets/forms/walk/旋风多比_1.png",
+   "assets/forms/walk/旋风多比_2.png",
+   "assets/forms/walk/旋风多比_3.png",
+   "assets/forms/walk/旋风多比_4.png",
+   "assets/forms/walk/旋风多比_5.png",
+   "assets/forms/walk/旋风多比_6.png"
+  ],
+  "暗多比": [
+   "assets/forms/walk/暗多比_1.png",
+   "assets/forms/walk/暗多比_2.png",
+   "assets/forms/walk/暗多比_3.png",
+   "assets/forms/walk/暗多比_4.png",
+   "assets/forms/walk/暗多比_5.png",
+   "assets/forms/walk/暗多比_6.png"
+  ],
+  "曼陀罗多比": [
+   "assets/forms/walk/曼陀罗多比_1.png",
+   "assets/forms/walk/曼陀罗多比_2.png",
+   "assets/forms/walk/曼陀罗多比_3.png",
+   "assets/forms/walk/曼陀罗多比_4.png",
+   "assets/forms/walk/曼陀罗多比_5.png",
+   "assets/forms/walk/曼陀罗多比_6.png"
+  ],
+  "曼陀罗花多比": [
+   "assets/forms/walk/曼陀罗花多比_1.png",
+   "assets/forms/walk/曼陀罗花多比_2.png",
+   "assets/forms/walk/曼陀罗花多比_3.png",
+   "assets/forms/walk/曼陀罗花多比_4.png",
+   "assets/forms/walk/曼陀罗花多比_5.png",
+   "assets/forms/walk/曼陀罗花多比_6.png"
+  ],
+  "正义多比": [
+   "assets/forms/walk/正义多比_1.png",
+   "assets/forms/walk/正义多比_2.png",
+   "assets/forms/walk/正义多比_3.png",
+   "assets/forms/walk/正义多比_4.png",
+   "assets/forms/walk/正义多比_5.png",
+   "assets/forms/walk/正义多比_6.png"
+  ],
+  "毒多比": [
+   "assets/forms/walk/毒多比_1.png",
+   "assets/forms/walk/毒多比_2.png",
+   "assets/forms/walk/毒多比_3.png",
+   "assets/forms/walk/毒多比_4.png",
+   "assets/forms/walk/毒多比_5.png",
+   "assets/forms/walk/毒多比_6.png"
+  ],
+  "水多比": [
+   "assets/forms/walk/水多比_1.png",
+   "assets/forms/walk/水多比_2.png",
+   "assets/forms/walk/水多比_3.png",
+   "assets/forms/walk/水多比_4.png",
+   "assets/forms/walk/水多比_5.png",
+   "assets/forms/walk/水多比_6.png"
+  ],
+  "沃特空": [
+   "assets/forms/walk/沃特空_1.png",
+   "assets/forms/walk/沃特空_2.png",
+   "assets/forms/walk/沃特空_3.png",
+   "assets/forms/walk/沃特空_4.png",
+   "assets/forms/walk/沃特空_5.png",
+   "assets/forms/walk/沃特空_6.png"
+  ],
+  "火多比": [
+   "assets/forms/walk/火多比_1.png",
+   "assets/forms/walk/火多比_2.png",
+   "assets/forms/walk/火多比_3.png",
+   "assets/forms/walk/火多比_4.png",
+   "assets/forms/walk/火多比_5.png",
+   "assets/forms/walk/火多比_6.png"
+  ],
+  "瑞比特兔": [
+   "assets/forms/walk/瑞比特兔_1.png",
+   "assets/forms/walk/瑞比特兔_2.png",
+   "assets/forms/walk/瑞比特兔_3.png",
+   "assets/forms/walk/瑞比特兔_4.png",
+   "assets/forms/walk/瑞比特兔_5.png",
+   "assets/forms/walk/瑞比特兔_6.png"
+  ],
+  "艾斯林": [
+   "assets/forms/walk/艾斯林_1.png",
+   "assets/forms/walk/艾斯林_2.png",
+   "assets/forms/walk/艾斯林_3.png",
+   "assets/forms/walk/艾斯林_4.png",
+   "assets/forms/walk/艾斯林_5.png",
+   "assets/forms/walk/艾斯林_6.png"
+  ],
+  "艾隆垒": [
+   "assets/forms/walk/艾隆垒_1.png",
+   "assets/forms/walk/艾隆垒_2.png",
+   "assets/forms/walk/艾隆垒_3.png",
+   "assets/forms/walk/艾隆垒_4.png",
+   "assets/forms/walk/艾隆垒_5.png",
+   "assets/forms/walk/艾隆垒_6.png"
+  ],
+  "英雄多比": [
+   "assets/forms/walk/英雄多比_1.png",
+   "assets/forms/walk/英雄多比_2.png",
+   "assets/forms/walk/英雄多比_3.png",
+   "assets/forms/walk/英雄多比_4.png",
+   "assets/forms/walk/英雄多比_5.png",
+   "assets/forms/walk/英雄多比_6.png"
+  ],
+  "莱特凛多比": [
+   "assets/forms/walk/莱特凛多比_1.png",
+   "assets/forms/walk/莱特凛多比_2.png",
+   "assets/forms/walk/莱特凛多比_3.png",
+   "assets/forms/walk/莱特凛多比_4.png",
+   "assets/forms/walk/莱特凛多比_5.png",
+   "assets/forms/walk/莱特凛多比_6.png"
+  ],
+  "蜘蛛多比": [
+   "assets/forms/walk/蜘蛛多比_1.png",
+   "assets/forms/walk/蜘蛛多比_2.png",
+   "assets/forms/walk/蜘蛛多比_3.png",
+   "assets/forms/walk/蜘蛛多比_4.png",
+   "assets/forms/walk/蜘蛛多比_5.png",
+   "assets/forms/walk/蜘蛛多比_6.png"
+  ],
+  "貂蝉多比": [
+   "assets/forms/walk/貂蝉多比_1.png",
+   "assets/forms/walk/貂蝉多比_2.png",
+   "assets/forms/walk/貂蝉多比_3.png",
+   "assets/forms/walk/貂蝉多比_4.png",
+   "assets/forms/walk/貂蝉多比_5.png",
+   "assets/forms/walk/貂蝉多比_6.png"
+  ],
+  "费勒姆炎多比": [
+   "assets/forms/walk/费勒姆炎多比_1.png",
+   "assets/forms/walk/费勒姆炎多比_2.png",
+   "assets/forms/walk/费勒姆炎多比_3.png",
+   "assets/forms/walk/费勒姆炎多比_4.png",
+   "assets/forms/walk/费勒姆炎多比_5.png",
+   "assets/forms/walk/费勒姆炎多比_6.png"
+  ],
+  "费尔凌": [
+   "assets/forms/walk/费尔凌_1.png",
+   "assets/forms/walk/费尔凌_2.png",
+   "assets/forms/walk/费尔凌_3.png",
+   "assets/forms/walk/费尔凌_4.png",
+   "assets/forms/walk/费尔凌_5.png",
+   "assets/forms/walk/费尔凌_6.png"
+  ],
+  "费尔诺": [
+   "assets/forms/walk/费尔诺_1.png",
+   "assets/forms/walk/费尔诺_2.png",
+   "assets/forms/walk/费尔诺_3.png",
+   "assets/forms/walk/费尔诺_4.png",
+   "assets/forms/walk/费尔诺_5.png",
+   "assets/forms/walk/费尔诺_6.png"
+  ],
+  "超级克罗 多比": [
+   "assets/forms/walk/超级克罗 多比_1.png",
+   "assets/forms/walk/超级克罗 多比_2.png",
+   "assets/forms/walk/超级克罗 多比_3.png",
+   "assets/forms/walk/超级克罗 多比_4.png",
+   "assets/forms/walk/超级克罗 多比_5.png",
+   "assets/forms/walk/超级克罗 多比_6.png"
+  ],
+  "龙多比": [
+   "assets/forms/walk/龙多比_1.png",
+   "assets/forms/walk/龙多比_2.png",
+   "assets/forms/walk/龙多比_3.png",
+   "assets/forms/walk/龙多比_4.png",
+   "assets/forms/walk/龙多比_5.png",
+   "assets/forms/walk/龙多比_6.png"
+  ]
+ }
+}
